@@ -1,0 +1,26 @@
+-
+  name: '获取鉴权'
+  request:
+    url: http://172.16.80.201:8091/eco_api/api/v1/alarm/list?username=test007
+    method: get
+    headers:
+      Accept: '*/*'
+    params:
+      grant_type: client_credential
+  assert:
+    eq:
+      success: true
+
+#返回错误
+-
+  name: '返回错误'
+  request:
+    url: http://172.16.80.201:8091/eco_api/api/v1/alarm/list?username=test007
+    method: get
+    headers:
+      Accept: '*/*'
+    params:
+      grant_type: client_credential
+  assert:
+    eq:
+      success: false

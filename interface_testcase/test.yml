@@ -1,0 +1,78 @@
+﻿contextId: 19
+orgId: 19
+orderOnlyShow: 0
+danwei1: 0
+staging1: 1
+danwei2: 0
+staging2: 2
+packages:
+  cartonPackedQty: 1
+  danwei3: 0
+  staging3: 1
+  danwei4: 0
+  staging4: 2
+  cartonMaterialType: 0
+  packedLength: 7.62
+  packedVolume: '442.4507'
+  packedWidth: 7.62
+  packedHeight: 7.62
+  packedWeight: 1360.7759999999998
+isSeasonal: 0
+isCalculateCost: 0
+isSignService: 0
+expirationControl: 0
+status: 0
+productType: 1
+unit: Pcs
+packingType: REPACK
+isInsurance: 'N'
+expirationType: '1'
+prePackedQty: 1
+packingSizeType: 2
+minOrderQty: 1
+hasTie: 0
+nameEn: SN_0207
+name: SN_0207
+lineId: 189
+erpSku: SN_0207
+length: 5.08
+width: 5.08
+height: 5.08
+weight: 907.184
+isRequireSn: 1
+cartonPackedQty: 1
+seasonalSalesCycle: ''
+customs:
+  - countryCode: CA
+    customCode: SN_0207
+    importTaxRate: '1'
+    customDiscountRate: '1'
+    $Edit: true
+    _index: 0
+htsName: SN_0207
+htsNameEn: SN_0207
+pictures: []
+returnDealMethod: 0
+isDistribution: 0
+productMidCondition: ''
+productMidModel: ''
+productMidMeta: ''
+productMidStandard: ''
+productLabel: null
+warehouse:
+  packingType: REPACK
+  isSignService: 0
+  isInsurance: 'N'
+  expirationControl: 0
+  expirationType: '1'
+  prePackedQty: 1
+  shapeType: 0
+  materialType: 0
+  shippingMethod: 0
+  isMagnetism: 0
+  isLiquid: 0
+  isFragile: 0
+  isContainBattery: 0
+purchase:
+  minOrderQty: 1
+batteryRequest: {}

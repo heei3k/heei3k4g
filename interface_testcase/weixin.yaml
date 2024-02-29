@@ -1,0 +1,29 @@
+-
+  name: 登录接口
+  url: /cgi-bin/token
+  method: get
+  params:
+    grant_type: client_credential
+    appid: wxf9f152aece2b88ff
+    secret: e531b9dfc90f4ed8116375132fdb2aa9
+
+-
+  name: 获取ip接口
+  url: /cgi-bin/get_api_domain_ip
+  method: get
+  params:
+    access_token: ${access_token}
+
+-
+  name: 获取客服列表
+  url: /cgi-bin/customservice/getkflist
+  method: get
+  params:
+    access_token: ${access_token}
+
+-
+  name: 上传文件
+  url: /cgi-bin/media/uploadimg
+  method: post
+  files:
+    media: D:\backup\489pm2.jpg

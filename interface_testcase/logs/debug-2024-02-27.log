@@ -1,0 +1,4 @@
+DEBUG   2024-02-27 17:00:20,523D:\PycharmProjects\heei3k\interface_testcase\logs\debug-2024-02-27.log:request_util.py:124 响应消息正常
+DEBUG   2024-02-27 17:31:18,486D:\PycharmProjects\heei3k\interface_testcase\logs\debug-2024-02-27.log:request_util.py:114 res json {'errcode': 42001, 'errmsg': 'access_token expired rid: 65ddabe6-590d1bdb-4938d774'}
+DEBUG   2024-02-27 17:31:18,486D:\PycharmProjects\heei3k\interface_testcase\logs\debug-2024-02-27.log:request_util.py:129 响应消息正常
+DEBUG   2024-02-27 17:34:38,572D:\PycharmProjects\heei3k\interface_testcase\logs\debug-2024-02-27.log:request_util.py:114 res json {'errcode': 42001, 'errmsg': 'access_token expired rid: 65ddacae-3354db55-1c1d222b'}

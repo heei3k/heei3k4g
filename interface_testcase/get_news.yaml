@@ -1,0 +1,35 @@
+-
+  api_name: 获取头条新闻
+  api_request:
+    url: https://v2.alapi.cn/api/new/toutiao
+    method: post
+    headers: {Content-Type: application/json}
+    params:
+      page: 1
+      count: 5
+  api_validate:
+    - eq: {code: 200}
+
+-
+  api_name: 获取头条新闻
+  api_request:
+    url: https://v2.alapi.cn/api/new/toutiao
+    method: post
+    headers: {Content-Type: application/json}
+    params:
+      page: 2
+      count: 5
+  api_validate:
+    - eq: {code: 200}
+
+-
+  api_name: 获取头条新闻
+  api_request:
+    url: https://v2.alapi.cn/api/new/toutiao
+    method: post
+    headers: {Content-Type: application/json}
+    params:
+      page: 3
+      count: 5
+  api_validate:
+    - eq: {code: 200}
