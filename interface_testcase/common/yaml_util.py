@@ -9,32 +9,39 @@
 import yaml
 import os
 
+from interface_testcase.logging_tool.log_control import INFO, WARNING, ERROR
 
 current_file = __file__  # 获取当前执行的文件名（包括后缀）
 current_dir = os.path.dirname(os.path.dirname(current_file))  # 获取当前执行的文件所在目录的上级目录
-# print(current_dir)
 default_filepath=os.path.join(current_dir, 'extract.yaml')
 
 
-def read_yaml(file_path=default_filepath,key=None,is_dict=False):
+def read_yaml(file_path=default_filepath,key=None, is_dict=False, index=None):
     if ":" not in file_path:
         file_path = os.path.join(current_dir,file_path)
     if os.path.exists(file_path):
-        # print("文件存在")
         with open(file_path, encoding='utf-8') as f:
             data = yaml.load(f, Loader=yaml.FullLoader)
-        if key and key in data:
-            if is_dict:
-                return {key:data[key]}
+        if isinstance(data,dict):
+            if key and key in data:
+                if is_dict:
+                    return {key:data[key]}
+                else:
+                    return data[key]
+            elif key and key not in data:
+                # print(f"没有这个key:{key}")
+                pass
+        elif isinstance(data,list):
+            if index is not None and isinstance(index,int) and index>=0 and index<len(data):
+                # 这里如果列表元素是字典的话，返回的元素要转换成列表，则能被pytest.mark.parametrize作为参数调用
+                return [{key:value for key,value in data[index].items()}]
+            elif index is None:
+                return data
             else:
-                return data[key]
-        elif key and key not in data:
-            # print(f"没有这个key:{key}")
-            pass
+                ERROR.logger.error("索引无效")
         else:
             return data
     else:
-        # print("文件不存在")
         return None
 
 
@@ -45,9 +52,9 @@ def write_yaml(file_path=default_filepath,data=None):
             with open(file_path, encoding='utf-8',mode="a+") as f:
                 yaml.dump(data,stream=f,allow_unicode=True)
         else:
-            print("写入数据为空")
+            WARNING.logger.warning("写入数据为空")
     else:
-        print("文件不存在")
+        ERROR.logger.error("文件不存在")
 
 def read_config_yaml(key=None,is_dict=None):
     file_path = os.path.join(current_dir , 'config.yaml')
@@ -80,4 +87,4 @@ def read_extract_yaml(key=None,is_dict=None):
 
 
 if __name__=='__main__':
-    print(read_yaml("weixin.yaml"))
+    print(read_extract_yaml("access_token"))

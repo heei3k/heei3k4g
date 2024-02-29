@@ -13,13 +13,13 @@ import pytest
 from interface_testcase.common.yaml_util import clear_yaml
 
 
-@pytest.fixture(scope="session",autouse=True)
-def exc_sql():
-    print("请求之前，查询数据库")
-    yield
-    print("请求之后，关闭数据库")
+# @pytest.fixture(scope="session",autouse=True)
+# def exc_sql():
+#     print("请求之前，查询数据库")
+#     yield
+#     print("请求之后，关闭数据库")
 
-@pytest.fixture(scope="session",autouse=True)
+@pytest.fixture(scope="session",autouse=False)
 def clears():
     # current_file = __file__  # 获取当前执行的文件名（包括后缀）
     # current_dir = os.path.dirname(current_file)  # 获取当前执行的文件所在目录

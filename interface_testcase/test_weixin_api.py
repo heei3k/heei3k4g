@@ -35,6 +35,15 @@ http请求方式: GET https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access
 
 http请求方式: GET https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=ACCESS_TOKEN
 
+
+接口4
+
+接口调用请求说明
+
+HTTP请求方式: POST/FROMURL:https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=ACCESS_TOKEN
+
+https://developers.weixin.qq.com/doc/offiaccount/Cards_and_Offer/Create_a_Coupon_Voucher_or_Card.html#4
+
 """
 
 import json
@@ -54,39 +63,39 @@ class TestWeixinApi:
     access_token=''
 
     @allure.story("登录接口")
-    @pytest.mark.parametrize('args',read_yaml("weixin.yaml"))
+    @pytest.mark.parametrize('args',read_yaml("weixin.yaml",index=0))
     def test_01_login(self,args):
-        INFO.logger.info("=================="+args)
         method = args['method']
         url = args['url']
         params = args['params']
-        RequestUtil().send_request(method=method, url=url,params=params, is_save_yaml=True)
+        RequestUtil().send_request(method=method, url=url,params=params,is_save_yaml=True)
 
 
-    # @allure.story("获取ip接口")
-    # @pytest.mark.parametrize('args',read_yaml("weixin.yaml")[1])
-    # @pytest.mark.smoke
-    # def test_02_get_ip(self,args):
-    #     method = args['method']
-    #     url = args['url']
-    #     params = args['params']
-    #     RequestUtil().send_request(method=method, url=url,params=params)
-    #
-    # @allure.story("获取客服列表")
-    # @pytest.mark.parametrize('args',read_yaml("weixin.yaml")[2])
-    # def test_03_getkflist(self,args):
-    #     method = args['method']
-    #     url = args['url']
-    #     params = args['params']
-    #     RequestUtil().send_request(method=method, url=url,params=params)
-    #
-    # @allure.story("上传文件")
-    # @pytest.mark.parametrize('args',read_yaml("weixin.yaml")[3])
-    # def test_04_upload(self,args):
-    #     method = args['method']
-    #     url = args['url']
-    #     files = args['files']
-    #     RequestUtil().send_request(method=method, url=url,files=files)
+    @allure.story("获取ip接口")
+    @pytest.mark.parametrize('args',read_yaml("weixin.yaml",index=1))
+    @pytest.mark.smoke
+    def test_02_get_ip(self,args):
+        method = args['method']
+        url = args['url']
+        params = args['params']
+        RequestUtil().send_request(method=method, url=url,params=params)
+
+    @allure.story("获取客服列表")
+    @pytest.mark.parametrize('args',read_yaml("weixin.yaml",index=2))
+    def test_03_getkflist(self,args):
+        method = args['method']
+        url = args['url']
+        params = args['params']
+        RequestUtil().send_request(method=method, url=url,params=params)
+
+    @allure.story("上传文件")
+    @pytest.mark.parametrize('args',read_yaml("weixin.yaml",index=3))
+    def test_04_upload(self,args):
+        method = args['method']
+        url = args['url']
+        params = args['params']
+        files = args['files']
+        RequestUtil().send_request(method=method, url=url,params=params,files=files)
 
 
 if __name__=='__main__':

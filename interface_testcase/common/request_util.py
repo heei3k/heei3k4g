@@ -11,7 +11,7 @@ import requests
 import json as json_module
 
 from interface_testcase.common.fiddler_util import FiddlerUtil
-from interface_testcase.common.yaml_util import read_extract_yaml, read_config_yaml, write_yaml
+from interface_testcase.common.yaml_util import read_extract_yaml, read_config_yaml, write_yaml, read_yaml
 from interface_testcase.logging_tool.log_control import DEBUG, WARNING, INFO, ERROR
 from interface_testcase.replace_load import replace_load
 
@@ -29,12 +29,13 @@ class RequestUtil:
         self.last_json= None
         self.last_files = None
 
-    def send_request(self, method, url, headers=None, data=None, params=None, json=None, file=None, verify=True,
+    def send_request(self, method, url, headers=None, data=None, params=None, json=None, files=None, verify=True,
                      proxies=None, is_save_yaml=None):
         # method参数转化为小写
         if isinstance(method, dict):
             method = str(method.get('method'))
         self.last_method = str(method).lower()
+
         # 如果url包含${和}则需要进行参数提取
         for cs in range(1, str(url).count('${') + 1):
             if '${' in str(url) and '}' in str(url):
@@ -50,60 +51,78 @@ class RequestUtil:
         self.last_url = self.base_url + url
 
         # 处理yaml文件中对headers的引用
+        if headers:
+            if headers.get('headers'):
+                headers = headers.get('headers')
+            if isinstance(headers, dict):
+                for key, value in headers.items():
+                    if str(value).startswith("${") and str(value).endswith("}"):
+                        if "(" in str(value) and ")" in str(value):
+                            headers[key] = replace_load(value)
+                        else:
+                            headers[key] = read_extract_yaml(str(value)[2:-1])
+                    else:
+                        headers[key] = str(value)
         self.last_headers = headers
-        if self.last_headers.get('headers'):
-            self.last_headers = self.last_headers.get('headers')
-        if headers and isinstance(headers, dict):
-            for key, value in headers.items():
-                if str(value).startswith("${") and str(value).endswith("}"):
-                    self.last_headers[str(key)] = read_extract_yaml(str(value)[2:-1])
-                else:
-                    self.last_headers[str(key)] = str(value)
+
+        # if self.last_headers:
+        #     headers_json = json_module.loads(json_module.dumps(self.last_headers))
+        #     for key, value in headers_json.items():
+        #         headers_json[key] = replace_load(value)
+        #     self.last_headers = headers_json
 
 
         # 处理yaml文件中对params的引用
         if params and isinstance(params, dict):
-            INFO.logger.info("执行到这行代码====================")
             if params.get('params'):
-                self.last_params = params.get('params')
-            for key, value in params.items():
-                if str(value).startswith("${") and str(value).endswith("}"):
-                    self.last_params[str(key)] = read_extract_yaml(str(value)[2:-1])
-                else:
-                    self.last_params[str(key)] = str(value)
+                params = params.get('params')
+            if isinstance(params, dict):
+                for key, value in params.items():
+                    if str(value).startswith("${") and str(value).endswith("}"):
+                        if "(" in str(value) and ")" in str(value):
+                            params[key] = replace_load(value)
+                        else:
+                            params[key] = read_extract_yaml(str(value)[2:-1])
+                    else:
+                        params[key] = str(value)
+        self.last_params = params
 
 
         # 如果data不为None,并且为字典类型，则转换成json字符串，因为get和post方式都支持传入json
+        # 处理yaml文件中对data的引用
         if data and isinstance(data, dict):
-            for key, value in data.items():
-                if str(value).startswith("${") and str(value).endswith("}"):
-                    self.last_data[str(key)] = read_extract_yaml(str(value)[2:-1])
-                else:
-                    self.last_data[str(key)] = str(value)
-        elif isinstance(data, dict):
-            self.last_data = self.last_data.get('data')
+            if data.get('data'):
+                data = data.get('data')
+            if isinstance(data, dict):
+                for key, value in data.items():
+                    if str(value).startswith("${") and str(value).endswith("}"):
+                        if "(" in str(value) and ")" in str(value):
+                            data[key] = replace_load(value)
+                        else:
+                            data[key] = read_extract_yaml(str(value)[2:-1])
+                    else:
+                        data[key] = str(value)
+        self.last_data = data
 
-        # 这里 json.dumps不能省，也不用直接loads(str()),否则报错
-        all_json = []
-        headers_json,params_json,data_json,json_json,files_json=None,None,None,None,None
-        if self.last_data:
-            data_json = json_module.loads(json_module.dumps(self.last_data))
-            all_json.append(data_json)
-        if self.last_headers:
-            headers_json = json_module.loads(json_module.dumps(self.last_headers))
-            all_json.append(headers_json)
-        if self.last_params:
-            params_json = json_module.loads(json_module.dumps(self.last_params))
-            for key, value in params_json.items():
-                params_json[key] = replace_load(value)
-            all_json.append(params_json)
-            self.last_params = params_json
-        if self.last_json:
-            json_json = json_module.loads(json_module.dumps(self.last_json))
-            all_json.append(json_json)
-        if self.last_files:
-            files_json = json_module.loads(json_module.dumps(self.last_files))
-            all_json.append(files_json)
+        if json and isinstance(json, dict):
+            if json.get('json'):
+                json = json.get('json')
+            if isinstance(json, dict):
+                for key, value in json.items():
+                    if str(value).startswith("${") and str(value).endswith("}"):
+                        if "(" in str(value) and ")" in str(value):
+                            json[key] = replace_load(value)
+                        else:
+                            json[key] = read_extract_yaml(str(value)[2:-1])
+                    else:
+                        json[key] = str(value)
+        self.last_json = json
+
+
+        if files:
+            for key, path in files.items():
+                files[key] = open(path, 'rb')
+        self.last_files = files
 
         # for each_json in all_json:
         #     for key, value in each_json.items():
@@ -112,12 +131,12 @@ class RequestUtil:
         #         elif key == "files":
         #             for file_key, file_path in value.items():
         #                 value[file_key] = open(file_path, 'rb')
-        if headers_json:
-            self.last_headers = headers_json
-        if data_json:
-            self.last_data = data_json
-        self.last_json = json_json if json_json else None
-        self.last_files = files_json if json_json else None
+        # if headers_json:
+        #     self.last_headers = headers_json
+        # if data_json:
+        #     self.last_data = data_json
+        # self.last_json = json_json if json_json else None
+        # self.last_files = files_json if json_json else None
 
 
         INFO.logger.info("\n")
@@ -165,7 +184,6 @@ class RequestUtil:
             if response.text:
                 # 因为json模块名被参数json同名了，所以重命名模块的json
                 res_json = json_module.loads(response.text)
-                # DEBUG.logger.debug(f"res json {res_json}")
                 if 'errcode' not in response.text:
                     INFO.logger.info("接口返回正常，返回消息：" + response.text)
                     if is_save_yaml:
@@ -188,14 +206,18 @@ class RequestUtil:
 
 
 if __name__ == '__main__':
-    url = read_config_yaml('url')
-    method = read_config_yaml('method')
+    request_str = read_yaml("weixin.yaml",index=3)
+    headers=read_config_yaml(key="headers")
+    method = request_str[0]["method"]
     # data = read_config_yaml('data')
-    headers = read_config_yaml('headers',is_dict=True)
-    params = read_config_yaml('params', is_dict=True)
+    url = request_str[0]["url"]
+    params =  request_str[0]["params"]
+    files = request_str[0]["files"]
     print(f"第一次打印method{method}")
     print(f"第一次打印url{url}")
-    print(f"第一次打印params{params}")
+    # print(f"第一次打印params{params}")
+    print(f"第一次打印files{files}")
     # print(f"第一次打印data{data}")
-    # print(f"第一次打印headers{headers}")
-    req = RequestUtil().send_request(method, url,headers=headers,params=params)
+    print(f"第一次打印headers{headers}")
+    # req = RequestUtil().send_request(method, url,headers=headers,params=params,is_save_yaml=True)
+    req = RequestUtil().send_request(method, url, headers=headers, params=params,files=files)
