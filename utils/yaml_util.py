@@ -92,4 +92,4 @@ def read_extract_yaml(key=None, is_dict=None):
 
 if __name__ == '__main__':
     # print(read_yaml("weixin.yaml",index=3))
-    print(read_news_yaml())
+    print(read_extract_yaml("access_token"))

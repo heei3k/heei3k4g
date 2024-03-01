@@ -10,6 +10,8 @@ import hashlib
 import random
 import time
 
+from utils.yaml_util import read_yaml
+
 
 class DebugTalk:
     @staticmethod
@@ -40,6 +42,10 @@ class DebugTalk:
     def gen_md5(*args):
         return hashlib.md5("".join(args).encode('utf-8')).hexdigest()
 
+    # 从extract.yaml文件中读取字典key的值
+    @staticmethod
+    def read_extract_yaml(key):
+        return read_yaml(key=key)
 
 if __name__ == '__main__':
     print(DebugTalk.get_date_time())
@@ -47,4 +53,4 @@ if __name__ == '__main__':
     TOKEN = "debugtalk"
     data = '{"name": "user", "password": "123456"}'
     random = "A2dEx"
-    print(DebugTalk.gen_md5(TOKEN, data, random))
+    print(read_yaml(key="access_token"))

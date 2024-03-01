@@ -44,8 +44,13 @@ def replace_load(data: Union[Dict, Text]) -> Union[Dict, Text]:
                 if arg_value == "":
                     new_value = getattr(DebugTalk(), func_name)()
                 else:
-                    new_value = getattr(DebugTalk(), func_name)(*arg_value.split(','))
-                str_data = str_data.replace(old_value, str(new_value))
+                    if "," in arg_value:
+                        new_value = getattr(DebugTalk(), func_name)(*arg_value.split(','))
+                    else:
+                        new_value = getattr(DebugTalk(), func_name)(arg_value)
+                # 这里replace只替换一次，否则会将所有满足条件的一次替换完
+                str_data = str_data.replace(old_value, str(new_value), 1)
+                # str_data = str_data.replace(old_value, str(new_value))
     # 还原数据类型
     if data and isinstance(data, dict):  # 如果data为字典，则将str_data还原为字典
         data = json.loads(str_data)
@@ -53,3 +58,10 @@ def replace_load(data: Union[Dict, Text]) -> Union[Dict, Text]:
         data = str_data
     # 返回替换过后的data
     return data
+
+
+if __name__ == '__main__':
+    a = '1312a${get_random_str(1000,9999)}u${get_random_str(1000,9999)}trr'
+    d = '3124413${read_extract_yaml(access_token)}1aty${read_extract_yaml(access_token)}ytnn${get_random_str(1000,9999)}rrttdf${get_random_str(1000,9999)}dsfst{access_token}yjjsdfsdf'
+    print(replace_load(a))
+    print(replace_load(d))
