@@ -1,0 +1,14 @@
+ERROR   2024-02-27 13:31:41,062D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:log_control.py:86 1709011901.062224
+ERROR   2024-02-27 13:32:09,464D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:log_control.py:86 <module 'time' (built-in)>
+ERROR   2024-02-27 13:33:15,502D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:log_control.py:86 time.struct_time(tm_year=2024, tm_mon=2, tm_mday=27, tm_hour=13, tm_min=33, tm_sec=15, tm_wday=1, tm_yday=58, tm_isdst=0)
+ERROR   2024-02-27 16:15:59,938D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:102 接口返回异常，错误码：412
+ERROR   2024-02-27 16:16:24,826D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:104 接口返回异常，错误码：412
+ERROR   2024-02-27 16:21:46,959D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:104 接口返回异常，错误码：412
+ERROR   2024-02-27 16:22:28,249D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:105 接口返回异常，错误码：412
+ERROR   2024-02-27 16:26:33,684D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:114 接口返回异常，错误码：412
+ERROR   2024-02-27 17:03:57,789D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:116 接口返回错误，返回消息：{"errcode":42001,"errmsg":"access_token expired rid: 65dda57d-15a03840-2e09ff93"}
+ERROR   2024-02-27 17:27:11,780D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:116 接口返回错误，返回消息：{"errcode":42001,"errmsg":"access_token expired rid: 65ddaaef-7276a34d-4c568c52"}
+ERROR   2024-02-27 17:29:06,731D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:117 接口返回错误，返回消息：{"errcode":42001,"errmsg":"access_token expired rid: 65ddab62-57c49dc3-6e4a7588"}
+ERROR   2024-02-27 17:31:18,486D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:118 接口返回错误，返回消息：{"errcode":42001,"errmsg":"access_token expired rid: 65ddabe6-590d1bdb-4938d774"}
+ERROR   2024-02-27 17:34:38,573D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:121 接口返回错误，返回消息：{"errcode":42001,"errmsg":"access_token expired rid: 65ddacae-3354db55-1c1d222b"}
+ERROR   2024-02-27 17:35:13,937D:\PycharmProjects\heei3k\interface_testcase\logs\error-2024-02-27.log:request_util.py:121 接口返回错误，返回消息：{"errcode":42001,"errmsg":"access_token expired rid: 65ddacd1-4c14200b-5d5ab32d"}

@@ -1,0 +1,195 @@
+INFO    2024-02-27 11:03:15,918D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:test_weixin_api.py:61 appidwxf9f152aece2b88ff
+INFO    2024-02-27 11:03:15,918D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:test_weixin_api.py:62 secrete531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-02-27 11:03:16,271D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:test_weixin_api.py:73 响应报文为{"access_token":"77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB","expires_in":7200}
+INFO    2024-02-27 13:27:33,155D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:24 
+
+INFO    2024-02-27 13:27:33,155D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-02-27 13:27:33,155D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 13:27:33,156D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:27 请求方式 post
+INFO    2024-02-27 13:27:33,156D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:35 请求data None
+INFO    2024-02-27 13:27:33,240D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:37 接口返回：{"errcode":42001,"errmsg":"access_token expired rid: 65dd72c5-0c0561cd-1e1268fa"}
+INFO    2024-02-27 13:27:33,241D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-02-27 13:27:33,241D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:send_request.py:39 
+
+INFO    2024-02-27 16:13:21,609D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:65 
+
+INFO    2024-02-27 16:13:21,609D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 ---------接口测试开始----------
+INFO    2024-02-27 16:13:21,609D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:13:21,609D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求方式：post
+INFO    2024-02-27 16:13:21,609D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:13:21,609D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:72 接口请求数据：{'data': None}
+INFO    2024-02-27 16:14:39,088D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:14:39,088D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:14:39,089D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:14:39,089D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:14:39,089D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:14:39,089D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': None}
+INFO    2024-02-27 16:15:59,854D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:15:59,854D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:15:59,854D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:15:59,854D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:15:59,855D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:15:59,855D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': None}
+INFO    2024-02-27 16:16:24,730D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:16:24,730D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:16:24,731D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:16:24,731D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:16:24,731D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:16:24,732D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': None}
+INFO    2024-02-27 16:16:24,828D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:113 接口返回：
+INFO    2024-02-27 16:16:24,828D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:114 ---------接口测试结束----------
+INFO    2024-02-27 16:16:24,828D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:115 
+
+INFO    2024-02-27 16:21:46,886D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:21:46,886D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:21:46,886D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:21:46,886D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:21:46,886D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:21:46,886D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': None}
+INFO    2024-02-27 16:22:28,177D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:22:28,178D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:22:28,178D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:22:28,178D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:22:28,178D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:22:28,178D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': None}
+INFO    2024-02-27 16:22:28,249D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:116 ---------接口测试结束----------
+INFO    2024-02-27 16:22:28,250D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:117 
+
+INFO    2024-02-27 16:25:40,646D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:25:40,646D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:25:40,646D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:25:40,646D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:25:40,646D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:25:40,646D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': None}
+INFO    2024-02-27 16:26:33,588D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:26:33,588D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:26:33,588D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:26:33,588D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:26:33,588D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': '{\'Content-Type\': \'application/json\', \'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0\', "Accept\'": \'*/*\'}'}
+INFO    2024-02-27 16:26:33,588D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': None}
+INFO    2024-02-27 16:26:33,684D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:125 ---------接口测试结束----------
+INFO    2024-02-27 16:26:33,684D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:126 
+
+INFO    2024-02-27 16:43:44,632D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:43:44,632D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:43:44,633D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:43:44,633D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:43:44,633D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'headers': {'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}}
+INFO    2024-02-27 16:43:44,633D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：{'data': '${data}'}
+INFO    2024-02-27 16:48:55,708D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:48:55,709D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:48:55,709D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:48:55,710D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:48:55,710D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 16:48:55,711D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：${data}
+INFO    2024-02-27 16:54:33,060D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:54:33,060D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:54:33,060D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:54:33,060D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:54:33,060D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 16:54:33,060D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：${data}
+INFO    2024-02-27 16:55:00,571D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:55:00,571D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:55:00,571D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:55:00,571D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:55:00,572D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 16:55:00,572D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：${data}
+INFO    2024-02-27 16:55:09,142D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:55:09,143D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:55:09,143D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:55:09,143D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:55:09,143D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 16:55:09,143D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：${data}
+INFO    2024-02-27 16:55:24,235D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:66 
+
+INFO    2024-02-27 16:55:24,235D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:67 ---------接口测试开始----------
+INFO    2024-02-27 16:55:24,235D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 16:55:24,235D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 接口请求方式：post
+INFO    2024-02-27 16:55:24,235D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 16:55:24,235D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求数据：${data}
+INFO    2024-02-27 17:00:20,381D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 
+
+INFO    2024-02-27 17:00:20,381D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 ---------接口测试开始----------
+INFO    2024-02-27 17:00:20,381D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 17:00:20,381D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求方式：post
+INFO    2024-02-27 17:00:20,381D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 17:00:20,381D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:75 接口请求数据：${data}
+INFO    2024-02-27 17:00:20,523D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:113 接口返回正常，返回消息：{"errcode":42001,"errmsg":"access_token expired rid: 65dda4a4-432b863c-5fad2ba2"}
+INFO    2024-02-27 17:00:20,524D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:128 ---------接口测试结束----------
+INFO    2024-02-27 17:00:20,525D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:129 
+
+INFO    2024-02-27 17:03:57,677D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 
+
+INFO    2024-02-27 17:03:57,677D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 ---------接口测试开始----------
+INFO    2024-02-27 17:03:57,677D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 17:03:57,678D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求方式：post
+INFO    2024-02-27 17:03:57,678D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 17:03:57,678D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:75 接口请求数据：${data}
+INFO    2024-02-27 17:03:57,789D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:131 ---------接口测试结束----------
+INFO    2024-02-27 17:03:57,790D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:132 
+
+INFO    2024-02-27 17:27:11,621D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 
+
+INFO    2024-02-27 17:27:11,621D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 ---------接口测试开始----------
+INFO    2024-02-27 17:27:11,622D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 17:27:11,622D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求方式：post
+INFO    2024-02-27 17:27:11,622D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 17:27:11,622D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:75 接口请求数据：${data}
+INFO    2024-02-27 17:27:11,782D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:131 ---------接口测试结束----------
+INFO    2024-02-27 17:27:11,782D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:132 
+
+INFO    2024-02-27 17:29:06,639D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 
+
+INFO    2024-02-27 17:29:06,639D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 ---------接口测试开始----------
+INFO    2024-02-27 17:29:06,639D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 17:29:06,639D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求方式：post
+INFO    2024-02-27 17:29:06,640D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 17:29:06,640D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:75 接口请求数据：${data}
+INFO    2024-02-27 17:29:06,731D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:132 ---------接口测试结束----------
+INFO    2024-02-27 17:29:06,731D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:133 
+
+INFO    2024-02-27 17:31:18,392D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 
+
+INFO    2024-02-27 17:31:18,392D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 ---------接口测试开始----------
+INFO    2024-02-27 17:31:18,392D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 17:31:18,392D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求方式：post
+INFO    2024-02-27 17:31:18,392D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 17:31:18,392D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:75 接口请求数据：${data}
+INFO    2024-02-27 17:31:18,486D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:133 ---------接口测试结束----------
+INFO    2024-02-27 17:31:18,486D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:134 
+
+INFO    2024-02-27 17:34:38,474D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 
+
+INFO    2024-02-27 17:34:38,474D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 ---------接口测试开始----------
+INFO    2024-02-27 17:34:38,474D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 17:34:38,475D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求方式：post
+INFO    2024-02-27 17:34:38,475D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 17:34:38,475D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:75 接口请求数据：${data}
+INFO    2024-02-27 17:34:38,573D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:128 ---------接口测试结束----------
+INFO    2024-02-27 17:34:38,573D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:129 
+
+INFO    2024-02-27 17:35:13,835D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:68 
+
+INFO    2024-02-27 17:35:13,835D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:69 ---------接口测试开始----------
+INFO    2024-02-27 17:35:13,835D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=77_06h4SWsiKsnLJJsIBe6MKVdftVXRJXRBIOrP7d-VVQQPigZZZpJUm65OMOmmgPjPKH2PC7df_uW_f-8-NtAXx2pBU9ZKmCYlaVyEp5xaTn3ULNqU5e0vKb7_73kQKKiAJAHBB
+INFO    2024-02-27 17:35:13,836D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:71 接口请求方式：post
+INFO    2024-02-27 17:35:13,836D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:73 接口请求头：{'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', "Accept'": '*/*'}
+INFO    2024-02-27 17:35:13,836D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:75 接口请求数据：${data}
+INFO    2024-02-27 17:35:13,937D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:128 ---------接口测试结束----------
+INFO    2024-02-27 17:35:13,938D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:129 
+
+INFO    2024-02-27 17:51:16,383D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求数据：{'sku': 'AD.12.00.14.0035', 'customItemNo': 113342, 'upc': 'upctest', 'productType': 1, 'name': 'nametest${get_date_time()}', 'nameEn': 'nameEntest${get_date_time()}', 'description': 'description', 'packingType': 0}
+INFO    2024-02-27 17:52:25,599D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求数据：{'sku': 'AD.12.00.14.0035', 'customItemNo': 113342, 'upc': 'upctest', 'productType': 1, 'name': 'nametest${get_date_time()}', 'nameEn': 'nameEntest${get_date_time()}', 'description': 'description', 'packingType': 0}
+INFO    2024-02-27 17:53:04,333D:\PycharmProjects\heei3k\interface_testcase\logs\info-2024-02-27.log:request_util.py:70 接口请求数据：{'sku': 'AD.12.00.14.0035', 'customItemNo': 113342, 'upc': 'upctest', 'productType': 1, 'name': 'nametest${get_date_time()}', 'nameEn': 'nameEntest${get_date_time()}', 'description': 'description', 'packingType': 0}

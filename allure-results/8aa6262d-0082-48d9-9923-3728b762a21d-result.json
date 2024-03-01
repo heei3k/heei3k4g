@@ -1,0 +1,45 @@
+{
+  "name": "test_allure",
+  "status": "passed",
+  "description": "\n        第一种allure报告提供测试title标题的方式:直接使用 '{a}'，带上我们的参数名称,记住不能使用‘f’\n        :param a:\n        :param b:\n        :return:\n        ",
+  "start": 1709260076895,
+  "stop": 1709260076895,
+  "uuid": "d8e19344-4c99-4896-a4d4-9566f0717299",
+  "historyId": "1320f790bb067c4f81d7cd48c986de92",
+  "testCaseId": "1320f790bb067c4f81d7cd48c986de92",
+  "fullName": "test_case.test_fixture.TestFixture#test_allure",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_fixture"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "8528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_fixture"
+    }
+  ]
+}

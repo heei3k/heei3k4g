@@ -1,0 +1,10 @@
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE","expires_in":7199}
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE","expires_in":7199}

@@ -1,0 +1,50 @@
+{
+  "name": "test_02_case[\\u6210\\u9f99]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "my_fixture",
+      "value": "'成龙'"
+    }
+  ],
+  "start": 1709260076883,
+  "stop": 1709260076883,
+  "uuid": "7ff9162b-2b73-482b-9b05-a4fef957ccde",
+  "historyId": "0900338d280cede409761a320abca106",
+  "testCaseId": "4fe97e59e7f996dab5a79b6ab0319847",
+  "fullName": "test_case.test_fixture.TestFixture#test_02_case",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_fixture"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "8528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_fixture"
+    }
+  ]
+}

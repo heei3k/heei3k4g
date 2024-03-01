@@ -1,0 +1,24 @@
+{
+  "uuid": "d8a165b0-2016-4d96-ac15-3327bb014e5a",
+  "children": [
+    "fe1e9efe-c1e0-45d9-95cd-ae3a084290ba"
+  ],
+  "befores": [
+    {
+      "name": "my_fixture",
+      "status": "passed",
+      "start": 1709260076886,
+      "stop": 1709260076886
+    }
+  ],
+  "afters": [
+    {
+      "name": "my_fixture::0",
+      "status": "passed",
+      "start": 1709260076888,
+      "stop": 1709260076888
+    }
+  ],
+  "start": 1709260076886,
+  "stop": 1709260076888
+}

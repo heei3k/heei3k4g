@@ -1,0 +1,50 @@
+{
+  "name": "test_02_case[\\u7504\\u5b50\\u4e39]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "my_fixture",
+      "value": "'甄子丹'"
+    }
+  ],
+  "start": 1709260076887,
+  "stop": 1709260076887,
+  "uuid": "fe1e9efe-c1e0-45d9-95cd-ae3a084290ba",
+  "historyId": "a13a837844410a8db6d032193db290fb",
+  "testCaseId": "4fe97e59e7f996dab5a79b6ab0319847",
+  "fullName": "test_case.test_fixture.TestFixture#test_02_case",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_fixture"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "8528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_fixture"
+    }
+  ]
+}

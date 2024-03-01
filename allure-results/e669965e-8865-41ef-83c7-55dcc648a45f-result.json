@@ -1,0 +1,63 @@
+{
+  "name": "test_04_upload",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "67ea28c9-eb66-4ff0-a9c4-d7e991cac83f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1709260078623,
+  "stop": 1709260079128,
+  "uuid": "64d4df9b-158e-4414-b5d9-40ee96c5f6c9",
+  "historyId": "b4581fb497b34dd39b84b91c44587f5b",
+  "testCaseId": "b4581fb497b34dd39b84b91c44587f5b",
+  "fullName": "test_case.test_weixin_old.TestWeixinApi#test_04_upload",
+  "labels": [
+    {
+      "name": "story",
+      "value": "上传文件"
+    },
+    {
+      "name": "feature",
+      "value": "基础模块"
+    },
+    {
+      "name": "epic",
+      "value": "微信小程序接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_weixin_old"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWeixinApi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "8528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_weixin_old"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "test_02_get_ip[args0]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "8c2e09bf-beae-4934-8d9d-a87eaeb97a0e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "args",
+      "value": "{'name': '获取ip接口', 'url': '/cgi-bin/get_api_domain_ip', 'method': 'get', 'params': {'access_token': '${access_token}'}}"
+    }
+  ],
+  "start": 1709260038384,
+  "stop": 1709260038468,
+  "uuid": "1d774c71-021c-4edd-b40a-8ca7fb20e503",
+  "historyId": "208b756071cf7425144c4014168f36e2",
+  "testCaseId": "876b32de4c3373d843dad05c0026811a",
+  "fullName": "test_case.test_weixin_api.TestWeixinApi#test_02_get_ip",
+  "labels": [
+    {
+      "name": "epic",
+      "value": "微信公众号接口"
+    },
+    {
+      "name": "story",
+      "value": "获取ip接口"
+    },
+    {
+      "name": "feature",
+      "value": "基础模块"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_weixin_api"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWeixinApi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "6884-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_weixin_api"
+    }
+  ]
+}

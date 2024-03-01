@@ -1,0 +1,44 @@
+{
+  "name": "test_case",
+  "status": "passed",
+  "start": 1709260076880,
+  "stop": 1709260076880,
+  "uuid": "83f35cf4-1f0f-4486-b944-926551e79bd7",
+  "historyId": "8e78e77d36489a08e3ecbfc1b17f46da",
+  "testCaseId": "8e78e77d36489a08e3ecbfc1b17f46da",
+  "fullName": "test_case.test_fixture.TestFixture#test_case",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_fixture"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "8528-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_fixture"
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+INFO    2024-03-01 10:10:12,628D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:10:12,628D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:10:12,629D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.comhttps://v2.alapi.cn/api/new/toutiao
+INFO    2024-03-01 10:10:12,629D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:10:12,629D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:147 接口请求头：{'Content-Type': 'application/json'}
+INFO    2024-03-01 10:10:12,630D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'page': '1', 'count': '5'}
+INFO    2024-03-01 10:10:12,910D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:10:12,911D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:10:12,911D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.comhttps://v2.alapi.cn/api/new/toutiao
+INFO    2024-03-01 10:10:12,912D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:10:12,913D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:147 接口请求头：{'Content-Type': 'application/json'}
+INFO    2024-03-01 10:10:12,913D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'page': '2', 'count': '5'}
+INFO    2024-03-01 10:10:13,081D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:10:13,082D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:10:13,082D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.comhttps://v2.alapi.cn/api/new/toutiao
+INFO    2024-03-01 10:10:13,082D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:10:13,083D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:147 接口请求头：{'Content-Type': 'application/json'}
+INFO    2024-03-01 10:10:13,083D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'page': '3', 'count': '5'}
+INFO    2024-03-01 10:10:13,271D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:10:13,272D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:10:13,272D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:10:13,273D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:10:13,273D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'secret': '78_xh3ji8kCm3iesmLX3BT9PznrWtdJ2WrA28YdZfB8p1qisy9OLRwNvYHIY1NZL1tWQwzqUNnqqf9Ic_KnCE_hUkOAtpYYlNMrYNpkaZ1I3p4cYuFH6pjmEGVtHGAQSWbADAKMQ', 'appid': 'wxf9f152aece2b88ff'}
+INFO    2024-03-01 10:10:13,482D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:10:13,482D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:10:13,497D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:10:13,497D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:10:13,497D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:10:13,497D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:10:13,497D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_xh3ji8kCm3iesmLX3BT9PznrWtdJ2WrA28YdZfB8p1qisy9OLRwNvYHIY1NZL1tWQwzqUNnqqf9Ic_KnCE_hUkOAtpYYlNMrYNpkaZ1I3p4cYuFH6pjmEGVtHGAQSWbADAKMQ'}
+INFO    2024-03-01 10:10:13,537D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:10:13,538D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:10:13,552D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:10:13,553D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:10:13,553D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:10:13,554D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:10:13,554D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_xh3ji8kCm3iesmLX3BT9PznrWtdJ2WrA28YdZfB8p1qisy9OLRwNvYHIY1NZL1tWQwzqUNnqqf9Ic_KnCE_hUkOAtpYYlNMrYNpkaZ1I3p4cYuFH6pjmEGVtHGAQSWbADAKMQ'}
+INFO    2024-03-01 10:10:13,606D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:10:13,607D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:10:13,622D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:10:13,622D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:10:13,623D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:10:13,623D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:10:13,624D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_xh3ji8kCm3iesmLX3BT9PznrWtdJ2WrA28YdZfB8p1qisy9OLRwNvYHIY1NZL1tWQwzqUNnqqf9Ic_KnCE_hUkOAtpYYlNMrYNpkaZ1I3p4cYuFH6pjmEGVtHGAQSWbADAKMQ'}
+INFO    2024-03-01 10:10:13,624D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:10:13,876D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:10:13,877D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:10:13,882D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:10:13,883D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:10:13,883D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-03-01 10:10:13,884D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:10:14,217D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG","expires_in":7200}
+INFO    2024-03-01 10:10:14,217D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:10:14,217D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:10:14,218D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG","expires_in":7200}
+INFO    2024-03-01 10:10:14,231D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:10:14,231D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:10:14,232D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG
+INFO    2024-03-01 10:10:14,232D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:10:14,370D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:10:14,370D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:10:14,371D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:10:14,380D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:10:14,381D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:10:14,381D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG
+INFO    2024-03-01 10:10:14,382D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:10:14,727D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"kf_list":[]}
+INFO    2024-03-01 10:10:14,728D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:10:14,728D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:10:14,741D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:10:14,741D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:10:14,742D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG
+INFO    2024-03-01 10:10:14,742D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
+INFO    2024-03-01 10:10:14,742D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:10:15,463D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:10:15,464D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:10:15,464D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:11:20,639D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:11:20,639D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:11:20,640D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:11:20,640D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:11:20,640D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'secret': '78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG', 'appid': 'wxf9f152aece2b88ff'}
+INFO    2024-03-01 10:11:20,832D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:11:20,832D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:11:20,846D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:11:20,846D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:11:20,847D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:11:20,847D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:11:20,847D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG'}
+INFO    2024-03-01 10:11:20,940D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:11:20,940D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:11:20,941D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:11:20,958D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:11:20,958D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:11:20,959D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:11:20,959D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:11:20,959D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG'}
+INFO    2024-03-01 10:11:21,194D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"kf_list":[]}
+INFO    2024-03-01 10:11:21,195D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:11:21,195D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:11:21,208D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:11:21,209D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:11:21,209D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:11:21,210D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:11:21,210D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_i0JqnvTED25QTYVRVtMw8juR89gN-liVIIJ6qzh7QIhfbkgnbBFa1vJDFax9h-0QclBpTBGEwjhtXe1ZrEuwXtAdFRZS0HoYk1YCWpvZugTnQtz_kMt21gVsKx4XQBeAFACVG'}
+INFO    2024-03-01 10:11:21,210D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:11:21,747D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:11:21,748D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:11:21,748D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:11:21,754D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:11:21,755D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:11:21,755D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-03-01 10:11:21,756D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:11:22,042D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_S49I9JXw8ozsMgF9GGBTSznyWDSGS8ybHX5NeJNrSoVqMSJT2jfBENgckQpA0lZ1xhAHoqWNFa8M4rqd3eEYrJUo-La0doKoogUondQIWnNYd__Ap-UIbeexsBkIGLdAIASQV","expires_in":7200}
+INFO    2024-03-01 10:11:22,042D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:11:22,042D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:11:22,043D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_S49I9JXw8ozsMgF9GGBTSznyWDSGS8ybHX5NeJNrSoVqMSJT2jfBENgckQpA0lZ1xhAHoqWNFa8M4rqd3eEYrJUo-La0doKoogUondQIWnNYd__Ap-UIbeexsBkIGLdAIASQV","expires_in":7200}
+INFO    2024-03-01 10:11:22,057D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:11:22,058D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:11:22,058D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=78_S49I9JXw8ozsMgF9GGBTSznyWDSGS8ybHX5NeJNrSoVqMSJT2jfBENgckQpA0lZ1xhAHoqWNFa8M4rqd3eEYrJUo-La0doKoogUondQIWnNYd__Ap-UIbeexsBkIGLdAIASQV
+INFO    2024-03-01 10:11:22,058D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:11:22,125D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:11:22,126D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:11:22,126D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:11:22,140D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:11:22,141D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:11:22,141D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=78_S49I9JXw8ozsMgF9GGBTSznyWDSGS8ybHX5NeJNrSoVqMSJT2jfBENgckQpA0lZ1xhAHoqWNFa8M4rqd3eEYrJUo-La0doKoogUondQIWnNYd__Ap-UIbeexsBkIGLdAIASQV
+INFO    2024-03-01 10:11:22,141D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:11:22,337D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"kf_list":[]}
+INFO    2024-03-01 10:11:22,337D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:11:22,338D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:11:22,349D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:11:22,350D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:11:22,350D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_S49I9JXw8ozsMgF9GGBTSznyWDSGS8ybHX5NeJNrSoVqMSJT2jfBENgckQpA0lZ1xhAHoqWNFa8M4rqd3eEYrJUo-La0doKoogUondQIWnNYd__Ap-UIbeexsBkIGLdAIASQV
+INFO    2024-03-01 10:11:22,351D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
+INFO    2024-03-01 10:11:22,351D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:11:22,873D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:11:22,873D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:11:22,874D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:12:25,314D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:12:25,314D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:12:25,315D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:12:25,315D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:12:25,315D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'secret': None, 'appid': 'wxf9f152aece2b88ff'}
+INFO    2024-03-01 10:12:25,458D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:12:25,459D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:12:25,464D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:12:25,464D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:12:25,464D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:12:25,464D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:12:25,464D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:12:25,494D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:12:25,494D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:12:25,500D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:12:25,500D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:12:25,500D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:12:25,500D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:12:25,500D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:12:25,536D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:12:25,536D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:12:25,541D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:12:25,541D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:12:25,542D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:12:25,542D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:12:25,542D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:12:25,542D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:12:26,011D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:12:26,012D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:12:26,017D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:12:26,017D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:12:26,017D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-03-01 10:12:26,017D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:12:26,361D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_9gqXN9WOGYZAJZre8egV1vEZaGX9DURbX9afA0jOgJxuY12E3UpGh6YSlwdSccqh77Ji3wDzCZwLyEQSTm6pG9xoit0ESyyJhw3V3tzyAn9pNDd1A-4vqHr1kCcPFZaACAGWQ","expires_in":7200}
+INFO    2024-03-01 10:12:26,362D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:12:26,362D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:12:26,362D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_9gqXN9WOGYZAJZre8egV1vEZaGX9DURbX9afA0jOgJxuY12E3UpGh6YSlwdSccqh77Ji3wDzCZwLyEQSTm6pG9xoit0ESyyJhw3V3tzyAn9pNDd1A-4vqHr1kCcPFZaACAGWQ","expires_in":7200}
+INFO    2024-03-01 10:12:26,368D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:12:26,368D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:12:26,369D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=78_9gqXN9WOGYZAJZre8egV1vEZaGX9DURbX9afA0jOgJxuY12E3UpGh6YSlwdSccqh77Ji3wDzCZwLyEQSTm6pG9xoit0ESyyJhw3V3tzyAn9pNDd1A-4vqHr1kCcPFZaACAGWQ
+INFO    2024-03-01 10:12:26,369D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:12:26,450D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:12:26,450D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:12:26,450D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:12:26,460D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:12:26,460D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:12:26,461D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=78_9gqXN9WOGYZAJZre8egV1vEZaGX9DURbX9afA0jOgJxuY12E3UpGh6YSlwdSccqh77Ji3wDzCZwLyEQSTm6pG9xoit0ESyyJhw3V3tzyAn9pNDd1A-4vqHr1kCcPFZaACAGWQ
+INFO    2024-03-01 10:12:26,461D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:12:26,680D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"kf_list":[]}
+INFO    2024-03-01 10:12:26,680D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:12:26,681D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:12:26,684D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:12:26,685D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:12:26,685D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_9gqXN9WOGYZAJZre8egV1vEZaGX9DURbX9afA0jOgJxuY12E3UpGh6YSlwdSccqh77Ji3wDzCZwLyEQSTm6pG9xoit0ESyyJhw3V3tzyAn9pNDd1A-4vqHr1kCcPFZaACAGWQ
+INFO    2024-03-01 10:12:26,685D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
+INFO    2024-03-01 10:12:26,685D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:12:27,237D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:12:27,237D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:12:27,238D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:14:30,969D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:14:30,970D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:14:30,970D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:14:30,971D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:14:30,971D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'secret': None, 'appid': 'wxf9f152aece2b88ff'}
+INFO    2024-03-01 10:14:31,109D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:14:31,109D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:14:31,115D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:14:31,115D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:14:31,115D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:14:31,115D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:14:31,115D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:14:31,139D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:14:31,139D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:14:31,144D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:14:31,145D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:14:31,145D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:14:31,145D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:14:31,145D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:14:31,178D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:14:31,178D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:14:31,184D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:14:31,184D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:14:31,184D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:14:31,184D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:14:31,185D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:14:31,185D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:14:31,394D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:14:31,394D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:14:31,398D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:14:31,398D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:14:31,398D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-03-01 10:14:31,399D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:14:31,699D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_MUItzmbWIFFbbpOOBAqA5DnNMTpNZZEj15L8p4N_m_4lTwNTPWTODjUKiNKZDVmoI_iVNtxCtM-fpF5gQZOopzfNRQDphobMKz3y_n7bpEPTvI97BBq9OsHDHRoYJEiAHAJUP","expires_in":7200}
+INFO    2024-03-01 10:14:31,699D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:14:31,700D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:14:31,700D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_MUItzmbWIFFbbpOOBAqA5DnNMTpNZZEj15L8p4N_m_4lTwNTPWTODjUKiNKZDVmoI_iVNtxCtM-fpF5gQZOopzfNRQDphobMKz3y_n7bpEPTvI97BBq9OsHDHRoYJEiAHAJUP","expires_in":7200}
+INFO    2024-03-01 10:14:31,705D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:14:31,706D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:14:31,706D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=78_MUItzmbWIFFbbpOOBAqA5DnNMTpNZZEj15L8p4N_m_4lTwNTPWTODjUKiNKZDVmoI_iVNtxCtM-fpF5gQZOopzfNRQDphobMKz3y_n7bpEPTvI97BBq9OsHDHRoYJEiAHAJUP
+INFO    2024-03-01 10:14:31,706D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:14:31,771D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:14:31,772D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:14:31,773D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:14:31,787D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:14:31,788D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:14:31,789D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=78_MUItzmbWIFFbbpOOBAqA5DnNMTpNZZEj15L8p4N_m_4lTwNTPWTODjUKiNKZDVmoI_iVNtxCtM-fpF5gQZOopzfNRQDphobMKz3y_n7bpEPTvI97BBq9OsHDHRoYJEiAHAJUP
+INFO    2024-03-01 10:14:31,789D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:14:31,994D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"kf_list":[]}
+INFO    2024-03-01 10:14:31,995D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:14:31,995D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:14:32,004D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:14:32,004D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:14:32,005D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_MUItzmbWIFFbbpOOBAqA5DnNMTpNZZEj15L8p4N_m_4lTwNTPWTODjUKiNKZDVmoI_iVNtxCtM-fpF5gQZOopzfNRQDphobMKz3y_n7bpEPTvI97BBq9OsHDHRoYJEiAHAJUP
+INFO    2024-03-01 10:14:32,005D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
+INFO    2024-03-01 10:14:32,005D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:14:32,519D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:14:32,520D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:14:32,520D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:20:26,231D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:20:26,231D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:20:26,232D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:20:26,232D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:20:26,232D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'secret': None, 'appid': 'wxf9f152aece2b88ff'}
+INFO    2024-03-01 10:20:26,407D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:20:26,407D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:20:26,424D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:20:26,425D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:20:26,425D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:20:26,426D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:20:26,426D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:20:26,457D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:20:26,458D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:20:26,466D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:20:26,467D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:20:26,467D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:20:26,467D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:20:26,468D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:20:26,497D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:20:26,497D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:20:26,506D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:20:26,506D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:20:26,507D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:20:26,507D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:20:26,507D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:20:26,507D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:20:26,724D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:20:26,724D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:20:26,730D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:20:26,730D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:20:26,731D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-03-01 10:20:26,731D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:20:27,041D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_wS8dN5bTtuAG5DLrUgiNhkwYVu_slHxxT7D5dBun8HmAaOjUYyLBEllTu8DbQX2q74Rkoqx9PsyVOfkyIeaVBYlOPQ95kMOyqLFQ1db5lPCj9RfVgFCaRFsJGkUPUFeAIAWBM","expires_in":7200}
+INFO    2024-03-01 10:20:27,042D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:20:27,042D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:20:27,042D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_wS8dN5bTtuAG5DLrUgiNhkwYVu_slHxxT7D5dBun8HmAaOjUYyLBEllTu8DbQX2q74Rkoqx9PsyVOfkyIeaVBYlOPQ95kMOyqLFQ1db5lPCj9RfVgFCaRFsJGkUPUFeAIAWBM","expires_in":7200}
+INFO    2024-03-01 10:20:27,050D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:20:27,050D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:20:27,051D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=78_wS8dN5bTtuAG5DLrUgiNhkwYVu_slHxxT7D5dBun8HmAaOjUYyLBEllTu8DbQX2q74Rkoqx9PsyVOfkyIeaVBYlOPQ95kMOyqLFQ1db5lPCj9RfVgFCaRFsJGkUPUFeAIAWBM
+INFO    2024-03-01 10:20:27,051D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:20:27,170D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:20:27,170D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:20:27,171D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:20:27,178D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:20:27,179D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:20:27,179D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=78_wS8dN5bTtuAG5DLrUgiNhkwYVu_slHxxT7D5dBun8HmAaOjUYyLBEllTu8DbQX2q74Rkoqx9PsyVOfkyIeaVBYlOPQ95kMOyqLFQ1db5lPCj9RfVgFCaRFsJGkUPUFeAIAWBM
+INFO    2024-03-01 10:20:27,179D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:20:27,433D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"kf_list":[]}
+INFO    2024-03-01 10:20:27,433D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:20:27,433D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:20:27,439D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:20:27,440D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:20:27,440D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_wS8dN5bTtuAG5DLrUgiNhkwYVu_slHxxT7D5dBun8HmAaOjUYyLBEllTu8DbQX2q74Rkoqx9PsyVOfkyIeaVBYlOPQ95kMOyqLFQ1db5lPCj9RfVgFCaRFsJGkUPUFeAIAWBM
+INFO    2024-03-01 10:20:27,440D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
+INFO    2024-03-01 10:20:27,441D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:20:28,023D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:20:28,023D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:20:28,023D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:24:10,416D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:24:10,417D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:24:10,417D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:24:10,417D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:24:10,418D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'secret': None, 'appid': 'wxf9f152aece2b88ff'}
+INFO    2024-03-01 10:24:10,584D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:24:10,585D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:24:10,595D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:24:10,595D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:24:10,595D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:24:10,596D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:24:10,596D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:24:10,617D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:24:10,618D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:24:10,628D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:24:10,629D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:24:10,629D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:24:10,630D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:24:10,630D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:24:10,654D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:24:10,654D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:24:10,663D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:24:10,663D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:24:10,663D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:24:10,664D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:24:10,664D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': None}
+INFO    2024-03-01 10:24:10,664D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:24:10,963D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:24:10,964D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:25:14,156D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:25:14,157D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:25:14,158D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-03-01 10:25:14,158D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:25:14,404D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF","expires_in":7200}
+INFO    2024-03-01 10:25:14,405D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:25:14,406D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:25:14,407D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF","expires_in":7200}
+INFO    2024-03-01 10:25:14,420D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:25:14,420D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:25:14,421D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF
+INFO    2024-03-01 10:25:14,421D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:25:14,504D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:25:14,505D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:25:14,505D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:25:14,512D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:25:14,513D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:25:14,513D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF
+INFO    2024-03-01 10:25:14,513D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:25:14,749D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"kf_list":[]}
+INFO    2024-03-01 10:25:14,750D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:25:14,750D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:25:14,756D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:25:14,756D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:25:14,757D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF
+INFO    2024-03-01 10:25:14,757D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
+INFO    2024-03-01 10:25:14,757D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:25:15,266D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:25:15,266D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:25:15,267D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:26:01,144D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:26:01,144D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:26:01,145D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:26:01,145D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:26:01,145D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'secret': '78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF', 'appid': 'wxf9f152aece2b88ff'}
+INFO    2024-03-01 10:26:01,281D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:26:01,282D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:26:01,291D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:26:01,292D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:26:01,292D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:26:01,293D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:26:01,293D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF'}
+INFO    2024-03-01 10:26:01,378D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:26:01,378D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:26:01,379D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:26:01,394D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:26:01,395D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:26:01,395D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:26:01,395D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:26:01,396D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF'}
+INFO    2024-03-01 10:26:01,569D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"kf_list":[]}
+INFO    2024-03-01 10:26:01,570D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:26:01,570D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:26:01,579D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:26:01,579D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:26:01,580D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:26:01,580D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:26:01,580D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF'}
+INFO    2024-03-01 10:26:01,581D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:26:02,153D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:26:02,153D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:26:02,154D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:18,266D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:18,267D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:18,267D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:27:18,267D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:27:18,268D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'appid': '9705', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}
+INFO    2024-03-01 10:27:18,377D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:18,378D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:18,387D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:18,388D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:18,388D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:27:18,388D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:27:18,389D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF'}
+INFO    2024-03-01 10:27:18,467D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:27:18,467D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:18,467D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:18,476D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:18,477D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:18,477D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:27:18,478D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:27:18,478D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF'}
+INFO    2024-03-01 10:27:18,727D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"kf_list":[]}
+INFO    2024-03-01 10:27:18,728D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:18,728D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:18,738D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:18,738D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:18,739D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:27:18,739D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:27:18,739D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_G42_1IjdhNS0EwZl_w9SHAiP6Z5vmfiByC0kiMbM-LrWSdhZT7wYnIx4NGh4TJJG4KsPTFVj9gkGQppfXWJj4qUks6BgBfFtP3gcCDo7n2pA5ziDk1RmOzxIjQ0WWVgAAAGGF'}
+INFO    2024-03-01 10:27:18,740D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:27:19,331D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:27:19,332D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:19,332D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:56,899D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:56,900D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:56,900D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-01 10:27:56,901D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:27:56,901D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'grant_type': 'client_credential', 'appid': 'wxf9f152aece2b88ff', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}
+INFO    2024-03-01 10:27:57,176D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"access_token":"78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8STEaAGAYZK","expires_in":7200}
+INFO    2024-03-01 10:27:57,178D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:57,178D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:57,187D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:57,188D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:57,188D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-01 10:27:57,188D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:27:57,189D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8STEaAGAYZK'}
+INFO    2024-03-01 10:27:57,258D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:27:57,258D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:57,259D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:57,274D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:57,274D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:57,275D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-01 10:27:57,275D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：get
+INFO    2024-03-01 10:27:57,275D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8STEaAGAYZK'}
+INFO    2024-03-01 10:27:57,430D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"kf_list":[]}
+INFO    2024-03-01 10:27:57,432D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:57,432D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:57,441D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:142 
+
+INFO    2024-03-01 10:27:57,441D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:143 ---------接口测试开始----------
+INFO    2024-03-01 10:27:57,441D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:144 接口请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-01 10:27:57,442D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:145 接口请求方式：post
+INFO    2024-03-01 10:27:57,442D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:151 接口请求参数：{'access_token': '78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8STEaAGAYZK'}
+INFO    2024-03-01 10:27:57,442D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:155 接口请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:27:58,113D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:188 接口返回正常，返回消息：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:27:58,113D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:202 ---------接口测试结束----------
+INFO    2024-03-01 10:27:58,114D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:request_util.py:203 
+
+INFO    2024-03-01 10:27:58,122D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:27:58,122D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:27:58,123D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf9f152aece2b88ff&secret=e531b9dfc90f4ed8116375132fdb2aa9
+INFO    2024-03-01 10:27:58,123D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:27:58,379D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"access_token":"78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE","expires_in":7199}
+INFO    2024-03-01 10:27:58,379D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:27:58,380D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:27:58,380D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:test_weixin_old.py:42 响应报文为{"access_token":"78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE","expires_in":7199}
+INFO    2024-03-01 10:27:58,389D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:27:58,390D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:27:58,390D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/get_api_domain_ip?access_token=78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE
+INFO    2024-03-01 10:27:58,390D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:27:58,461D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-01 10:27:58,462D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:27:58,462D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:27:58,469D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:27:58,469D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:27:58,470D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/customservice/getkflist?access_token=78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE
+INFO    2024-03-01 10:27:58,470D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 get
+INFO    2024-03-01 10:27:58,616D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"kf_list":[]}
+INFO    2024-03-01 10:27:58,617D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:27:58,618D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+
+INFO    2024-03-01 10:27:58,626D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
+
+INFO    2024-03-01 10:27:58,627D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
+INFO    2024-03-01 10:27:58,627D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE
+INFO    2024-03-01 10:27:58,627D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
+INFO    2024-03-01 10:27:58,628D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-01 10:27:59,127D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
+INFO    2024-03-01 10:27:59,127D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
+INFO    2024-03-01 10:27:59,128D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39 
+

@@ -1,0 +1,69 @@
+{
+  "name": "test_04_upload[args0]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "6cbaf3e2-fb9c-4a20-ab18-e4eabd960bb4-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "args",
+      "value": "{'name': '上传文件', 'url': '/cgi-bin/media/uploadimg', 'method': 'post', 'params': {'access_token': '${access_token}'}, 'files': {'media': 'D:\\\\backup\\\\489pm2.jpg'}}"
+    }
+  ],
+  "start": 1709260038735,
+  "stop": 1709260039332,
+  "uuid": "dbf406c7-8694-47fb-a05e-16b68b81295b",
+  "historyId": "7f287a61fc5d254ea70695bb425bb28a",
+  "testCaseId": "2efd22dc6b22516d975076b850cdff32",
+  "fullName": "test_case.test_weixin_api.TestWeixinApi#test_04_upload",
+  "labels": [
+    {
+      "name": "story",
+      "value": "上传文件"
+    },
+    {
+      "name": "epic",
+      "value": "微信公众号接口"
+    },
+    {
+      "name": "feature",
+      "value": "基础模块"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_weixin_api"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWeixinApi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "6884-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_weixin_api"
+    }
+  ]
+}
