@@ -60,9 +60,19 @@ from utils.yaml_util import read_yaml
 class TestWeixinApi:
     access_token = ''
 
-    @allure.story("登录接口")
+    # _feature = "基础模块"
+    # story_a="登录接口"
+    # story_b="获取ip接口"
+    # story_c = "获取客服列表"
+    # story_d = "上传文件"
+
+    # @allure.story("登录接口")
+    # @allure.story("测试登录接口")
     @pytest.mark.parametrize('args', read_yaml("weixin.yaml", index=0))
     def test_01_login(self, args):
+        allure.dynamic.epic(args['epic'])
+        allure.dynamic.feature(args['feature'])
+        allure.dynamic.story(args['story'])
         method = args['method']
         url = args['url']
         params = args['params']
@@ -72,22 +82,37 @@ class TestWeixinApi:
     @pytest.mark.parametrize('args', read_yaml("weixin.yaml", index=1))
     @pytest.mark.smoke
     def test_02_get_ip(self, args):
+        allure.dynamic.epic(args['epic'])
+        allure.dynamic.feature(args['feature'])
+        allure.dynamic.story(args['story'])
+        allure.dynamic.description("动态描述")
+        allure.dynamic.link("https://www.cnblogs.com/longronglang/category/1859053.html", '动态Link')
+        allure.dynamic.issue("https://www.cnblogs.com/longronglang/category/1859053.html", '动态Issue')
+        allure.dynamic.testcase("https://www.cnblogs.com/longronglang/category/1859053.html", '动态testcase')
         method = args['method']
         url = args['url']
         params = args['params']
         RequestUtil().send_request(method=method, url=url, params=params)
 
-    @allure.story("获取客服列表")
+    # @allure.story(story_c)
+    # @allure.story("获取客服列表")
     @pytest.mark.parametrize('args', read_yaml("weixin.yaml", index=2))
     def test_03_getkflist(self, args):
+        allure.dynamic.epic(args['epic'])
+        allure.dynamic.feature(args['feature'])
+        allure.dynamic.story(args['story'])
         method = args['method']
         url = args['url']
         params = args['params']
         RequestUtil().send_request(method=method, url=url, params=params)
 
-    @allure.story("上传文件")
+    # @allure.story("上传文件")
+    # @allure.story(story_d)
     @pytest.mark.parametrize('args', read_yaml("weixin.yaml", index=3))
     def test_04_upload(self, args):
+        allure.dynamic.epic(args['epic'])
+        allure.dynamic.feature(args['feature'])
+        allure.dynamic.story(args['story'])
         method = args['method']
         url = args['url']
         params = args['params']
@@ -100,7 +125,7 @@ class TestWeixinApi:
                 assert response['message'] == validate
             elif 'contains' in args['validate']:
                 validate = args['validate']['contains']['message']
-                assert validate in response['message']
+                assert validate in response
             else:
                 ERROR.logger.error("不支持该断言")
                 assert 1 == 0
