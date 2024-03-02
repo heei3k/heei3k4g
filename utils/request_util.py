@@ -66,7 +66,7 @@ class RequestUtil:
                                 value = header_value + read_extract_yaml(str(oldValue)[2:-1]) + end_value
                             except Exception as e:
                                 ERROR.logger.error(e)
-                each_json[key] = str(value)
+                each_json[key] = value
 
         self.last_headers = headers
         self.last_params = params
