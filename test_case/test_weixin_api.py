@@ -50,6 +50,7 @@ import allure
 import pytest
 
 # sys.path.append(os.path.dirname(sys.path[0]))
+from logging_tool.log_control import ERROR
 from utils.request_util import RequestUtil
 from utils.yaml_util import read_yaml
 
@@ -91,7 +92,21 @@ class TestWeixinApi:
         url = args['url']
         params = args['params']
         files = args['files']
-        RequestUtil().send_request(method=method, url=url, params=params, files=files)
+        response = RequestUtil().send_request(method=method, url=url, params=params, files=files)
+
+        if response:
+            if 'eq' in args['validate']:
+                validate = args['validate']['eq']['message']
+                assert response['message'] == validate
+            elif 'contains' in args['validate']:
+                validate = args['validate']['contains']['message']
+                assert validate in response['message']
+            else:
+                ERROR.logger.error("不支持该断言")
+                assert 1 == 0
+        else:
+            ERROR.logger.error("响应消息为空")
+            assert 1 == 0
 
 
 if __name__ == '__main__':
