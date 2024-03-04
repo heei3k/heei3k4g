@@ -7,12 +7,14 @@
 # @File    : request_util.py
 # @Software: PyCharm
 import json as json_module
+from json import JSONDecodeError
 
 import requests
 
 from common.replace_load import replace_load
-from logging_tool.log_control import DEBUG, INFO, ERROR
+from logging_tool.log_control import INFO, ERROR
 from utils.fiddler_util import FiddlerUtil
+from utils.text_util import write_text
 from utils.yaml_util import read_extract_yaml, read_config_yaml, write_yaml, read_yaml
 
 
@@ -30,7 +32,7 @@ class RequestUtil:
         self.last_files = None
 
     def send_request(self, method, url, headers=None, data=None, params=None, json=None, files=None, verify=True,
-                     proxies=None, is_save_yaml=None):
+                     proxies=None, is_save=None):
         # method参数转化为小写
         if isinstance(method, dict):
             method = str(method.get('method'))
@@ -48,7 +50,10 @@ class RequestUtil:
             # 接口路径=基本路径+接口路径
         if isinstance(url, dict):
             url = str(url['url'])
-        self.last_url = self.base_url + url
+        if url and ":" in url:
+            self.last_url = url
+        else:
+            self.last_url = self.base_url + url
 
         for each_json in [a for a in [params, headers, json, data] if a is not None]:
             for key, value in each_json.items():
@@ -78,8 +83,7 @@ class RequestUtil:
                 files[key] = open(path, 'rb')
         self.last_files = files
 
-        INFO.logger.info("\n")
-        INFO.logger.info("---------接口测试开始----------")
+
         INFO.logger.info(f"接口请求地址：{self.last_url}")
         INFO.logger.info(f"接口请求方式：{self.last_method}")
         if self.last_headers:
@@ -94,11 +98,12 @@ class RequestUtil:
             INFO.logger.info(f"接口请求文件：{self.last_files}")
 
         # 判断是否开启fiddler抓包，开启时需要打开代理
-        if FiddlerUtil.is_fiddler_enabled():
-            proxies = {
-                'http': '127.0.0.1:8888',
-                'https': '127.0.0.1:8888'
-            }
+        if proxies:
+            if FiddlerUtil.is_fiddler_enabled():
+                proxies = {
+                    'http': '127.0.0.1:8888',
+                    'https': '127.0.0.1:8888'
+                }
             response = RequestUtil().session.request(method=self.last_method,
                                                      url=self.last_url,
                                                      headers=self.last_headers,
@@ -118,19 +123,30 @@ class RequestUtil:
                                                      files=self.last_files)
 
         res_json = None
+        res_text = None
+
+        # INFO.logger.info(f"response is {response.text}")
 
         if response.status_code == 200:
             if response.text:
                 # 因为json模块名被参数json同名了，所以重命名模块的json
-                res_json = json_module.loads(response.text)
+                # 如何返回的不是json格式的，则保存text值
+                try:
+                    res_json = json_module.loads(response.text)
+                except JSONDecodeError as e:
+                    res_text = response.text
                 if 'errcode' not in response.text:
                     INFO.logger.info("接口返回正常，返回消息：" + response.text)
-                    if is_save_yaml:
-                        # 使用文件保存中间变量
-                        write_yaml(data=res_json)
+                    if is_save:
+                        if res_json:
+                            # 使用文件保存中间变量
+                            write_yaml(data=res_json)
+                        else:
+                            write_text(data=res_text)
                 # 根据业务返回json增加的判断代码
                 elif 'statusCode' in res_json and res_json['statusCode'] != 200:
-                    DEBUG.logger.debug("错误响应：" + response.text)
+                    # DEBUG.logger.debug("错误响应：" + response.text)
+                    pass
                 else:
                     ERROR.logger.error("接口返回错误，返回消息：" + response.text)
             else:
@@ -138,10 +154,10 @@ class RequestUtil:
         else:
             ERROR.logger.error("接口返回异常，错误码：" + str(response.status_code))
 
-        INFO.logger.info("---------接口测试结束----------")
-        INFO.logger.info("\n")
-
-        return res_json
+        if res_json:
+            return res_json
+        else:
+            return res_text
 
 
 if __name__ == '__main__':

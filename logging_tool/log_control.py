@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time   : 2022/3/28 10:56
-# @Author : 余少琪
 """
 日志封装，可设置不同等级的日志颜色
 """
@@ -12,7 +8,7 @@ from typing import Text
 
 import colorlog
 
-from common.setting import ensure_path_sep
+from common.setting import ensure_path_sep, fix_full_path
 
 
 class LogHandler:
@@ -78,10 +74,10 @@ class LogHandler:
 
 
 now_time_day = time.strftime("%Y-%m-%d", time.localtime())
-INFO = LogHandler(ensure_path_sep(f"\\logs\\info-{now_time_day}.log"), level='info')
-ERROR = LogHandler(ensure_path_sep(f"\\logs\\error-{now_time_day}.log"), level='error')
-WARNING = LogHandler(ensure_path_sep(f'\\logs\\warning-{now_time_day}.log'), level='warning')
-DEBUG = LogHandler(ensure_path_sep(f'\\logs\\debug-{now_time_day}.log'), level='debug')
+INFO = LogHandler(fix_full_path(f"\\logs\\info-{now_time_day}.log"), level='info')
+ERROR = LogHandler(fix_full_path(f"\\logs\\error-{now_time_day}.log"), level='error')
+WARNING = LogHandler(fix_full_path(f'\\logs\\warning-{now_time_day}.log'), level='warning')
+DEBUG = LogHandler(fix_full_path(f'\\logs\\debug-{now_time_day}.log'), level='debug')
 
 if __name__ == '__main__':
     ERROR.logger.error(time.localtime())

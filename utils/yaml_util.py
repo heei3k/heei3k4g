@@ -35,7 +35,10 @@ def read_yaml(file_path=default_filepath, key=None, is_dict=False, index=None):
         elif isinstance(data, list):
             if index is not None and isinstance(index, int) and index >= 0 and index < len(data):
                 # 这里如果列表元素是字典的话，返回的元素要转换成列表，则能被pytest.mark.parametrize作为参数调用
-                return [{key: value for key, value in data[index].items()}]
+                if key:
+                    return data[index][key]
+                else:
+                    return [{key: value for key, value in data[index].items()}]
             elif index is None:
                 return data
             else:
@@ -47,14 +50,15 @@ def read_yaml(file_path=default_filepath, key=None, is_dict=False, index=None):
 
 
 def write_yaml(file_path=default_filepath, data=None):
-    if os.path.exists(file_path):
-        if data:
-            with open(file_path, encoding='utf-8', mode="a+") as f:
-                yaml.dump(data, stream=f, allow_unicode=True)
-        else:
-            WARNING.logger.warning("写入数据为空")
+    if ":" not in file_path:
+        file_path = os.path.join(yaml_dir, file_path)
+    if data:
+        with open(file_path, encoding='utf-8', mode="a+") as f:
+            yaml.dump(data, stream=f, allow_unicode=True)
     else:
-        ERROR.logger.error("文件不存在")
+        WARNING.logger.warning("写入数据为空")
+    # else:
+    #     ERROR.logger.error(f"文件{file_path}不存在")
 
 
 def read_config_yaml(key=None, is_dict=None):
@@ -79,7 +83,8 @@ def read_login_yaml(key=None, is_dict=None):
 
 
 def clear_yaml(file_path=default_filepath):
-    # print("file path 为%s" % file_path)
+    if ":" not in file_path:
+        file_path = os.path.join(yaml_dir, file_path)
     if os.path.exists(file_path):
         with open(file_path, encoding='utf-8', mode="w") as f:
             # print("开始清除yaml文件")
@@ -89,7 +94,7 @@ def clear_yaml(file_path=default_filepath):
 def read_extract_yaml(key=None, is_dict=None):
     return read_yaml(file_path=default_filepath, key=key, is_dict=is_dict)
 
-
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # print(read_yaml("weixin.yaml",index=3))
-    print(read_extract_yaml("access_token"))
+# ts_number_yaml=os.path.join(yaml_dir, "ts_number.yaml")
+# print(write_yaml(ts_number_yaml,data={"ts_number":145}))
