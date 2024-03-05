@@ -76,7 +76,10 @@ class TestWeixinApi:
         method = args['method']
         url = args['url']
         params = args['params']
-        RequestUtil().send_request(method=method, url=url, params=params, is_save_yaml=True)
+
+        RequestUtil().send_request(method=method, url=url, params=params, is_save=True)
+
+
 
     @allure.story("获取ip接口")
     @pytest.mark.parametrize('args', read_yaml("weixin.yaml", index=1))

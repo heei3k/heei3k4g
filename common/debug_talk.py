@@ -8,6 +8,7 @@
 # @Software: PyCharm
 import hashlib
 import random
+import string
 import time
 
 from utils.yaml_util import read_yaml
@@ -46,6 +47,13 @@ class DebugTalk:
     @staticmethod
     def read_extract_yaml(key):
         return read_yaml(key=key)
+
+    @staticmethod
+    def rand_chars():
+        characters = string.ascii_letters + string.digits
+        # 生成10个随机字符
+        random_chars = ''.join(random.choices(characters, k=10))
+        return random_chars
 
 if __name__ == '__main__':
     print(DebugTalk.get_date_time())

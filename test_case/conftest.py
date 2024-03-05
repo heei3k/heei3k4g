@@ -9,12 +9,29 @@
 
 import pytest
 
+from utils.yaml_util import clear_yaml
+
 # @pytest.fixture(scope="session",autouse=True)
 # def exc_sql():
 #     print("请求之前，查询数据库")
 #     yield
 #     print("请求之后，关闭数据库")
-from utils.yaml_util import clear_yaml
+
+# @pytest.fixture(scope="session",autouse=False,params=read_yaml("weixin.yaml"))
+# # def set_epic(request):
+# #     yield request.params
+
+pytest.fixture(scope="function", autouse=True)
+
+
+def exc_log():
+    INFO.logger.info("\n")
+    INFO.logger.info("---------接口测试开始----------")
+    yield
+    INFO.logger.info("---------接口测试结束----------")
+    INFO.logger.info("\n")
+
+
 
 
 @pytest.fixture(scope="session", autouse=True)
