@@ -1,0 +1,23 @@
+Index: interface_testcase/common/yaml_util.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- interface_testcase/common/yaml_util.py	(date 1709189504870)
++++ interface_testcase/common/yaml_util.py	(date 1709189504870)
+@@ -33,6 +33,7 @@
+                 pass
+         elif isinstance(data,list):
+             if index is not None and isinstance(index,int) and index>=0 and index<len(data):
++                data_index = data[index]
+                 return data[index]
+             elif index is None:
+                 return data
+@@ -86,4 +87,4 @@
+ 
+ 
+ if __name__=='__main__':
+-    print(read_yaml("weixin.yaml",index=4))
+\ No newline at end of file
++    print(read_yaml("weixin.yaml",index=3))
+\ No newline at end of file

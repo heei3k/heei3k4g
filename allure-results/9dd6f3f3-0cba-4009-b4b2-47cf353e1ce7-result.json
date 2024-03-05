@@ -1,0 +1,77 @@
+{
+  "name": "test_01_login[args0]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "e4eff829-e57b-4400-a5a3-90f238aea61a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "args",
+      "value": "{'epic': '公共接口', 'feature': '用户', 'story': '登录接口', 'url': '/cgi-bin/token', 'method': 'get', 'headers': {'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', \"Accept'\": '*/*'}, 'params': {'grant_type': 'client_credential', 'appid': 'wxf9f152aece2b88ff', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}}"
+    }
+  ],
+  "start": 1709391442687,
+  "stop": 1709391442996,
+  "uuid": "5e44e46e-fbc3-430a-b0d9-eec107bfb8e5",
+  "historyId": "30cea7d0f8a69c5a8cf71de9fc2fdd6d",
+  "testCaseId": "3ac919e376c9f5f64a5f49490e683398",
+  "fullName": "test_case.test_weixin_api.TestWeixinApi#test_01_login",
+  "labels": [
+    {
+      "name": "epic",
+      "value": "公共接口"
+    },
+    {
+      "name": "feature",
+      "value": "用户"
+    },
+    {
+      "name": "story",
+      "value": "登录接口"
+    },
+    {
+      "name": "feature",
+      "value": "基础模块"
+    },
+    {
+      "name": "epic",
+      "value": "微信公众号接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_weixin_api"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWeixinApi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "9724-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_weixin_api"
+    }
+  ]
+}

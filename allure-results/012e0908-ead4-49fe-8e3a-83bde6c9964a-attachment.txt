@@ -1,0 +1,9 @@
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:81 
+
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:82 ---------接口测试开始----------
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:83 接口请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:84 接口请求方式：get
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:90 接口请求参数：{'access_token': '78_w15rxEkf2iTS1tbVNXIlWibLzZiNyYnE1Mh6YDin-OgJaIAnN1QEoyqXagWIsbN2rbwgZfbSGe5CstoZQAkexEJVrL3GF1049ZTeqJgXRF5NpAuItrTkBP8AE9kODBfAEAYNL'}
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:127 接口返回正常，返回消息：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:141 ---------接口测试结束----------
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:142

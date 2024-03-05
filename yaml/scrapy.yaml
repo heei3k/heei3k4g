@@ -1,0 +1,159 @@
+- url: https://v-vod-k.xiaoeknow.com/a8307e36f7a64aeeae086cc157bb356b/appi1Q1B9A05586/video/b_u_62cc1688aaa20_xW76uKGF/llq8rlfm017f/drm/main.m3u8
+  headers:
+    Host: v-vod-k.xiaoeknow.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+    Accept: '*/*'
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Origin: https://www.hctestedu.com
+    Connection: keep-alive
+    Referer: https://www.hctestedu.com/
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: cross-site
+  params:
+    sign: 2b83d6a370770a0c10aad9ee2c340f32
+    t: 65e71a80
+    us: StXoKEVjlS
+  save_file: "2W薪资必备技能-Python接口框架封装实战.mp4"
+  save_path: D:\Download\export_data\llq8rlfm017f
+  save_id: llq8rlfm017f
+  re_expression: "(main.*)"
+  split_chars: "main"
+  encrypt_key: e414dce3e91040d0
+
+#-
+#  url: https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/474d32e41397757886001213731/playlist_eof.m3u8
+#  headers:
+#    Host: encrypt-k-vod.xet.tech
+#    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+#    Accept: '*/*'
+#    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+#    Accept-Encoding: gzip, deflate, br
+#    Origin: https://www.hctestedu.com
+#    Connection: keep-alive
+#    Referer: https://www.hctestedu.com/
+#    Sec-Fetch-Dest: empty
+#    Sec-Fetch-Mode: cors
+#    Sec-Fetch-Site: cross-site
+#  params:
+#    sign: c2d66ecc01dd47c86d5f6a36e5712411
+#    t: 65e54c10
+#    us: scDLoMxksz
+#  save_file: "Fiddler接口抓包3大实战应用.mp4"
+#  save_path: 474d32e41397757886001213731
+
+
+
+
+#-
+#  url: https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/9d1f8d2f1397757885994799159/playlist.f3.m3u8
+#  headers:
+#    Host: encrypt-k-vod.xet.tech
+#    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+#    Accept: '*/*'
+#    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+#    Accept-Encoding: gzip, deflate, br
+#    Origin: https://www.hctestedu.com
+#    Connection: keep-alive
+#    Referer: https://www.hctestedu.com/
+#    Sec-Fetch-Dest: empty
+#    Sec-Fetch-Mode: cors
+#    Sec-Fetch-Site: cross-site
+#  params:
+#    sign: cab36a03b0e01296456a52d54d4e873d
+#    t: 65e4bf40
+#    us: bMkdzTrFjE
+
+#url: https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/9d1f8d2f1397757885994799159/playlist.f3_0.ts
+#params:
+#  start: ${start}
+#  end: ${end}
+#  type: mpegts
+#  sign: cab36a03b0e01296456a52d54d4e873d
+#  t: 65e4bf40
+#  us: bMkdzTrFjE
+
+
+#-
+#  url: https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/816860021397757885963309496/
+#  headers:
+#    Host: encrypt-k-vod.xet.tech
+#    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+#    Accept: '*/*'
+#    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+#    Accept-Encoding: gzip, deflate, br
+#    Origin: https://www.hctestedu.com
+#    Connection: keep-alive
+#    Referer: https://www.hctestedu.com/
+#    Sec-Fetch-Dest: empty
+#    Sec-Fetch-Mode: cors
+#    Sec-Fetch-Site: cross-site
+#  params:
+#    sign: 3a7c4130f1267d9a616731cd16094580
+#    t: 65e4e9f0
+#    us: UxmeSkQUnU
+#  save_file: 522ff1e0vodcq1252524126.mp4
+#  save_path: 522ff1e0vodcq1252524126
+
+#-
+#  url: https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/7c878a9d1397757885878424353/playlist_eof.m3u8
+#  headers:
+#    Host: encrypt-k-vod.xet.tech
+#    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+#    Accept: '*/*'
+#    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+#    Accept-Encoding: gzip, deflate, br
+#    Origin: https://www.hctestedu.com
+#    Connection: keep-alive
+#    Referer: https://www.hctestedu.com/
+#    Sec-Fetch-Dest: empty
+#    Sec-Fetch-Mode: cors
+#    Sec-Fetch-Site: cross-site
+#  params:
+#    sign: 8da442c86fb09998bbe5c2558577090b
+#    t: 65e5217d
+#    us: jMLiKtHook
+#  save_file: "从0到1落地接口自动化架构 - Postman+Jenkins+Allure.mp4"
+
+#-
+#  url: https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/b2ff74951397757885831527910/playlist_eof.m3u8
+#  headers:
+#    Host: encrypt-k-vod.xet.tech
+#    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+#    Accept: '*/*'
+#    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+#    Accept-Encoding: gzip, deflate, br
+#    Origin: https://www.hctestedu.com
+#    Connection: keep-alive
+#    Referer: https://www.hctestedu.com/
+#    Sec-Fetch-Dest: empty
+#    Sec-Fetch-Mode: cors
+#    Sec-Fetch-Site: cross-site
+#  params:
+#    sign: 2fdeb896a77a04c114f51ad76158e70a
+#    t: 65e527de
+#    us: HIePyNIpHo
+#  save_file: "字节跳动21K面试 - 性能测试4道灵魂拷问题.mp4"
+#  save_path: b2ff74951397757885831527910
+
+#-
+#  url: https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/83b9bebd1397757885963402794/playlist.f3.m3u8
+#  headers:
+#    Host: encrypt-k-vod.xet.tech
+#    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+#    Accept: '*/*'
+#    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+#    Accept-Encoding: gzip, deflate, br
+#    Origin: https://www.hctestedu.com
+#    Connection: keep-alive
+#    Referer: https://www.hctestedu.com/
+#    Sec-Fetch-Dest: empty
+#    Sec-Fetch-Mode: cors
+#    Sec-Fetch-Site: cross-site
+#  params:
+#    sign: 7d5f13047fff51e3009eb537c41cc8e7
+#    t: 65e53f63
+#    us: zegQnSVPcf
+#  save_file: "测试开发实战课 - APP性能测试工具开发.mp4"
+#  save_path: 83b9bebd1397757885963402794

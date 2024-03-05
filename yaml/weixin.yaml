@@ -1,4 +1,6 @@
-- name: 登录接口
+- epic: 公共接口
+  feature: 用户
+  story: 登录接口
   url: /cgi-bin/token
   method: get
   headers:
@@ -12,7 +14,9 @@
 #    appid: wxf9f152aece2b88ff
 #    secret: e531b9dfc90f4ed8116375132fdb2aa9
 
-- name: 获取ip接口
+- epic: 公共接口
+  feature: 网络
+  story: 获取ip接口
   url: /cgi-bin/get_api_domain_ip
   method: get
   headers:
@@ -22,7 +26,9 @@
   params:
     access_token: ${access_token}
 
-- name: 获取客服列表
+- epic: 微信接口
+  feature: 客服
+  story: 获取客服列表
   url: /cgi-bin/customservice/getkflist
   method: get
   headers:
@@ -32,7 +38,9 @@
   params:
     access_token: ${access_token}
 
-- name: 上传文件
+- epic: 微信接口
+  feature: 文件
+  story: 上传文件
   url: /cgi-bin/media/uploadimg
   method: post
   headers:
@@ -43,3 +51,6 @@
     access_token: ${access_token}
   files:
     media: 'D:\backup\489pm2.jpg'
+  validate:
+    contains:
+      message: "url"

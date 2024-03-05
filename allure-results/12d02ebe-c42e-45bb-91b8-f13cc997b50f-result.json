@@ -1,0 +1,77 @@
+{
+  "name": "test_04_upload[args0]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "8f2d0705-70ad-43d9-9ffe-7a245f3d58d7-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "args",
+      "value": "{'epic': '微信接口', 'feature': '文件', 'story': '上传文件', 'url': '/cgi-bin/media/uploadimg', 'method': 'post', 'headers': {'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0', \"Accept'\": '*/*'}, 'params': {'access_token': '${access_token}'}, 'files': {'media': 'D:\\\\backup\\\\489pm2.jpg'}, 'validate': {'contains': {'message': 'url'}}}"
+    }
+  ],
+  "start": 1709391443424,
+  "stop": 1709391443967,
+  "uuid": "69682173-b39e-4b44-80ae-6da5b4f5a530",
+  "historyId": "7cf7d864c435b33c963fcda50b518bec",
+  "testCaseId": "2efd22dc6b22516d975076b850cdff32",
+  "fullName": "test_case.test_weixin_api.TestWeixinApi#test_04_upload",
+  "labels": [
+    {
+      "name": "epic",
+      "value": "微信接口"
+    },
+    {
+      "name": "feature",
+      "value": "文件"
+    },
+    {
+      "name": "story",
+      "value": "上传文件"
+    },
+    {
+      "name": "feature",
+      "value": "基础模块"
+    },
+    {
+      "name": "epic",
+      "value": "微信公众号接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_case"
+    },
+    {
+      "name": "suite",
+      "value": "test_weixin_api"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWeixinApi"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5363R0G"
+    },
+    {
+      "name": "thread",
+      "value": "9724-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_case.test_weixin_api"
+    }
+  ]
+}

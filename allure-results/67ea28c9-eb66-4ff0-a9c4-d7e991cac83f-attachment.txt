@@ -1,9 +1,0 @@
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:24 
-
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:25 ---------接口测试开始----------
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:26 接口地址 https://api.weixin.qq.com/cgi-bin/media/uploadimg?access_token=78_l1pauRVCyKWNOV9Qr3x6Hzq4OQXAeP23UsgL-vVEiO49ns9-r0YzL1ZftZyOwHRYf9NECEEou6y5MJjONswzcP4f3ipywzSwmMN9AJywc82KDZstvbSYx4nS-B8HCIaAGADYE
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:27 请求方式 post
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:33 请求files {'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:37 接口返回：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRRPib0XWHCyHicDYxX4Ptnft1PribNf32A4gqEdAqBGY4pJMPBLiaglA6mibNs8rQictVOp4vtjtnoergHw\/0"}
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:38 ---------接口测试结束----------
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-01.log:send_request.py:39
