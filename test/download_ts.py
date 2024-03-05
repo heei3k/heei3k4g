@@ -13,6 +13,7 @@ import re
 import requests
 from Crypto.Cipher import AES
 
+from common.debug_talk import DebugTalk
 from common.setting import ensure_path_sep, fix_full_path
 from logging_tool.log_control import LogHandler
 from utils.request_util import RequestUtil
@@ -104,7 +105,7 @@ class DownloadAndCombineTs:
 
     def combine_ts(self):
         if self.save_file is None:
-            self.save_file = rand_chars() + 'output.mp4'
+            self.save_file = DebugTalk.rand_chars() + 'output.mp4'
         start = datetime.datetime.now()
         self.log_handler.logger.info(f'开始合成，初始时间为:{start}')
         ffmpeg_bin_dic = r"D:/PROGRA~1/ffmpeg/bin/"

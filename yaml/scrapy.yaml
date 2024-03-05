@@ -1,3 +1,27 @@
+- url: "https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/1a43fd02388912589319982503/playlist_eof.m3u8?sign=2257e617737d25c9853daaaee036e2d2&t=65e72ced&us=zcyAdpGQKG"
+  headers:
+    Host: encrypt-k-vod.xet.tech
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+    Accept: '*/*'
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Origin: https://www.hctestedu.com
+    Connection: keep-alive
+    Referer: https://www.hctestedu.com/
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: cross-site
+  params:
+    sign: 2257e617737d25c9853daaaee036e2d2
+    t: 65e72ced
+    us: zcyAdpGQKG
+  save_file: "性能测试调优实操电商项目秒杀活动接口性能调优设计.mp4"
+  save_path: D:\Download\export_data\1a43fd02388912589319982503
+  save_id: 1a43fd02388912589319982503
+  re_expression: "(.*ts.*)"
+  split_chars: "playlist"
+#  encrypt_key: e414dce3e91040d0
+
 - url: https://v-vod-k.xiaoeknow.com/a8307e36f7a64aeeae086cc157bb356b/appi1Q1B9A05586/video/b_u_62cc1688aaa20_xW76uKGF/llq8rlfm017f/drm/main.m3u8
   headers:
     Host: v-vod-k.xiaoeknow.com

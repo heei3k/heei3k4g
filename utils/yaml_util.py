@@ -36,7 +36,10 @@ def read_yaml(file_path=default_filepath, key=None, is_dict=False, index=None):
             if index is not None and isinstance(index, int) and index >= 0 and index < len(data):
                 # 这里如果列表元素是字典的话，返回的元素要转换成列表，则能被pytest.mark.parametrize作为参数调用
                 if key:
-                    return data[index][key]
+                    if key in data[index]:
+                        return data[index][key]
+                    else:
+                        return None
                 else:
                     return [{key: value for key, value in data[index].items()}]
             elif index is None:
