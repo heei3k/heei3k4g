@@ -42,7 +42,9 @@ def read_yaml(file_path=default_filepath, key=None, is_dict=False, index=None):
                         return None
                 else:
                     return [{key: value for key, value in data[index].items()}]
-            elif index is None:
+            elif index is None and key:
+                return data[0][key]
+            elif index is None and key is None:
                 return data
             else:
                 ERROR.logger.error("索引无效")
@@ -62,6 +64,25 @@ def write_yaml(file_path=default_filepath, data=None):
         WARNING.logger.warning("写入数据为空")
     # else:
     #     ERROR.logger.error(f"文件{file_path}不存在")
+
+
+def update_yaml(file_path=default_filepath, key=None, value=None):
+    if ":" not in file_path:
+        file_path = os.path.join(yaml_dir, file_path)
+    if not os.path.exists(file_path):
+        open(file_path, mode="w")
+    with open(file_path, mode="r") as f:
+        data = yaml.safe_load(f)
+    if data:
+        data[key] = value
+    else:
+        data = {key: value}
+    with open(file_path, 'w') as file:
+        yaml.dump(data, file)
+
+
+
+
 
 
 def read_config_yaml(key=None, is_dict=None):
@@ -97,7 +118,6 @@ def clear_yaml(file_path=default_filepath):
 def read_extract_yaml(key=None, is_dict=None):
     return read_yaml(file_path=default_filepath, key=key, is_dict=is_dict)
 
-# if __name__ == '__main__':
-    # print(read_yaml("weixin.yaml",index=3))
-# ts_number_yaml=os.path.join(yaml_dir, "ts_number.yaml")
-# print(write_yaml(ts_number_yaml,data={"ts_number":145}))
+
+if __name__ == '__main__':
+    print(read_yaml("scrapy_pic.yaml", index=1))

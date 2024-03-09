@@ -11,13 +11,14 @@ import os
 import re
 
 import requests
+import urllib3
 from Crypto.Cipher import AES
 
 from common.debug_talk import DebugTalk
 from common.setting import ensure_path_sep, fix_full_path
 from logging_tool.log_control import LogHandler
 from utils.request_util import RequestUtil
-from utils.yaml_util import read_yaml, write_yaml, clear_yaml
+from utils.yaml_util import read_yaml, update_yaml
 
 
 class DownloadAndCombineTs:
@@ -59,10 +60,10 @@ class DownloadAndCombineTs:
             self.log_handler.logger.error("正则匹配错误为{e}")
             return
 
-        self.log_handler.logger.info(f"返回消息的ts数量为{len(indexs_list)}")
+        index_number = len(indexs_list)
+        self.log_handler.logger.info(f"返回消息的ts数量为{index_number}")
         yaml_path = fix_full_path(self.save_id + "ts_number.yaml", self.save_path)
-        clear_yaml(yaml_path)
-        write_yaml(yaml_path, data={"ts_number": len(indexs_list)})
+        update_yaml(yaml_path, key="ts_number", value=index_number)
         split_chars = read_yaml("scrapy.yaml", key="split_chars", index=0)
         if split_chars:
             url = url.split(split_chars)[0]
@@ -75,17 +76,38 @@ class DownloadAndCombineTs:
             cryptor = AES.new(key, AES.MODE_CBC, key)
         self.log_handler.logger.info(f"加密码为{key}")
 
-        for i in range(0, len(indexs_list)):
-            uri = url + indexs_list[i]
-            self.log_handler.logger.info(f"开始下载链接{uri}的ts文件")
-            res = session.request(method="get", url=uri, headers=headers)
-            ts_data = res.content
-            with open(f'{self.save_path}/{i}.ts', 'wb') as fp:
-                if key:
-                    fp.write(cryptor.decrypt(ts_data))
-                else:
-                    fp.write(ts_data)
-                self.log_handler.logger.info(f'{i}.ts下载完成！！')
+        downloaded_number = read_yaml(yaml_path, "downloaded")
+
+        self.log_handler.logger.info(f"已下载了{downloaded_number}个文件")
+
+        if downloaded_number is None:
+            downloaded_number = 0
+
+        while downloaded_number < index_number:
+            for i in range(downloaded_number, len(indexs_list)):
+                uri = url + indexs_list[i]
+                self.log_handler.logger.info(f"开始下载链接{uri}的ts文件")
+                try:
+                    res = session.request(method="get", url=uri, headers=headers)
+                    ts_data = res.content
+                    with open(f'{self.save_path}/{i}.ts', 'wb') as fp:
+                        if key:
+                            fp.write(cryptor.decrypt(ts_data))
+                        else:
+                            fp.write(ts_data)
+                        downloaded_number += 1
+                        update_yaml(yaml_path, key="downloaded", value=downloaded_number)
+                        self.log_handler.logger.info(f'{i}.ts下载完成！！')
+                except ConnectionResetError as e:
+                    self.log_handler.logger.error(f'下载中断，服务器返回错误{e}')
+                    break
+                except requests.exceptions.ChunkedEncodingError as e:
+                    self.log_handler.logger.error(f'下载中断，服务器返回错误{e}')
+                    break
+                except urllib3.exceptions.ProtocolError as e:
+                    self.log_handler.logger.error(f'下载中断，服务器返回错误{e}')
+                    break
+
 
     def write_text(self):
         file_names = os.listdir(self.save_path)
@@ -127,7 +149,9 @@ class DownloadAndCombineTs:
 
 
 if __name__ == '__main__':
-    dact = DownloadAndCombineTs()
-    dact.download()
-    dact.write_text()
-    dact.combine_ts()
+    # dact = DownloadAndCombineTs()
+    # dact.download()
+    # dact.write_text()
+    # dact.combine_ts()
+    url = b"4gbfsfND3d0SQZkMiavp_1f96VmM0yqtZWe5YbL6mFO7CCI686QPGBB744PzjkSmLyQLn1IJ68aCWKSn2cEv6VFVRmajy_GZu7yZpbaQ1cjRReVA1tagjl4bWojfJXi9rjFOZmNzD1i1u6WmUFi-JAEDpuTF55cb"
+    print(url.decode())

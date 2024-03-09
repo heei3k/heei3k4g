@@ -36,7 +36,7 @@ class DebugTalk:
 
     @staticmethod
     def get_milliseconds():
-        return (round(time.time()))
+        return (round(time.time() * 1000))
 
     # MD5加密
     @staticmethod
@@ -56,9 +56,15 @@ class DebugTalk:
         return random_chars
 
 if __name__ == '__main__':
-    print(DebugTalk.get_date_time())
+    # print(DebugTalk.get_date_time())
+    #
+    # TOKEN = "debugtalk"
+    # data = '{"name": "user", "password": "123456"}'
+    # random = "A2dEx"
+    # print(read_yaml(key="access_token"))
 
-    TOKEN = "debugtalk"
-    data = '{"name": "user", "password": "123456"}'
-    random = "A2dEx"
-    print(read_yaml(key="access_token"))
+    url = 'NVPh5oo715z5DIWAeQlhMDsWXXQV4hwtappid=1014clienttime=1709803031clientver=1000dfid=2C7Y9Y3LDffe1ezZnb2bIOWzmid=084a8e74c44d3bd8d38d958c2ffe278bsrcappid=2919uuid=1709803030949{"userid":0,"plat":103,"m_type":0,"vip_type":0,"own_ads":{}}NVPh5oo715z5DIWAeQlhMDsWXXQV4hwt'
+    url_byte = url.encode()
+    print(url_byte)
+
+    print(DebugTalk.gen_md5(url))

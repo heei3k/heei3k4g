@@ -1,0 +1,30 @@
+- url: https://699pic.com/photo-149555-0-new-all-0-all-all-2-0-0-0-0-0-0-all-has-all-2-0.html
+  headers:
+    #    Host: 699pic.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Referer: https://699pic.com/photo/
+    Connection: keep-alive
+    Cookie: PHPSESSID=11c7c287fdf5fd17ce00562868d6534e; uniqid=65ea856e4baf1; from_data=YTo4OntzOjQ6Imhvc3QiO3M6MTU6Ind3dy5kcmVhbWFydC5jbiI7czozOiJzZW0iO2I6MDtzOjEwOiJzb3VyY2Vmcm9tIjtpOjA7czo0OiJ3b3JkIjtOO3M6Mzoia2lkIjtpOjA7czo4OiJzZW1fdHlwZSI7aTowO3M6NDoiZnJvbSI7aTowO3M6NjoiY3JlYXRlIjtzOjE5OiIyMDI0LTAzLTA4IDExOjI2OjM4Ijt9; channel_info_reg=d3d3LmRyZWFtYXJ0LmNu; channel_info=d3d3LmRyZWFtYXJ0LmNu; act_layer_1=A; act_layer_2=B; act_layer_3=A; act_layer_4=A; act_layer_5=C; act_layer_6=B; act_layer_7=B; act_layer_9=B; act_layer_10=B; act_layer_11=B; referer_page=detail:index_1; visited_times=4; user_uniqid=B7B9D20674313EE5; redirect=https%3A%2F%2F699pic.com%2Ftupian-507713086.html; slotMachine1100=1; _ga_7L5KKYEJS9=GS1.1.1709868400.1.1.1709868530.0.0.0; _ga=GA1.1.17949330.1709868400; _clck=z2y6va%7C2%7Cfjw%7C0%7C1528; s_token=f10fe29174a00ff8fb2288ddeaccab55; FIRSTVISITED=1709868401.17; Hm_lvt_ddcd8445645e86f06e172516cac60b6a=1709868402; Hm_lpvt_ddcd8445645e86f06e172516cac60b6a=1709868424; Hm_lvt_e37e21a48e66c7bbb5d74ea6f717a49c=1709868402; Hm_lpvt_e37e21a48e66c7bbb5d74ea6f717a49c=1709868402; Hm_lvt_1154154465e0978ab181e2fd9a9b9057=1709868402; Hm_lpvt_1154154465e0978ab181e2fd9a9b9057=1709868424; _clsk=1eo9x58%7C1709878486527%7C6%7C1%7Cs.clarity.ms%2Fcollect; index-collectHInt=1; loginboxClose=3; login_view=1; enterDetailDown=0; xsj_redirect=https%3A%2F%2Fxsj.699pic.com%2Fsearch%2FgetKwInfo%3Fcallback%3DjQuery35107812484331223198_1709868422903%26kw%3D%25E6%259F%2594%25E7%25BE%258E%25E5%25A5%25B3%25E6%2580%25A7%25E8%25B5%25B0%25E5%259C%25A8%25E8%2596%25B0%25E8%25A1%25A3%25E8%258D%2589%25E8%258A%25B1%25E7%2594%25B0%25E5%2594%25AF%25E7%25BE%258E%25E8%2583%258C%25E5%25BD%25B1%26_%3D1709868422905; xsj_channel_info_reg=Njk5cGljLmNvbQ%3D%3D; xsj_channel_info=Njk5cGljLmNvbQ%3D%3D; xsj_from_data=YTo1OntzOjQ6Imhvc3QiO3M6MTA6IjY5OXBpYy5jb20iO3M6Mzoic2VtIjtpOjA7czoxMDoic291cmNlZnJvbSI7aTowO3M6Mzoia2lkIjtpOjA7czo4OiJzZW1fdHlwZSI7aTowO30%3D
+    Upgrade-Insecure-Requests: '1'
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: '?1'
+  save_path: D:\Download\export_data\pic\nvxingbeijing\
+
+- headers:
+    #    Host: img95.699pic.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Connection: keep-alive
+    Cookie: uniqid=65ea856e4baf1; from_data=YTo4OntzOjQ6Imhvc3QiO3M6MTU6Ind3dy5kcmVhbWFydC5jbiI7czozOiJzZW0iO2I6MDtzOjEwOiJzb3VyY2Vmcm9tIjtpOjA7czo0OiJ3b3JkIjtOO3M6Mzoia2lkIjtpOjA7czo4OiJzZW1fdHlwZSI7aTowO3M6NDoiZnJvbSI7aTowO3M6NjoiY3JlYXRlIjtzOjE5OiIyMDI0LTAzLTA4IDExOjI2OjM4Ijt9; act_layer_1=A; act_layer_2=B; act_layer_3=A; act_layer_4=A; act_layer_5=C; act_layer_6=B; act_layer_7=B; act_layer_9=B; act_layer_10=B; act_layer_11=B; redirect=https%3A%2F%2F699pic.com%2Ftupian-507713086.html; _ga_7L5KKYEJS9=GS1.1.1709878495.2.1.1709879980.0.0.0; _ga=GA1.1.17949330.1709868400; _clck=z2y6va%7C2%7Cfjw%7C0%7C1528; s_token=f10fe29174a00ff8fb2288ddeaccab55; FIRSTVISITED=1709868401.17; Hm_lvt_ddcd8445645e86f06e172516cac60b6a=1709868402; Hm_lpvt_ddcd8445645e86f06e172516cac60b6a=1709879871; Hm_lvt_e37e21a48e66c7bbb5d74ea6f717a49c=1709868402; Hm_lpvt_e37e21a48e66c7bbb5d74ea6f717a49c=1709868402; Hm_lvt_1154154465e0978ab181e2fd9a9b9057=1709868402; Hm_lpvt_1154154465e0978ab181e2fd9a9b9057=1709879871; _clsk=1eo9x58%7C1709879894989%7C13%7C1%7Cs.clarity.ms%2Fcollect; login_view=1; xsj_redirect=https%3A%2F%2Fxsj.699pic.com%2Fsearch%2FgetKwInfo%3Fcallback%3DjQuery35107812484331223198_1709868422903%26kw%3D%25E6%259F%2594%25E7%25BE%258E%25E5%25A5%25B3%25E6%2580%25A7%25E8%25B5%25B0%25E5%259C%25A8%25E8%2596%25B0%25E8%25A1%25A3%25E8%258D%2589%25E8%258A%25B1%25E7%2594%25B0%25E5%2594%25AF%25E7%25BE%258E%25E8%2583%258C%25E5%25BD%25B1%26_%3D1709868422905; xsj_channel_info_reg=Njk5cGljLmNvbQ%3D%3D; xsj_channel_info=Njk5cGljLmNvbQ%3D%3D; xsj_from_data=YTo1OntzOjQ6Imhvc3QiO3M6MTA6IjY5OXBpYy5jb20iO3M6Mzoic2VtIjtpOjA7czoxMDoic291cmNlZnJvbSI7aTowO3M6Mzoia2lkIjtpOjA7czo4OiJzZW1fdHlwZSI7aTowO30%3D
+    Upgrade-Insecure-Requests: '1'
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: none
+    Sec-Fetch-User: '?1'

@@ -17,7 +17,6 @@ def ensure_path_sep(path: Text) -> Text:
 
         if "\\" in path:
             path = os.sep.join(path.split("\\"))
-
         if path.startswith("\\"):
             return path[1:]
         elif path.startswith(".\\"):

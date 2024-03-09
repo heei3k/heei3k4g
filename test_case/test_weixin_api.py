@@ -67,9 +67,11 @@ class TestWeixinApi:
     # story_d = "上传文件"
 
     # @allure.story("登录接口")
-    # @allure.story("测试登录接口")
+    # 可以将参数传给title
+    @allure.title("动态标题{param1} + {param2} = {expected}")
     @pytest.mark.parametrize('args', read_yaml("weixin.yaml", index=0))
-    def test_01_login(self, args):
+    @pytest.mark.parametrize('param1,param2,expected', [(2, 2, 4), (1, 2, 5)])
+    def test_01_login(self, args, param1, param2, expected):
         allure.dynamic.epic(args['epic'])
         allure.dynamic.feature(args['feature'])
         allure.dynamic.story(args['story'])

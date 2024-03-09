@@ -83,19 +83,18 @@ class RequestUtil:
                 files[key] = open(path, 'rb')
         self.last_files = files
 
-
-        INFO.logger.info(f"接口请求地址：{self.last_url}")
-        INFO.logger.info(f"接口请求方式：{self.last_method}")
+        INFO.logger.info(f"https请求地址：{self.last_url}")
+        INFO.logger.info(f"https请求方式：{self.last_method}")
         if self.last_headers:
-            INFO.logger.info(f"接口请求头：{self.last_headers}")
+            INFO.logger.info(f"https请求头：{self.last_headers}")
         if self.last_data:
-            INFO.logger.info(f"接口请求数据：{self.last_data}")
+            INFO.logger.info(f"https请求数据：{self.last_data}")
         if self.last_params:
-            INFO.logger.info(f"接口请求参数：{self.last_params}")
+            INFO.logger.info(f"https请求参数：{self.last_params}")
         if self.last_json:
-            INFO.logger.info(f"接口请求json：{self.last_json}")
+            INFO.logger.info(f"https请求json：{self.last_json}")
         if self.last_files:
-            INFO.logger.info(f"接口请求文件：{self.last_files}")
+            INFO.logger.info(f"https请求文件：{self.last_files}")
 
         # 判断是否开启fiddler抓包，开启时需要打开代理
         if proxies:
@@ -136,7 +135,7 @@ class RequestUtil:
                 except JSONDecodeError as e:
                     res_text = response.text
                 if 'errcode' not in response.text:
-                    INFO.logger.info("接口返回正常，返回消息：" + response.text)
+                    INFO.logger.info("https返回正常，返回消息：" + response.text)
                     if is_save:
                         if res_json:
                             # 使用文件保存中间变量
@@ -148,11 +147,11 @@ class RequestUtil:
                     # DEBUG.logger.debug("错误响应：" + response.text)
                     pass
                 else:
-                    ERROR.logger.error("接口返回错误，返回消息：" + response.text)
+                    ERROR.logger.error("https返回错误，返回消息：" + response.text)
             else:
-                ERROR.logger.error("接口返回为空")
+                ERROR.logger.error("https返回为空")
         else:
-            ERROR.logger.error("接口返回异常，错误码：" + str(response.status_code))
+            ERROR.logger.error("https返回异常，错误码：" + str(response.status_code))
 
         if res_json:
             return res_json
