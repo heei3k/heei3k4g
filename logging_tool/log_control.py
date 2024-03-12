@@ -7,8 +7,7 @@ from logging import handlers
 from typing import Text
 
 import colorlog
-
-from common.setting import ensure_path_sep, fix_full_path
+from common.setting import fix_full_path
 
 
 class LogHandler:
@@ -53,7 +52,7 @@ class LogHandler:
         # 把对象加到logger里
         self.logger.addHandler(screen_output)
         self.logger.addHandler(time_rotating)
-        self.log_path = ensure_path_sep('\\logs\\log.log')
+        # self.log_path = ensure_path_sep('\\logs\\log.log')
 
     @classmethod
     def log_color(cls):
@@ -79,5 +78,5 @@ ERROR = LogHandler(fix_full_path(f"\\logs\\error-{now_time_day}.log"), level='er
 WARNING = LogHandler(fix_full_path(f'\\logs\\warning-{now_time_day}.log'), level='warning')
 DEBUG = LogHandler(fix_full_path(f'\\logs\\debug-{now_time_day}.log'), level='debug')
 
-if __name__ == '__main__':
-    ERROR.logger.error(time.localtime())
+# if __name__ == '__main__':
+#     ERROR.logger.error(time.localtime())

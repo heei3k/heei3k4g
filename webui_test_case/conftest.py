@@ -26,26 +26,19 @@ from utils.yaml_util import clear_yaml
 
 @pytest.fixture(scope="session", autouse=True)
 def exc_log():
+    # DEBUG.logger.debug("---------接口测试开始----------")
     INFO.logger.info("\n")
     INFO.logger.info("---------接口测试开始----------")
+    clear_yaml()
+    INFO.logger.info("---------extract.yaml文件已清空----------")
     yield
     INFO.logger.info("---------接口测试结束----------")
     INFO.logger.info("\n")
 
-
-@pytest.fixture(scope="session", autouse=True)
-def clears():
-    # current_file = __file__  # 获取当前执行的文件名（包括后缀）
-    # current_dir = os.path.dirname(current_file)  # 获取当前执行的文件所在目录
-    # file_path = os.path.join(current_dir, 'extract.yaml')
-    clear_yaml()
-    INFO.logger.info("---------extract.yaml文件已清空----------")
-
-
-@pytest.fixture(scope="function", autouse=True)
-def login():
-    # current_file = __file__  # 获取当前执行的文件名（包括后缀）
-    # current_dir = os.path.dirname(current_file)  # 获取当前执行的文件所在目录
-    # file_path = os.path.join(current_dir, 'extract.yaml')
-    clear_yaml()
-    INFO.logger.info("---------extract.yaml文件已清空----------")
+# @pytest.fixture(scope="function", autouse=True)
+# def login():
+#     # current_file = __file__  # 获取当前执行的文件名（包括后缀）
+#     # current_dir = os.path.dirname(current_file)  # 获取当前执行的文件所在目录
+#     # file_path = os.path.join(current_dir, 'extract.yaml')
+#     clear_yaml()
+#     INFO.logger.info("---------extract.yaml文件已清空----------")

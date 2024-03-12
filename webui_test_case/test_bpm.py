@@ -6,7 +6,8 @@
 # @Contact : heei3k@hotmail.com
 # @File    : test_bpm.py
 # @Software: PyCharm
-
+import os
+import sys
 import time
 
 import pytest
@@ -15,13 +16,23 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 
-from log_control import LogHandler
+# from selenium.webdriver.remote.remote_connection import LOGGER
 
+# from log_control import INFO
+
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+
+
+# # 关闭Selenium的日志记录
+# LOGGER.setLevel(logging.WARNING)
 
 class TestBpm:
 
     def test_login(self):
-        self.log_handler = LogHandler(r'D:\Download\export_data\log\test_bpm.log', level='info')
+        # self.log_handler=LogHandler(r'D:\Download\export_data\log\test_bpm.log', level='info')
+
         binary_path = (r'C:\Program Files\Mozilla Firefox\firefox.exe')
         ops = Options()
         ops.binary_location = binary_path
@@ -45,6 +56,6 @@ class TestBpm:
         time.sleep(10)
         wd.quit()
 
-
 if __name__ == '__main__':
     pytest.main()
+
