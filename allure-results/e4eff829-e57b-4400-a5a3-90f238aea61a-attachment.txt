@@ -1,9 +1,0 @@
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:81 
-
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:82 ---------接口测试开始----------
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:83 接口请求地址：https://api.weixin.qq.com/cgi-bin/token
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:84 接口请求方式：get
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:90 接口请求参数：{'grant_type': 'client_credential', 'appid': 'wxf9f152aece2b88ff', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:127 接口返回正常，返回消息：{"access_token":"78_w15rxEkf2iTS1tbVNXIlWibLzZiNyYnE1Mh6YDin-OgJaIAnN1QEoyqXagWIsbN2rbwgZfbSGe5CstoZQAkexEJVrL3GF1049ZTeqJgXRF5NpAuItrTkBP8AE9kODBfAEAYNL","expires_in":7200}
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:141 ---------接口测试结束----------
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:142

@@ -16,4 +16,4 @@ if __name__ == '__main__':
     pytest.main()
     time.sleep(3)
     # os.system("pytest --alluredir =./allure-results")
-    os.system("allure serve ./allure-results --clean")
+    os.system("allure serve D:/PycharmProjects/heei3k/allure-results --clean")

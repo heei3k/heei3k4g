@@ -1,9 +1,0 @@
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:81 
-
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:82 ---------接口测试开始----------
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:83 接口请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:84 接口请求方式：get
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:90 接口请求参数：{'access_token': '78_w15rxEkf2iTS1tbVNXIlWibLzZiNyYnE1Mh6YDin-OgJaIAnN1QEoyqXagWIsbN2rbwgZfbSGe5CstoZQAkexEJVrL3GF1049ZTeqJgXRF5NpAuItrTkBP8AE9kODBfAEAYNL'}
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:127 接口返回正常，返回消息：{"kf_list":[]}
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:141 ---------接口测试结束----------
-INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-02.log:request_util.py:142

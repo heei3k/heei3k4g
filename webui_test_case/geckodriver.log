@@ -56,3 +56,210 @@ JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav.j
 @http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav.js:175:14
 
 Dynamically enable window occlusion 1
+1709982837780	geckodriver	INFO	Listening on 127.0.0.1:57740
+1709982840852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57741" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofiledTYj5n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709982841281	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709982841379	Marionette	INFO	Listening on port 57748
+Read port: 57748
+WebDriver BiDi listening on ws://127.0.0.1:57741
+1709982841438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57741/devtools/browser/a9af1739-38f2-4c64-8ee1-6871f7a03165
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709982840326_180.110.186.145$fa4c88548efe7762703879ac3df0f50fL{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_plus/jqueryUI/jquery-1.3.1.min.js, line 19: unreachable code after return statement
+1709982856609	Marionette	INFO	Stopped listening on port 57748
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_js/extjs2/ext-all.js, line 12: Script terminated by timeout at:
+fireEvent@http://bpm.certusnet.com.cn/portal/aws_js/extjs2/ext-all.js:12:327
+request@http://bpm.certusnet.com.cn/portal/aws_js/extjs2/ext-all.js:17:305
+executionLogoutSystem@http://bpm.certusnet.com.cn/portal/aws_js/bottom.js:22:11
+@http://bpm.certusnet.com.cn/portal/aws_js/bottom.js:11:1
+
+Dynamically enable window occlusion 1
+1709982891388	geckodriver	INFO	Listening on 127.0.0.1:57802
+1709982894475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57803" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofilekawep9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709982894830	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709982894920	Marionette	INFO	Listening on port 57811
+WebDriver BiDi listening on ws://127.0.0.1:57803
+Read port: 57811
+1709982895093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57803/devtools/browser/5376420c-3f6c-4d2d-8655-86bf7da5708e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709982893662_180.110.186.145$fa4c88548ef9473a10fe9eabcf3d0015L{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+1709982898712	Marionette	INFO	Stopped listening on port 57811
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1709982898783	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 47"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:47
+destroy()@Session.sys.mjs:239
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:570
+1709982914943	geckodriver	INFO	Listening on 127.0.0.1:57843
+1709982918012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57844" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofilexs5lKD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709982918320	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709982918415	Marionette	INFO	Listening on port 57853
+WebDriver BiDi listening on ws://127.0.0.1:57844
+Read port: 57853
+1709982918570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57844/devtools/browser/9b487a8b-f265-406d-89d0-54487aea61b5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709982917561_180.110.186.145$fa4c88548ef9a2dd6896fb9967fa414eL{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_plus/jqueryUI/jquery-1.3.1.min.js, line 19: unreachable code after return statement
+1709982926307	Marionette	INFO	Stopped listening on port 57853
+Dynamically enable window occlusion 1
+1709990507783	geckodriver	INFO	Listening on 127.0.0.1:59695
+1709990510821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59696" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofilenxBSJs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709990511347	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709990511503	Marionette	INFO	Listening on port 59704
+WebDriver BiDi listening on ws://127.0.0.1:59696
+Read port: 59704
+1709990511775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59696/devtools/browser/a55d5702-b9ed-4d39-90d7-674f4cf52780
+1709990515927	Marionette	INFO	Stopped listening on port 59704
+Dynamically enable window occlusion 1
+1709990856024	geckodriver	INFO	Listening on 127.0.0.1:59814
+1709990859077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofileqPiqjm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709990859417	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709990859520	Marionette	INFO	Listening on port 59824
+WebDriver BiDi listening on ws://127.0.0.1:59815
+Read port: 59824
+1709990859715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59815/devtools/browser/57dbaac3-856f-4188-917d-4acc14bb4d40
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709990856774_180.110.186.145$fa4c88548f70c92236b83fe795d6b14fL{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_plus/jqueryUI/jquery-1.3.1.min.js, line 19: unreachable code after return statement
+1709990865069	Marionette	INFO	Stopped listening on port 59824
+Dynamically enable window occlusion 1
+1709990879104	geckodriver	INFO	Listening on 127.0.0.1:59858
+1709990882162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofileyiHHUi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709990882473	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709990882560	Marionette	INFO	Listening on port 59869
+WebDriver BiDi listening on ws://127.0.0.1:59859
+Read port: 59869
+1709990882720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59859/devtools/browser/e4d10b9f-c407-4259-8afd-12f1938f5b1f
+1709990885471	Marionette	INFO	Stopped listening on port 59869
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1709990896926	geckodriver	INFO	Listening on 127.0.0.1:59897
+1709990899982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59898" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofileVyRIMk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709990900292	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709990900380	Marionette	INFO	Listening on port 59905
+WebDriver BiDi listening on ws://127.0.0.1:59898
+Read port: 59905
+1709990900542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59898/devtools/browser/cf6de86e-8434-4e33-b06b-6d6b845b83de
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709990897490_180.110.186.145$fa4c88548f7366362028977c8acc68cfL{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_plus/jqueryUI/jquery-1.3.1.min.js, line 19: unreachable code after return statement
+1709990911510	Marionette	INFO	Stopped listening on port 59905
+Dynamically enable window occlusion 1
+1709990938734	geckodriver	INFO	Listening on 127.0.0.1:59947
+1709990941801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59948" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofilejawo6R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709990942115	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709990942205	Marionette	INFO	Listening on port 59956
+WebDriver BiDi listening on ws://127.0.0.1:59948
+Read port: 59956
+1709990942364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59948/devtools/browser/230c2203-3151-49ff-b3e8-0feedc0528e0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709990939797_180.110.186.145$fa4c88548f720df150ff172e691de1f2L{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_plus/jqueryUI/jquery-1.3.1.min.js, line 19: unreachable code after return statement
+1709990947683	Marionette	INFO	Stopped listening on port 59956
+Dynamically enable window occlusion 1
+1709991068824	geckodriver	INFO	Listening on 127.0.0.1:60023
+1709991071888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60024" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofileYvVbXv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709991072202	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709991072296	Marionette	INFO	Listening on port 60031
+WebDriver BiDi listening on ws://127.0.0.1:60024
+Read port: 60031
+1709991072431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60024/devtools/browser/1303c1b2-bb46-463a-86cc-6cfd155b01b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709991069293_180.110.186.145$fa4c88548f7c070925fb6d22b4142137L{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_plus/jqueryUI/jquery-1.3.1.min.js, line 19: unreachable code after return statement
+1709991077309	Marionette	INFO	Stopped listening on port 60031
+Dynamically enable window occlusion 1
+1709991574853	geckodriver	INFO	Listening on 127.0.0.1:60263
+1709991577917	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60264" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofileQ8j0Sq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709991578223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709991578309	Marionette	INFO	Listening on port 60271
+WebDriver BiDi listening on ws://127.0.0.1:60264
+Read port: 60271
+1709991578469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60264/devtools/browser/f1ea8c31-4883-43f8-93fa-b52a03edf398
+1709991580776	Marionette	INFO	Stopped listening on port 60271
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1709991782916	geckodriver	INFO	Listening on 127.0.0.1:60338
+1709991785978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Betas\\AppData\\Local\\Temp\\rust_mozprofilesDtKJW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709991786286	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709991786377	Marionette	INFO	Listening on port 60347
+WebDriver BiDi listening on ws://127.0.0.1:60339
+Read port: 60347
+1709991786543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60339/devtools/browser/32841584-f9e5-439a-a744-a0681cce23e5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://bpm.certusnet.com.cn."
+JavaScript error: http://bpm.certusnet.com.cn/portal/aws_skins/_def54/js/nav_config.js, line 68: TypeError: $(...).offset() is null
+JavaScript error: http://bpm.certusnet.com.cn/portal/workflow/login.wf?sid=lih_1709991783447_180.110.186.145$fa4c88548f66ed730684e3c821b7001aL{cn}LC{pc}C&cmd=Navigation_Frame_LeftMenu&systemId=21, line 5: SyntaxError: illegal character U+FFFD
+JavaScript warning: http://bpm.certusnet.com.cn/portal/aws_plus/jqueryUI/jquery-1.3.1.min.js, line 19: unreachable code after return statement
+1709991790937	Marionette	INFO	Stopped listening on port 60347
+Dynamically enable window occlusion 1
