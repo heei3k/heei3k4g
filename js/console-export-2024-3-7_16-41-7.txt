@@ -1,0 +1,36 @@
+鉴于已开启内容拦截功能，而这个请求来自跟踪器，已拦截“<URL>”对 Cookie 或存储空间的访问请求。 12
+某些 Cookie 滥用推荐的“SameSite“属性 12
+源映射错误：request failed with status 404
+源 URL：https://staticssl.kugou.com/common/js/repalceHttpsImg.js
+源映射 URL：replace-https-img.js.map
+源映射错误：request failed with status 404
+源 URL：https://staticssl.kugou.com/common/js/min/infSign.min.js
+源映射 URL：infSign.min.js.map
+源映射错误：request failed with status 404
+源 URL：https://staticssl.kugou.com/common/js/min/npm/getBaseInfo.min.js
+源映射 URL：main.min.js.map
+源映射错误：request failed with status 404
+源 URL：https://www.kugou.com/common/js/jquery.min.js
+源映射 URL：jquery.min.map
+源映射错误：JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+源 URL：https://m.kugou.com/static/js/share/npm/sentry5.6.1.min.js
+源映射 URL：bundle.min.js.map
+即使其 MIME 类型（“application/json”）不是有效的 JavaScript MIME 类型，仍已加载来自“https://serveraddrweb.kugou.com/?appid=88&clientver=10&plats=10015,10016,10017&callback=KgUser.ackCallBackUpdateCookie&clienttime=1709793675”的脚本。 13nn2u0c
+源映射错误：map is undefined
+源 URL：https://staticssl.kugou.com/common/js/min/npm/getBaseInfo.min.js
+源映射 URL：main.min.js.map
+即使其 MIME 类型（“application/json”）不是有效的 JavaScript MIME 类型，仍已加载来自“https://serveraddrweb.kugou.com/?appid=88&clientver=10&plats=10015,10016,10017&callback=KgUser.ackCallBackUpdateCookie&clienttime=1709793675”的脚本。 13nn2u0c
+console.log(t)
+NVPh5oo715z5DIWAeQlhMDsWXXQV4hwtappid=1014clienttime=1709793675clientver=1000dfid=2C7Y9Y3LDffe1ezZnb2bIOWzmid=084a8e74c44d3bd8d38d958c2ffe278bsrcappid=2919uuid=1709793713766{"userid":0,"plat":103,"m_type":0,"vip_type":0,"own_ads":{}}NVPh5oo715z5DIWAeQlhMDsWXXQV4hwt sentry5.6.1.min.js:formatted:3007:41
+undefined
+console.log(t)
+Array(265) [ 78, 86, 80, 104, 53, 111, 111, 55, 49, 53, … ]
+sentry5.6.1.min.js:formatted:3007:41
+undefined
+此网站似乎使用 scroll-linked 定位效果。这可能无法与异步平移一起使用；参见 https://firefox-source-docs.mozilla.org/performance/scroll-linked_effects.html 详细了解，也可加入我们一起讨论相关的工具和功能！ 13nn2u0c
+n.bytesToWords
+function bytesToWords(t)
+
+t
+Array(288) [ 78, 86, 80, 104, 53, 111, 111, 55, 49, 53, … ]
+

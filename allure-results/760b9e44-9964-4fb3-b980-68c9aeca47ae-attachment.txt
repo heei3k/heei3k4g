@@ -1,0 +1,6 @@
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-12.log:conftest.py:30 
+
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-12.log:conftest.py:31 ---------接口测试开始----------
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-12.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-12.log:conftest.py:35 ---------接口测试结束----------
+INFO     D:\PycharmProjects\heei3k\logs\info-2024-03-12.log:conftest.py:36

@@ -1,0 +1,106 @@
+INFO    2024-03-09 21:28:58,627D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:32 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 21:28:58,627D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:32 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 21:28:58,628D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:test_bpm.py:25 
+
+INFO    2024-03-09 21:28:58,628D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:test_bpm.py:25 
+
+INFO    2024-03-09 21:28:58,628D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:test_bpm.py:26 ---------接口测试开始----------
+INFO    2024-03-09 21:28:58,628D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:test_bpm.py:26 ---------接口测试开始----------
+INFO    2024-03-09 21:29:19,754D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:34 ---------接口测试结束----------
+INFO    2024-03-09 21:29:19,754D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:34 ---------接口测试结束----------
+INFO    2024-03-09 21:29:19,755D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 
+
+INFO    2024-03-09 21:29:19,755D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 
+
+INFO    2024-03-09 21:43:02,810D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 21:43:02,810D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 21:43:23,016D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 21:43:23,016D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 21:43:23,016D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
+INFO    2024-03-09 21:43:23,016D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
+INFO    2024-03-09 21:45:27,566D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-09 21:45:27,566D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 21:45:27,567D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'grant_type': 'client_credential', 'appid': 'wxf9f152aece2b88ff', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}
+INFO    2024-03-09 21:45:28,017D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"access_token":"78_FUv8VhmhpaKJKF8h2tE32kOKxONYsYpbaAXX3Ho-1S7zVvW69r2rx9wn4Y8ak5wg1FnIMPmk-akrU9pS1cquz8INyvcbktOmCrMhAhfhJQmbXnahAjJdsOAM5KwZRBiAAAHZJ","expires_in":7200}
+INFO    2024-03-09 21:45:28,025D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-09 21:45:28,026D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 21:45:28,026D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'grant_type': 'client_credential', 'appid': 'wxf9f152aece2b88ff', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}
+INFO    2024-03-09 21:45:28,141D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"access_token":"78_FUv8VhmhpaKJKF8h2tE32kOKxONYsYpbaAXX3Ho-1S7zVvW69r2rx9wn4Y8ak5wg1FnIMPmk-akrU9pS1cquz8INyvcbktOmCrMhAhfhJQmbXnahAjJdsOAM5KwEWUiAAAASQ","expires_in":7199}
+INFO    2024-03-09 21:45:28,149D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-09 21:45:28,150D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 21:45:28,150D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'access_token': '78_FUv8VhmhpaKJKF8h2tE32kOKxONYsYpbaAXX3Ho-1S7zVvW69r2rx9wn4Y8ak5wg1FnIMPmk-akrU9pS1cquz8INyvcbktOmCrMhAhfhJQmbXnahAjJdsOAM5KwEWUiAAAASQ'}
+INFO    2024-03-09 21:45:28,280D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-09 21:45:28,288D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-09 21:45:28,288D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 21:45:28,288D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'access_token': '78_FUv8VhmhpaKJKF8h2tE32kOKxONYsYpbaAXX3Ho-1S7zVvW69r2rx9wn4Y8ak5wg1FnIMPmk-akrU9pS1cquz8INyvcbktOmCrMhAhfhJQmbXnahAjJdsOAM5KwEWUiAAAASQ'}
+INFO    2024-03-09 21:45:28,579D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"kf_list":[]}
+INFO    2024-03-09 21:45:28,586D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-09 21:45:28,586D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：post
+INFO    2024-03-09 21:45:28,586D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'access_token': '78_FUv8VhmhpaKJKF8h2tE32kOKxONYsYpbaAXX3Ho-1S7zVvW69r2rx9wn4Y8ak5wg1FnIMPmk-akrU9pS1cquz8INyvcbktOmCrMhAhfhJQmbXnahAjJdsOAM5KwEWUiAAAASQ'}
+INFO    2024-03-09 21:45:28,586D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:97 https请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-09 21:45:29,258D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRTGzYMtukLJbqM3CtB9cFuCkDeBzfQUufIgopHrUBTu7Ih0JIcxgQaNFNib5q0zsh50Un2yScFWxFQ\/0"}
+INFO    2024-03-09 22:25:54,426D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-09 22:25:54,427D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 22:25:54,427D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'grant_type': 'client_credential', 'appid': 'wxf9f152aece2b88ff', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}
+INFO    2024-03-09 22:25:54,782D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"access_token":"78_t5Utv49l8tbT1CVtN0sRREkPG4hhlc_HC3gQJqYTKJc0fFHupc4Y28vdFCwUWQHB9a4buI3zHeUjhcjdb8MD6o44iNNG6DWWKQQclz6uQ1bNz_DenCnChl5cdvgIXBbAFACRV","expires_in":7200}
+INFO    2024-03-09 22:25:54,789D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/token
+INFO    2024-03-09 22:25:54,789D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 22:25:54,790D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'grant_type': 'client_credential', 'appid': 'wxf9f152aece2b88ff', 'secret': 'e531b9dfc90f4ed8116375132fdb2aa9'}
+INFO    2024-03-09 22:25:54,955D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"access_token":"78_t5Utv49l8tbT1CVtN0sRREkPG4hhlc_HC3gQJqYTKJc0fFHupc4Y28vdFCwUWQHB9a4buI3zHeUjhcjdb8MD6o44iNNG6DWWKQQclz6uQ1bNz_DenCnChl5cdvgJGUbAFAYVJ","expires_in":7200}
+INFO    2024-03-09 22:25:54,963D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/get_api_domain_ip
+INFO    2024-03-09 22:25:54,963D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 22:25:54,963D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'access_token': '78_t5Utv49l8tbT1CVtN0sRREkPG4hhlc_HC3gQJqYTKJc0fFHupc4Y28vdFCwUWQHB9a4buI3zHeUjhcjdb8MD6o44iNNG6DWWKQQclz6uQ1bNz_DenCnChl5cdvgJGUbAFAYVJ'}
+INFO    2024-03-09 22:25:55,095D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"ip_list":["101.89.47.18","101.91.34.103","101.91.37.13","109.244.129.223","109.244.145.152","109.244.184.250","112.53.42.235","112.60.20.154","112.65.193.153","112.90.80.215","116.128.170.42","116.128.184.169","117.144.228.18","117.144.228.62","119.147.6.203","119.147.6.237","120.232.65.161","120.233.18.202","121.14.23.85","129.226.107.92","157.148.36.94","157.148.58.82","157.255.218.109","162.62.115.186","162.62.115.246","175.27.18.18","175.27.5.221","183.2.143.222","221.181.99.40","43.129.2.204","43.130.8.250","43.130.8.50","43.141.57.197","43.153.236.216","43.153.236.26","43.159.233.227","81.69.216.43"]}
+INFO    2024-03-09 22:25:55,101D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/customservice/getkflist
+INFO    2024-03-09 22:25:55,101D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：get
+INFO    2024-03-09 22:25:55,101D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'access_token': '78_t5Utv49l8tbT1CVtN0sRREkPG4hhlc_HC3gQJqYTKJc0fFHupc4Y28vdFCwUWQHB9a4buI3zHeUjhcjdb8MD6o44iNNG6DWWKQQclz6uQ1bNz_DenCnChl5cdvgJGUbAFAYVJ'}
+INFO    2024-03-09 22:25:55,399D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"kf_list":[]}
+INFO    2024-03-09 22:25:55,406D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:86 https请求地址：https://api.weixin.qq.com/cgi-bin/media/uploadimg
+INFO    2024-03-09 22:25:55,406D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:87 https请求方式：post
+INFO    2024-03-09 22:25:55,406D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:93 https请求参数：{'access_token': '78_t5Utv49l8tbT1CVtN0sRREkPG4hhlc_HC3gQJqYTKJc0fFHupc4Y28vdFCwUWQHB9a4buI3zHeUjhcjdb8MD6o44iNNG6DWWKQQclz6uQ1bNz_DenCnChl5cdvgJGUbAFAYVJ'}
+INFO    2024-03-09 22:25:55,406D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:97 https请求文件：{'media': <_io.BufferedReader name='D:\\backup\\489pm2.jpg'>}
+INFO    2024-03-09 22:25:55,943D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:request_util.py:138 https返回正常，返回消息：{"url":"http:\/\/mmbiz.qpic.cn\/sz_mmbiz_jpg\/sy1babVkRRTGzYMtukLJbqM3CtB9cFuCkDeBzfQUufIgopHrUBTu7Ih0JIcxgQaNFNib5q0zsh50Un2yScFWxFQ\/0"}
+INFO    2024-03-09 22:26:17,867D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:30 
+
+INFO    2024-03-09 22:26:17,867D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:30 
+
+INFO    2024-03-09 22:26:17,868D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:31 ---------接口测试开始----------
+INFO    2024-03-09 22:26:17,868D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:31 ---------接口测试开始----------
+INFO    2024-03-09 22:26:17,869D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 22:26:17,869D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 22:26:38,501D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 22:26:38,501D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 22:26:38,501D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
+INFO    2024-03-09 22:26:38,501D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
+INFO    2024-03-09 22:27:16,693D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:30 
+
+INFO    2024-03-09 22:27:16,693D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:30 
+
+INFO    2024-03-09 22:27:16,694D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:31 ---------接口测试开始----------
+INFO    2024-03-09 22:27:16,694D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:31 ---------接口测试开始----------
+INFO    2024-03-09 22:27:16,695D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 22:27:16,695D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 22:27:23,052D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 22:27:23,052D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 22:27:23,053D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
+INFO    2024-03-09 22:27:23,053D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
+INFO    2024-03-09 22:28:27,123D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:30 
+
+INFO    2024-03-09 22:28:27,123D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:30 
+
+INFO    2024-03-09 22:28:27,123D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:31 ---------接口测试开始----------
+INFO    2024-03-09 22:28:27,123D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:31 ---------接口测试开始----------
+INFO    2024-03-09 22:28:27,124D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 22:28:27,124D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:33 ---------extract.yaml文件已清空----------
+INFO    2024-03-09 22:28:47,960D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 22:28:47,960D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:35 ---------接口测试结束----------
+INFO    2024-03-09 22:28:47,961D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
+INFO    2024-03-09 22:28:47,961D:\PycharmProjects\heei3k\logs\info-2024-03-09.log:conftest.py:36 
+
