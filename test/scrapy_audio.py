@@ -8,9 +8,12 @@
 # @Software: PyCharm
 import json
 import os
+import re
 import time
 
+import execjs
 import requests
+from bs4 import BeautifulSoup
 
 from common.debug_talk import DebugTalk
 from common.setting import ensure_path_sep, fix_full_path
@@ -91,34 +94,85 @@ class ScrapyAudio:
 
         headers = read_yaml(self.scrapy_yaml, key="headers", index=1)
         url = read_yaml(self.scrapy_yaml, key="url", index=1)
-        params = read_yaml(self.scrapy_yaml, key="params", index=1)
 
-        # clienttime = params["clienttime"]
-        #
-        # if clienttime is None:
-        #     clienttime = DebugTalk.get_milliseconds()
-        #     params["clienttime"]=clienttime
+        sjoin = 'NVPh5oo715z5DIWAeQlhMDsWXXQV4hwtappid=1014clienttime=1710569658618clientver=20000dfid=34cfyK0OUOqA2L0DLT4EBTtmencode_album_audio_id=6hc50e62from=111mid=103cd3fcda7117a575067d21c185b075platid=4srcappid=2919token=userid=0uuid=103cd3fcda7117a575067d21c185b075NVPh5oo715z5DIWAeQlhMDsWXXQV4hwt'
 
-        key = str(params["appid"])
+        resp = requests.get(url=url, headers=headers)
 
-        # print(params)
+        soup = BeautifulSoup(resp.text, "lxml")
 
-        param_list = []
-        for key, value in params.items():
-            param_list.append(str(value))
-        param_list.sort()
-        print(param_list)
-        a = ""
-        for i in range(0, len(param_list)):
-            a += param_list[i]
-        print(f"\n\n a is {a}")
+        song_list = soup.find_all("li", class_="homep_d1_d1_d3_li1")
 
-        signature = DebugTalk.gen_md5(key + a + key)
+        song_album_list = []
+        song_name_list = []
+        singer_name_list = []
 
-        print(f"\nsignature is {signature}")
+        for song in song_list:
+            song_url = song.find("a").get("href")
+            album_id = re.findall('mixsong/(.*?).html', song_url)[0]
+            song_album_list.append(album_id)
 
-        session = requests.session()
-        resp = RequestUtil().send_request(method="get", url=url, headers=headers, params=params)
+            song_info = song.find("a").get("dataobj")
+            song_name = re.findall('"songname":"(.*?)"', song_info)[0]
+            singer_name = re.findall('"author_name":"(.*?)"', song_info)[0]
+            song_name_list.append(song_name)
+            singer_name_list.append(singer_name)
+
+        # loop_lenght=len(song_url)
+        loop_lenght = 2
+        # u = "NVPh5oo715z5DIWAeQlhMDsWXXQV4hwt"
+        # appid=1014
+        # srcappid="2919"
+        # clientver="20000"
+        # # clienttime=n
+        # dfid = "34cfyK0OUOqA2L0DLT4EBTtm"
+        # # encode_album_audio_id =
+        # mid = "084a8e74c44d3bd8d38d958c2ffe278b"
+        # srcappid = 2919
+        # uuid = "103cd3fcda7117a575067d21c185b075"
+        # token =""
+        # userid = 0
+        # from = 111
+        # platid = 4
+        save_path = "D:\\Download\\export_data\\song\\"
+
+        for i in range(0, loop_lenght):
+            clienttime = DebugTalk.get_milliseconds()
+            # print(song_album_list[i])
+            encode_string = "NVPh5oo715z5DIWAeQlhMDsWXXQV4hwtappid=1014clienttime=" + str(
+                clienttime) + "clientver=20000dfid=34cfyK0OUOqA2L0DLT4EBTtmencode_album_audio_id=" + song_album_list[
+                                i] + "mid=103cd3fcda7117a575067d21c185b075platid=4srcappid=2919token=userid=0uuid=103cd3fcda7117a575067d21c185b075NVPh5oo715z5DIWAeQlhMDsWXXQV4hwt"
+            # encode_string=encode_string.replace("\u200b","")
+            # print(encode_string)
+            with open(r"D:\PycharmProjects\heei3k\js\decrypto.js", encoding='UTF-8') as f:
+                js_code = f.read()
+            js_com = execjs.compile(js_code)
+            signature = js_com.call('exports', encode_string)
+            # print(signature)
+            request_song_url = "https://wwwapi.kugou.com/play/songinfo?srcappid=2919&clientver=20000&clienttime=" + str(
+                clienttime) + "&mid=103cd3fcda7117a575067d21c185b075&uuid=103cd3fcda7117a575067d21c185b075&dfid=34cfyK0OUOqA2L0DLT4EBTtm&appid=1014&platid=4&encode_album_audio_id=" + \
+                               song_album_list[i] + "&token=&userid=0&signature=" + signature
+
+            # print(request_song_url)
+
+            res = requests.get(request_song_url, headers=headers)
+            song_actual_url = res.json()['data']['play_url']
+            print(song_actual_url)
+            # 因为酷狗是分段下载 ，使用迅雷下载可以直接避开这个问题
+            # os.system(r'"D:\Program Files (x86)\Thunder Network\Thunder\Program\ThunderStart.exe" {url}'.format(
+            #     url=song_actual_url))
+
+            res = requests.get(song_actual_url, headers=headers)
+            with open(save_path + singer_name_list[i] + "_" + song_name_list[i] + ".mp3", mode="ab") as f:
+                while res.status_code == 200:
+                    res = requests.get(song_actual_url, headers=headers)
+                if res.status_code == 206:
+                    for chunk in res.iter_content(chunk_size=1024):
+                        if chunk:
+                            f.write(chunk)
+
+                    # f.write(res.content)
+
 
 
 if __name__ == '__main__':

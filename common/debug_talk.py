@@ -38,6 +38,10 @@ class DebugTalk:
     def get_milliseconds():
         return (round(time.time() * 1000))
 
+    @staticmethod
+    def get_timestamp():
+        return int(round(time.time()))
+
     # MD5加密
     @staticmethod
     def gen_md5(*args):
