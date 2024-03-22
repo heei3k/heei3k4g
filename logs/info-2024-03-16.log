@@ -1,0 +1,1095 @@
+INFO    2024-03-16 14:18:09,727D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:86 https请求地址：https://wwwapi.kugou.com/play/songinfo?srcappid=2919&clientver=20000&clienttime=1709711562429&mid=084a8e74c44d3bd8d38d958c2ffe278b&uuid=084a8e74c44d3bd8d38d958c2ffe278b&dfid=2C7Y9Y3LDffe1ezZnb2bIOWz&appid=1014&platid=4&from=111&encode_album_audio_id=7jp9ug50&token=&userid=0&signature=5ea10a208d0b9319414f3eae54aafd3c
+INFO    2024-03-16 14:18:09,727D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:87 https请求方式：get
+INFO    2024-03-16 14:18:09,727D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:89 https请求头：{'Host': 'wwwapi.kugou.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0', 'Accept': '*/*', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate, br', 'Origin': 'https://www.kugou.com', 'Connection': 'keep-alive', 'Referer': 'https://www.kugou.com/', 'Sec-Fetch-Dest': 'empty', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Site': 'same-site', 'TE': 'trailers'}
+INFO    2024-03-16 14:18:09,728D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:93 https请求参数：{'appid': 1014, 'clienttime': 1709788723128, 'clientver': '10000', 'dfid': '2C7Y9Y3LDffe1ezZnb2bIOWz', 'encode_album_audio_id': '7uc2ptd5', 'mid': '084a8e74c44d3bd8d38d958c2ffe278b', 'platid': 4, 'signature': '8898adbe13450e30e2e89cc487aee588', 'token': '', 'userid': '0', 'uuid': '084a8e74c44d3bd8d38d958c2ffe278b'}
+INFO    2024-03-16 14:18:09,935D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:138 https返回正常，返回消息：{"status":0,"data":[],"msg":"\u53c2\u6570\u9519\u8bef","error_code":20010}
+INFO    2024-03-16 14:32:53,594D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:86 https请求地址：https://www.kugou.com/song/#4738mfc3
+INFO    2024-03-16 14:32:53,595D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:87 https请求方式：get
+INFO    2024-03-16 14:32:53,595D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:89 https请求头：{'Host': 'wwwapi.kugou.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0', 'Accept': '*/*', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate, br', 'Origin': 'https://www.kugou.com', 'Connection': 'keep-alive', 'Referer': 'https://www.kugou.com/', 'Sec-Fetch-Dest': 'empty', 'Sec-Fetch-Mode': 'cors', 'Sec-Fetch-Site': 'same-site', 'TE': 'trailers'}
+INFO    2024-03-16 14:37:18,169D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:86 https请求地址：https://www.kugou.com/song/#4738mfc3
+INFO    2024-03-16 14:37:18,169D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:87 https请求方式：get
+INFO    2024-03-16 14:37:18,170D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:89 https请求头：{'Host': 'www.kugou.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Cookie': 'kg_mid=084a8e74c44d3bd8d38d958c2ffe278b; kg_dfid=2C7Y9Y3LDffe1ezZnb2bIOWz; Hm_lvt_aedee6983d4cfc62f509129360d6bb3d=1709776181,1709865685,1710383798,1710570638; KuGooRandom=66111709865706407; kg_dfid_collect=d41d8cd98f00b204e9800998ecf8427e; Hm_lpvt_aedee6983d4cfc62f509129360d6bb3d=1710570644; kg_mid_temp=084a8e74c44d3bd8d38d958c2ffe278b; ACK_SERVER_10017=%7B%22list%22%3A%5B%5B%22gzverifycode.service.kugou.com%22%5D%5D%7D; ACK_SERVER_10015=%7B%22list%22%3A%5B%5B%22gzlogin-user.kugou.com%22%5D%5D%7D; ACK_SERVER_10016=%7B%22list%22%3A%5B%5B%22gzreg-user.kugou.com%22%5D%5D%7D', 'Upgrade-Insecure-Requests': 1, 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'TE': 'trailers'}
+INFO    2024-03-16 14:37:29,383D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:86 https请求地址：https://www.kugou.com/song/#4738mfc3
+INFO    2024-03-16 14:37:29,383D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:87 https请求方式：get
+INFO    2024-03-16 14:37:29,384D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:89 https请求头：{'Host': 'www.kugou.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Cookie': 'kg_mid=084a8e74c44d3bd8d38d958c2ffe278b; kg_dfid=2C7Y9Y3LDffe1ezZnb2bIOWz; Hm_lvt_aedee6983d4cfc62f509129360d6bb3d=1709776181,1709865685,1710383798,1710570638; KuGooRandom=66111709865706407; kg_dfid_collect=d41d8cd98f00b204e9800998ecf8427e; Hm_lpvt_aedee6983d4cfc62f509129360d6bb3d=1710570644; kg_mid_temp=084a8e74c44d3bd8d38d958c2ffe278b; ACK_SERVER_10017=%7B%22list%22%3A%5B%5B%22gzverifycode.service.kugou.com%22%5D%5D%7D; ACK_SERVER_10015=%7B%22list%22%3A%5B%5B%22gzlogin-user.kugou.com%22%5D%5D%7D; ACK_SERVER_10016=%7B%22list%22%3A%5B%5B%22gzreg-user.kugou.com%22%5D%5D%7D', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'TE': 'trailers'}
+INFO    2024-03-16 14:37:29,435D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:138 https返回正常，返回消息：<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>酷狗音乐-就是歌多</title>
+    <meta name="keywords" content="酷狗音乐-就是歌多" />
+    <meta name="description" content="酷狗音乐在线正版音乐网站，为您提供酷狗音乐播放器下载 、在线音乐试听下载，提供听书、长音频、频道、听小说和MV播放服务。酷狗音乐，就是歌多！小说相声也很多！场景音乐也很多！" />
+    <link href="https://www.kugou.com/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="https://www.kugou.com/yy/static/css/play.src.css?201505211743">
+    <link rel="dns-prefetch" href="//fs.w.kugou.com">
+    <link rel="dns-prefetch" href="//login-user.kugou.com">
+ 
+    <script >
+        var dataFromSmarty = [{"hash":null,"author_name":"","song_name":"","audio_name":"","album_id":0,"timelength":0}],//当前页面歌曲信息
+            playType = "";//当前播放
+    </script>
+</head>
+<body>
+    <div class="mainPage">
+       
+        
+        
+<script>
+  // ie9及以下 提示升级浏览器
+  var checkIe9 = function() {
+    function IEVersion () {
+      if (document.documentMode) return document.documentMode;
+    }
+    if (IEVersion()) {
+      if (IEVersion() <= 9) {
+        document.body.innerHTML = ('<p style="position:absolute;width:100%;height:100%;background:#fff;z-index:99999999;left:0;top:0;font-size: 30px;text-align: center;color: #00A9FF;">您的浏览器版本过低，可能存在安全风险，建议升级或更换浏览器后浏览本站</p>')
+      }
+    } else {
+    }
+  }
+  checkIe9()
+</script>
+<link rel="stylesheet" href="https://www.kugou.com/common/css/cmdialog.css?20220113">
+<link rel="stylesheet" href="https://www.kugou.com/common/css/cmhead.css?20220113">
+<div class="cmhead1" >
+    <div class="cmhead1_d0">
+        <div class="cmhead1_d1">
+            <a href="https://www.kugou.com" class="cmhead1_a2">
+                <img src="https://www.kugou.com/common/images/kugou_white.png" alt="" class="cmhead1_i1">
+            </a>
+            <div class="cmhead1_d7">
+                <div class="cmhead1_nd0"></div>
+                <div class="cmhead1_nd1 _nfCon"></div>
+                <input type="text" class="cmhead1_ipt1 _cmheadsearchinput" />
+                <div class="cmhead1_d8 _searchbtn4cmhead"></div>
+                <div class="cmhead1_d12 _recommend4cmhead">
+                    <ul class="cmhead1_ul1 _recommendsong">
+                    </ul>
+                    <div class="cmhead1_d13">
+                        <span class="cmhead1_sp2"></span>
+                        <span class="cmhead1_sp3">MV</span>
+                    </div>
+                    <ul class="cmhead1_ul1 _recommendmv">
+                    </ul>
+                </div>
+                <div class="cmhead1_d14 _history4cmhead">
+                    <ul class="cmhead1_ul1 _historysong">
+                    </ul>
+                    <div class="cmhead1_d15 _clearhistorysong">清空搜索历史</div>
+                </div>
+            </div>
+        </div>
+        <div class="cmhead1_d2">
+            <a target="_blank" href="https://www.kugou.com/imusic/" target="_blank" class="cmhead1_a1">音乐人</a>
+            <a target="_blank" href="http://www.kugou.com/fmugc-v2/dist/index.html" target="_blank" class="cmhead1_a1" rel="nofollow">音频创作</a>
+            <a target="_blank" href="http://vip.kugou.com/" target="_blank" class="cmhead1_a1" rel="nofollow">VIP会员</a>
+
+            <div class="cmhead1_d3"></div>
+
+            <div class="cmhead1_d4">
+                <div class="cmhead1_d5 _login">登录</div>
+                <div class="cmhead1_d6 _userinfoBox">
+                    <div class="cmhead1_d9">
+                        <img src="" alt="" class="cmhead1_i2">
+                        <span class="cmhead1_sp1"></span>
+                    </div>
+                    <div class="cmhead1_d10">
+                        <a class="cmhead1_d11 _userinfo" target="_blank" href="https://www.kugou.com/newuc/user/uc/type=edit" rel="nofollow">个人账号</a>
+                        <a class="cmhead1_d11 _logout" href="https://www.kugou.com/newuc/login/outlogin" rel="nofollow">退出登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+<div class="cmhead2" >
+    <div class="cmhead2_d0"></div>
+    <div class="cmhead2_d01"></div>
+    <ul class="cmhead2_ul1">
+        <li class="cmhead2_li1">
+            <a href="https://www.kugou.com/" class="cmhead2_a1">首页</a>
+        </li>
+        <li class="cmhead2_li1" id="_rankhome">
+            <a href="https://www.kugou.com/yy/html/rank.html" class="cmhead2_a1">榜单</a>
+        </li>
+        <li class="cmhead2_li1" id="_tshome">
+            <a href="https://www.kugou.com/ts/" class="cmhead2_a1">听书</a>
+        </li>
+        <li class="cmhead2_li1">
+            <a href="http://fanxing.kugou.com/?action=spreadIndex&id=3" target="_blank" class="cmhead2_a1">直播</a>
+        </li>
+        <li class="cmhead2_li1" id="_downloadhome">
+            <a href="https://download.kugou.com/" class="cmhead2_a1">下载酷狗</a>
+        </li>
+        <li class="cmhead2_li1" >
+            <a href="https://www.kugou.com/about/business.html" class="cmhead2_a1">商务合作</a>
+        </li>
+        <li class="cmhead2_li1 _more">
+            <div class="cmhead2_d2">
+                更多
+                <div class="cmhead2_d3"></div>
+            </div>
+            <ul class="cmhead2_ul2">
+                <li style="
+                    height: 15px;
+                    margin-top: -25px;
+                    position: absolute;
+                    width: 100%;
+                "></li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/fmweb/html/index.html" class="cmhead2_a2">频道</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/mvweb/html/" class="cmhead2_a2">MV</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/yy/html/special.html" class="cmhead2_a2">歌单</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/yy/html/singer.html" class="cmhead2_a2">歌手</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/yy/album/index/1-1-1.html" class="cmhead2_a2">专辑</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script src="https://m.kugou.com/static/js/share/npm/sentry5.6.1.min.js" crossorigin="anonymous"></script>
+<script>
+    Sentry.init({
+        dsn: "https://fc8678a0071145128f0c8314c07f8407@sentry.kugou.com/33",
+        // integrations: [new Sentry.Integrations.BrowserTracing()],
+        sampleRate: 0.1,
+    })
+</script>
+
+<script type="text/javascript" src="https://www.kugou.com/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.kugou.com/common/js/lib.js"></script>
+<script type="text/javascript" src="https://www.kugou.com/common/js/utility.js"></script>
+<script src="https://staticssl.kugou.com/common/js/min/login/kguser.v2.min.js?20190111"></script>
+<script src="https://staticssl.kugou.com/common/js/repalceHttpsImg.js"></script>
+<script src="https://staticssl.kugou.com/common/js/min/npm/getBaseInfo.min.js"></script>
+<script src="https://staticssl.kugou.com/common/js/min/infSign.min.js"></script>
+<script type="text/javascript" src="https://staticssl.kugou.com/verify/static/js/registerDev.v1.min.js?appid=1014&20190408" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.kugou.com/common/js/cmhead.min.js?20220119"></script>
+
+
+        <style>
+            body {
+                overflow: hidden;
+            }
+            .cmhead2 {
+                z-index: 999;
+            }
+            .suspension4rightside {
+                display: none!important;
+            }
+            .cmhead2_d0 {
+                height: 60px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                -webkit-backdrop-filter: saturate(180%) blur(6px);
+                        backdrop-filter: saturate(180%) blur(6px);
+            }
+            .cmhead2_d01 {
+                background: rgba(255, 255, 255, 0.5)!important;
+                -webkit-backdrop-filter: none;
+                        backdrop-filter: none;
+            }
+        </style>
+        <script data-embed="false" type="text/javascript" src="https://www.kugou.com/yy/static/js/PCToMoblie.js" ></script>
+        <div class="content" style="width: auto;">
+            <div class="singerContent clearfix">
+                <div class="album fl">
+                    <div class="albumImg">
+                                                                    </div>
+                    <div class="btnArea2 clearfix">
+                        <a class="btnDownloadClient" onclick="_hmt.push(['_trackEvent', 'song1software', 'song1download', 'song1kugou']);" ></a>
+                    </div>
+                    <div class="fangxinAd clearfix">
+                        <img class="singerImg" src="">
+                        <div class="singerInfo clearfix">
+                            <div class="singerName">【麦兜是只猪】 正在直播</div>
+                            <div class="singingName">苏打绿-小情歌</div>
+                            <div class="goto"><a href="">去现场</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="songContent fl">
+                    <div class="songName clearfix" title=""><span class="audioName">酷狗音乐-就是歌多</span> 
+                        <a target="_blank" style="display:none" href="#" class="icon btnMv"></a>
+                    </div>
+                    <div class="songDetail clearfix">
+                        <p class="albumName fl" style="display:none">
+                            <span class="fontColor">专辑：</span>
+                            <a  target="_blank" href="" title="">未知专辑</a>
+                        </p>
+                        <p class="singerName fl" style="display:none">
+                            <span class="fontColor">歌手：</span> 
+                            <a  target="_blank" href="" title="">未知歌手</a>
+                        </p>
+                    </div>
+                    <div class="displayNone"> 
+                    </div>
+                    <div class="songWordContent songWordContentM">
+                        <!--div class="no_song">
+                            <p class="nosong_tilte">暂无播放歌曲</p>
+                            <p class="nosong_tip">你可以去酷狗网页添加歌曲</p>
+                            <a class="goIndex" target="_blank" href="http://www.kugou.com/">去首页逛逛</a>
+                        </div-->            
+                    </div>
+                    <div class="songWord4NoScroll noScrollSongwordScrollBar __displayNone">         
+                    </div>
+                </div>
+            </div>
+            <div class="blurBgMask"></div>
+            <div id="blurBg"></div>
+        </div>
+
+        <!--加载flash播放插件-->
+        <div id="fobj" class="fobj">
+            <object id="AudioPlayer3" name="AudioPlayer3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10.0.32" width="100%" height="100%">
+                <param name="movie" value="https://www.kugou.com/yy/static/swf/AudioPlayer3.swf">
+                <param name="flashvars" value="useNewAPI=true&type=mp3&playstart=playStart&playcomplete=playOver&playopen=playOpen&JSPositioningPlay=JSPositioningPlay&flashinit=flashloaded&getSongData=getSongData&consolefun=consolefun&errorTips=errorTips">
+                <param name="quality" value="high">
+                <param name="allowScriptAccess" value="always">
+                <param name="allowNetworking" value="all">
+                <param name="wmode" value="transparent">
+                <param name="allowFullScreen" value="true">
+                <embed id="AudioPlayer3" name="AudioPlayer3" src="https://www.kugou.com/yy/static/swf/AudioPlayer3.swf" width="100%" height="100%" allowscriptaccess="always" allowNetworking="all" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="useNewAPI=true&type=mp3&playstart=playStart&playcomplete=playOver&playopen=playOpen&JSPositioningPlay=JSPositioningPlay&flashinit=flashloaded&getSongData=getSongData&consolefun=consolefun&errorTips=errorTips" type="application/x-shockwave-flash" wmode="transparent" allowfullscreen="true">
+            </object>
+        </div>
+
+
+        <audio class="music" id="myAudio" src="">
+            <!-- <p class="myAudiohide">你的浏览器不支持<code>audio</code>标签.</p> -->
+        </audio>
+        <!-- 播放条 -->
+        <div class="audio-module playerbg" id="audioModule">
+            <div class="module-bg"></div>
+            <div class="player-module">
+                <!--  模块左部分：上一首，播放，暂停，下一首  -->
+                <div class="controls-left">
+                    <a class="icon icon-playbar-prev" id="prev"></a>
+                    <a class="icon icon-playbar-play" id="toggle"></a>
+                    <a class="icon icon-playbar-next" id="next"></a>
+                </div>
+                <!-- 专辑封面  -->
+                <div class="bar-albumImg">
+                </div>
+                <!-- 模块中间部分：容器  -->
+                <div class="controls-bar">
+                    <!-- 模块中间部分：上半部分：歌曲信息 -->
+                    <div class="song-info">
+                        <!-- 歌曲名 -->
+                        <div class="like-song">
+                            <div class="controls-songName" title="">
+                                <span class="songName" id="songName">酷狗音乐</span>
+                            </div>
+                            <pre class="songName" id="songNameTemp">酷狗音乐</pre>
+                        </div>
+                        <!-- 时长 -->
+                        <div class="coding-duration">
+                            <span class="duration ie8" id="duration"><i class="change-time"></i> / <i class="all-time"></i></span>
+                        </div>
+                    </div>
+                    <!-- 模块中间部分：下半部分：播放控制条容器 -->
+                    <div class="bar" id="bar">
+                        <!-- 播放进度背景（自适应） -->
+                        <div class="bg" id="progress_bg">
+                            <span class="icon icon-playbar-bgleft" id="bg_left"></span>
+                            <span class="bg-middle barBG" id="bg_middle"></span>
+                            <span class="icon icon-playbar-bgright" id="bg_right"></span>
+                        </div>
+                        <!-- 播放进度条（自适应） -->
+                        <div class="progress-bar" id="progress_bar">
+                            <span class="icon icon-playbar-progressleft" id="progress_left"></span>
+                            <div class="progress-middle" id="progress_middle">
+                                <span class="progress barProgress" id="progress"></span>
+                            </div>
+                        </div>
+                        <!-- 播放定位头（自适应） -->
+                        <div class="drag-playhead" id="drag_playhead">
+                            <span class="icon icon-playbar-playhead" id="playhead"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 模块右部分：容器 -->
+                <div class="controls-right">
+                    <!-- 模块右部分： 音量控制面板 -->
+                    <div class="mode-volume-list">
+                        <!-- 音量开关控制按钮 -->
+                        <div class="volume-icon" id="volume">
+                            <span class="icon icon-playbar-maxvox" id="volume_icon"></span>
+                        </div>
+                        <!-- 音量控制面板 -->
+                        <div class="volume-panel" id="volume_panel">
+                            <div class="volume-control" id="volume_control">
+                                <span class="icon icon-playbar-progressbottom" id="volume_bottom"></span>
+                                <div class="volume-bar" id="volume_bar">
+                                    <span class="volume-progress volumeProgress" id="volume_progress"></span>
+                                </div>
+                                <div class="volume-head" id="volume_head">
+                                    <span class="icon icon-playbar-volumehead" id="volumehead"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="play_tips">已添加到播放列表</div>
+                        <!-- 播放模式 -->
+                        <a class="icon icon-playbar-cycle" id="mode"></a>
+                        <div class="mode-panel" id="mode_panel">
+                            <ul>
+                                <li>
+                                    <a class="loop mode-selected" id="loop" href="javascript:;" hidefocus="true">
+                                        <span class="icon icon-playbar-cycle active" id="loop_icon"></span>
+                                        <span class="loop-name" id="loop_name">列表循环</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="single " id="single" href="javascript:;" hidefocus="true">
+                                        <span class="icon  icon-playbar-singlecycle " id="single_icon"></span>
+                                        <span class="single-name" id="single_name">单曲循环</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="random" id="random" href="javascript:;" hidefocus="true">
+                                        <span class="icon icon-playbar-randomcycle" id="random_icon"></span>
+                                        <span class="random-name" id="random_name">随机播放</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 下载 -->
+                        <a href="javascript:;" class="icon icon-playbar-download" id="pb_download" onclick="_hmt.push(['_trackEvent', 'song2software', 'song2download', 'song2kugou']);" ></a>
+                            <!-- 分享 -->
+                            <a href="javascript:;" onclick="_hmt.push(['_trackEvent', 'songshare', 'shareclick', 'sharekugou']);" class="icon icon-playbar-share" id="pb_share"></a>
+
+                            <a class="icon list" id="list" href="javascript:;" hidefocus="true">
+                                <span class="list-count" id="list_count"></span>
+                            </a>
+                    </div>
+                </div>
+                <div class="mod-playlist" id="mod-playlist" data-hide="true">
+                    <div class="song-box">
+                        <div class="box-header">
+                            <div class="title">播放队列/<span></span></div>
+                            <div class="action-box fr">
+                                <span class="icon list-menu-icon-del clear" title="清空"></span>
+                                <span class="line"></span>
+                                <span class="icon list-menu-icon-close closePlayList" title="关闭播放队列"></span>
+                            </div>
+                        </div>
+                        <div id="musicbox" class="musicbox ">
+                            <div class="songjsAction">
+                                <div class="noSongList">
+                                    <p class="noSongListTip">队列中还没有歌曲</p>
+                                    <p class="addSongLink">去<a target="_blank"  href="https://www.kugou.com/" class="gotoIndex">首页</a>添加歌曲</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showHide-playbar">
+                <span class="showHide-bg"></span>
+                <span class="icon show-playbar-btn" id="showHide_playbar"></span>
+            </div>
+        </div>
+    </div>
+    <div class="macDownload" id="macDownload">
+        <div class="macDownload-left">
+            <div class="macDownload-logo"></div>
+            <p class="macDownload-title">Mac版酷狗音乐已更新</p>
+            <p class="macDownload-txt">就是歌多</p>
+        </div>
+        <div class="macDownload-right">
+            <a class="macClick-up" target="_blank"  href="https://itunes.apple.com/cn/app/%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90-%E5%B0%B1%E6%98%AF%E6%AD%8C%E5%A4%9A/id658741592?l=en&mt=12">详情</a>
+            <a class="macClick-down" target="_blank"  href="https://download.kugou.com/download/kugou_mac">下载</a>
+        </div>
+    </div>
+    <iframe id="apply" style="display:none"></iframe>
+    <script>
+        var flag = 0, //flash  是否加载完毕
+        flashObj;//本地页面的falsh 对象
+       
+    var kgPlay = {
+        // 是否支持audio
+        support_audio: function() {
+            return !!document.createElement('audio').canPlayType;
+        },
+        //获取flash对象
+        getFlashMovieObject: function(movieName) {
+            if (document[movieName]) {
+                return document[movieName];
+            } else if (navigator.appName.indexOf("Microsoft Internet") == -1) {
+                if (document.embeds && document.embeds[movieName]) {
+                    return document.embeds[movieName];
+                }
+            } else if (window[movieName]) {
+                return window[movieName];
+            } else {
+                return document.getElementById(movieName);
+            }
+        },
+        // firefox获取flash
+        getSWF: function(name) {
+            var e = document.getElementById(name);
+            return (navigator.appName.indexOf("Microsoft") != -1) ? e : e.getElementsByTagName("embed")[0];
+        }
+    };
+    //表示flash加载完成，并初始化
+    function flashloaded() {
+        if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
+            flashObj = kgPlay.getSWF("AudioPlayer3");
+        } else {
+            flashObj = kgPlay.getFlashMovieObject("AudioPlayer3");
+        }
+        flag = 1;
+    }
+    </script>
+
+    <script src="https://staticssl.kugou.com/common/js/min/npm/getBaseInfo.min.js"></script>
+    <script src="https://staticssl.kugou.com/collect/common/dist/js/collect-2400.js?v=2"></script>
+    <script data-embed="false" type="text/javascript" src="https://www.kugou.com/yy/static/js/play/lib/play_common.js" ></script>
+    <script type="text/javascript">
+         var apmCollectData = apmCollectData || [];
+        if (kgPlay.support_audio()) {
+            flag = 0;
+            flashloaded = null;
+            // 删除flash
+            $("#fobj").remove();
+            var playbyAudio = document.createElement("script");
+            playbyAudio.charset = "UTF-8";
+            playbyAudio.src = "https://www.kugou.com/yy/static/js/play/playbyAudio.js?now="+new Date().getTime();
+            var byAudio = document.getElementsByTagName("script")[0];
+            byAudio.parentNode.insertBefore(playbyAudio, byAudio);
+        } else {
+        }
+    </script>
+    <script type="text/javascript">
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?aedee6983d4cfc62f509129360d6bb3d";
+            var s = document.getElementsByTagName("head")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script src="https://staticssl.kugou.com/common/js-lib/min/kg-play-stat-report.es5.min.js"></script>
+    <script>
+    var observeDOM = (function() {
+        var MutationObserver =
+        window.MutationObserver || window.WebKitMutationObserver
+        return function(obj, callback) {
+        if (!obj || !obj.nodeType === 1) return // validation
+        if (MutationObserver) {
+            // define a new observer
+            var obs = new MutationObserver(function(mutations, observer) {
+            callback(mutations)
+            })
+            // have the observer observe foo for changes in children
+            obs.observe(obj, { childList: true, subtree: true })
+        } else if (window.addEventListener) {
+            obj.addEventListener('DOMNodeInserted', callback, false)
+            obj.addEventListener('DOMNodeRemoved', callback, false)
+        }
+        }
+    })()
+    window.__playStatReport = new PlayStatReport({ r: '酷狗电脑端官网', a: '', svar1: '歌曲' })
+    observeDOM(document, function() {
+        window.__hash &&
+        playStatReport.injectBaseParams({ hash: window.hash })
+        __playStatReport.startInjectStatReport()
+    })
+    </script>
+        
+    <script>
+        // 曝光埋点需求mtp112863
+        var uaType2 = function () {
+            var fs = 0;
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua && ua.search(/spider/i) > -1) {
+                if (ua.search(/Baiduspider/i) > -1) {
+                    fs = "Baiduspider";
+                } else if (ua.search(/Bytespider/i) > -1) {
+                    fs = "Bytespider";
+                } else {
+                    fs = "Otherspider";
+                }
+            }
+            return fs;
+        }
+        var getQueryString = function(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+            var r = window.location.search.substr(1).match(reg); 
+            if (r != null) return unescape(r[2]); return null; 
+        }
+        window.getBaseInfo(1014, function(bInfo) {
+            var logPar = {
+                a: 28548,
+                b: '曝光',
+                r: 'web播放页',
+                ft: 'pc',
+                userid: bInfo.userid || 0,
+                mid: bInfo.mid,
+                uuid: bInfo.uuid,
+                fo: document.referrer ? document.referrer.substr(0, 200) : '',
+                svar1: window.location.href.substr(0, 200),
+                svar2: location.origin,
+                svar3: navigator.userAgent,
+                svar4: getQueryString('hreffrom') || getQueryString('from'),
+                svar5: uaType2(),
+            }
+            newLogCount(30050, logPar)
+        })
+    </script>
+</body>
+</html>
+INFO    2024-03-16 14:43:01,749D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:86 https请求地址：https://www.kugou.com/song/#4738mfc3
+INFO    2024-03-16 14:43:01,750D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:87 https请求方式：get
+INFO    2024-03-16 14:43:01,750D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:89 https请求头：{'Host': 'www.kugou.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8', 'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Cookie': 'kg_mid=084a8e74c44d3bd8d38d958c2ffe278b; kg_dfid=2C7Y9Y3LDffe1ezZnb2bIOWz; Hm_lvt_aedee6983d4cfc62f509129360d6bb3d=1709776181,1709865685,1710383798,1710570638; KuGooRandom=66111709865706407; kg_dfid_collect=d41d8cd98f00b204e9800998ecf8427e; Hm_lpvt_aedee6983d4cfc62f509129360d6bb3d=1710570644; kg_mid_temp=084a8e74c44d3bd8d38d958c2ffe278b; ACK_SERVER_10017=%7B%22list%22%3A%5B%5B%22gzverifycode.service.kugou.com%22%5D%5D%7D; ACK_SERVER_10015=%7B%22list%22%3A%5B%5B%22gzlogin-user.kugou.com%22%5D%5D%7D; ACK_SERVER_10016=%7B%22list%22%3A%5B%5B%22gzreg-user.kugou.com%22%5D%5D%7D', 'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-User': '?1', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'TE': 'trailers'}
+INFO    2024-03-16 14:43:01,824D:\PycharmProjects\heei3k\logs\info-2024-03-16.log:request_util.py:138 https返回正常，返回消息：<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>酷狗音乐-就是歌多</title>
+    <meta name="keywords" content="酷狗音乐-就是歌多" />
+    <meta name="description" content="酷狗音乐在线正版音乐网站，为您提供酷狗音乐播放器下载 、在线音乐试听下载，提供听书、长音频、频道、听小说和MV播放服务。酷狗音乐，就是歌多！小说相声也很多！场景音乐也很多！" />
+    <link href="https://www.kugou.com/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="https://www.kugou.com/yy/static/css/play.src.css?201505211743">
+    <link rel="dns-prefetch" href="//fs.w.kugou.com">
+    <link rel="dns-prefetch" href="//login-user.kugou.com">
+ 
+    <script >
+        var dataFromSmarty = [{"hash":null,"author_name":"","song_name":"","audio_name":"","album_id":0,"timelength":0}],//当前页面歌曲信息
+            playType = "";//当前播放
+    </script>
+</head>
+<body>
+    <div class="mainPage">
+       
+        
+        
+<script>
+  // ie9及以下 提示升级浏览器
+  var checkIe9 = function() {
+    function IEVersion () {
+      if (document.documentMode) return document.documentMode;
+    }
+    if (IEVersion()) {
+      if (IEVersion() <= 9) {
+        document.body.innerHTML = ('<p style="position:absolute;width:100%;height:100%;background:#fff;z-index:99999999;left:0;top:0;font-size: 30px;text-align: center;color: #00A9FF;">您的浏览器版本过低，可能存在安全风险，建议升级或更换浏览器后浏览本站</p>')
+      }
+    } else {
+    }
+  }
+  checkIe9()
+</script>
+<link rel="stylesheet" href="https://www.kugou.com/common/css/cmdialog.css?20220113">
+<link rel="stylesheet" href="https://www.kugou.com/common/css/cmhead.css?20220113">
+<div class="cmhead1" >
+    <div class="cmhead1_d0">
+        <div class="cmhead1_d1">
+            <a href="https://www.kugou.com" class="cmhead1_a2">
+                <img src="https://www.kugou.com/common/images/kugou_white.png" alt="" class="cmhead1_i1">
+            </a>
+            <div class="cmhead1_d7">
+                <div class="cmhead1_nd0"></div>
+                <div class="cmhead1_nd1 _nfCon"></div>
+                <input type="text" class="cmhead1_ipt1 _cmheadsearchinput" />
+                <div class="cmhead1_d8 _searchbtn4cmhead"></div>
+                <div class="cmhead1_d12 _recommend4cmhead">
+                    <ul class="cmhead1_ul1 _recommendsong">
+                    </ul>
+                    <div class="cmhead1_d13">
+                        <span class="cmhead1_sp2"></span>
+                        <span class="cmhead1_sp3">MV</span>
+                    </div>
+                    <ul class="cmhead1_ul1 _recommendmv">
+                    </ul>
+                </div>
+                <div class="cmhead1_d14 _history4cmhead">
+                    <ul class="cmhead1_ul1 _historysong">
+                    </ul>
+                    <div class="cmhead1_d15 _clearhistorysong">清空搜索历史</div>
+                </div>
+            </div>
+        </div>
+        <div class="cmhead1_d2">
+            <a target="_blank" href="https://www.kugou.com/imusic/" target="_blank" class="cmhead1_a1">音乐人</a>
+            <a target="_blank" href="http://www.kugou.com/fmugc-v2/dist/index.html" target="_blank" class="cmhead1_a1" rel="nofollow">音频创作</a>
+            <a target="_blank" href="http://vip.kugou.com/" target="_blank" class="cmhead1_a1" rel="nofollow">VIP会员</a>
+
+            <div class="cmhead1_d3"></div>
+
+            <div class="cmhead1_d4">
+                <div class="cmhead1_d5 _login">登录</div>
+                <div class="cmhead1_d6 _userinfoBox">
+                    <div class="cmhead1_d9">
+                        <img src="" alt="" class="cmhead1_i2">
+                        <span class="cmhead1_sp1"></span>
+                    </div>
+                    <div class="cmhead1_d10">
+                        <a class="cmhead1_d11 _userinfo" target="_blank" href="https://www.kugou.com/newuc/user/uc/type=edit" rel="nofollow">个人账号</a>
+                        <a class="cmhead1_d11 _logout" href="https://www.kugou.com/newuc/login/outlogin" rel="nofollow">退出登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+<div class="cmhead2" >
+    <div class="cmhead2_d0"></div>
+    <div class="cmhead2_d01"></div>
+    <ul class="cmhead2_ul1">
+        <li class="cmhead2_li1">
+            <a href="https://www.kugou.com/" class="cmhead2_a1">首页</a>
+        </li>
+        <li class="cmhead2_li1" id="_rankhome">
+            <a href="https://www.kugou.com/yy/html/rank.html" class="cmhead2_a1">榜单</a>
+        </li>
+        <li class="cmhead2_li1" id="_tshome">
+            <a href="https://www.kugou.com/ts/" class="cmhead2_a1">听书</a>
+        </li>
+        <li class="cmhead2_li1">
+            <a href="http://fanxing.kugou.com/?action=spreadIndex&id=3" target="_blank" class="cmhead2_a1">直播</a>
+        </li>
+        <li class="cmhead2_li1" id="_downloadhome">
+            <a href="https://download.kugou.com/" class="cmhead2_a1">下载酷狗</a>
+        </li>
+        <li class="cmhead2_li1" >
+            <a href="https://www.kugou.com/about/business.html" class="cmhead2_a1">商务合作</a>
+        </li>
+        <li class="cmhead2_li1 _more">
+            <div class="cmhead2_d2">
+                更多
+                <div class="cmhead2_d3"></div>
+            </div>
+            <ul class="cmhead2_ul2">
+                <li style="
+                    height: 15px;
+                    margin-top: -25px;
+                    position: absolute;
+                    width: 100%;
+                "></li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/fmweb/html/index.html" class="cmhead2_a2">频道</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/mvweb/html/" class="cmhead2_a2">MV</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/yy/html/special.html" class="cmhead2_a2">歌单</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/yy/html/singer.html" class="cmhead2_a2">歌手</a>
+                </li>
+                <li class="cmhead2_li2">
+                    <a href="https://www.kugou.com/yy/album/index/1-1-1.html" class="cmhead2_a2">专辑</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script src="https://m.kugou.com/static/js/share/npm/sentry5.6.1.min.js" crossorigin="anonymous"></script>
+<script>
+    Sentry.init({
+        dsn: "https://fc8678a0071145128f0c8314c07f8407@sentry.kugou.com/33",
+        // integrations: [new Sentry.Integrations.BrowserTracing()],
+        sampleRate: 0.1,
+    })
+</script>
+
+<script type="text/javascript" src="https://www.kugou.com/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.kugou.com/common/js/lib.js"></script>
+<script type="text/javascript" src="https://www.kugou.com/common/js/utility.js"></script>
+<script src="https://staticssl.kugou.com/common/js/min/login/kguser.v2.min.js?20190111"></script>
+<script src="https://staticssl.kugou.com/common/js/repalceHttpsImg.js"></script>
+<script src="https://staticssl.kugou.com/common/js/min/npm/getBaseInfo.min.js"></script>
+<script src="https://staticssl.kugou.com/common/js/min/infSign.min.js"></script>
+<script type="text/javascript" src="https://staticssl.kugou.com/verify/static/js/registerDev.v1.min.js?appid=1014&20190408" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.kugou.com/common/js/cmhead.min.js?20220119"></script>
+
+
+        <style>
+            body {
+                overflow: hidden;
+            }
+            .cmhead2 {
+                z-index: 999;
+            }
+            .suspension4rightside {
+                display: none!important;
+            }
+            .cmhead2_d0 {
+                height: 60px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                -webkit-backdrop-filter: saturate(180%) blur(6px);
+                        backdrop-filter: saturate(180%) blur(6px);
+            }
+            .cmhead2_d01 {
+                background: rgba(255, 255, 255, 0.5)!important;
+                -webkit-backdrop-filter: none;
+                        backdrop-filter: none;
+            }
+        </style>
+        <script data-embed="false" type="text/javascript" src="https://www.kugou.com/yy/static/js/PCToMoblie.js" ></script>
+        <div class="content" style="width: auto;">
+            <div class="singerContent clearfix">
+                <div class="album fl">
+                    <div class="albumImg">
+                                                                    </div>
+                    <div class="btnArea2 clearfix">
+                        <a class="btnDownloadClient" onclick="_hmt.push(['_trackEvent', 'song1software', 'song1download', 'song1kugou']);" ></a>
+                    </div>
+                    <div class="fangxinAd clearfix">
+                        <img class="singerImg" src="">
+                        <div class="singerInfo clearfix">
+                            <div class="singerName">【麦兜是只猪】 正在直播</div>
+                            <div class="singingName">苏打绿-小情歌</div>
+                            <div class="goto"><a href="">去现场</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="songContent fl">
+                    <div class="songName clearfix" title=""><span class="audioName">酷狗音乐-就是歌多</span> 
+                        <a target="_blank" style="display:none" href="#" class="icon btnMv"></a>
+                    </div>
+                    <div class="songDetail clearfix">
+                        <p class="albumName fl" style="display:none">
+                            <span class="fontColor">专辑：</span>
+                            <a  target="_blank" href="" title="">未知专辑</a>
+                        </p>
+                        <p class="singerName fl" style="display:none">
+                            <span class="fontColor">歌手：</span> 
+                            <a  target="_blank" href="" title="">未知歌手</a>
+                        </p>
+                    </div>
+                    <div class="displayNone"> 
+                    </div>
+                    <div class="songWordContent songWordContentM">
+                        <!--div class="no_song">
+                            <p class="nosong_tilte">暂无播放歌曲</p>
+                            <p class="nosong_tip">你可以去酷狗网页添加歌曲</p>
+                            <a class="goIndex" target="_blank" href="http://www.kugou.com/">去首页逛逛</a>
+                        </div-->            
+                    </div>
+                    <div class="songWord4NoScroll noScrollSongwordScrollBar __displayNone">         
+                    </div>
+                </div>
+            </div>
+            <div class="blurBgMask"></div>
+            <div id="blurBg"></div>
+        </div>
+
+        <!--加载flash播放插件-->
+        <div id="fobj" class="fobj">
+            <object id="AudioPlayer3" name="AudioPlayer3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10.0.32" width="100%" height="100%">
+                <param name="movie" value="https://www.kugou.com/yy/static/swf/AudioPlayer3.swf">
+                <param name="flashvars" value="useNewAPI=true&type=mp3&playstart=playStart&playcomplete=playOver&playopen=playOpen&JSPositioningPlay=JSPositioningPlay&flashinit=flashloaded&getSongData=getSongData&consolefun=consolefun&errorTips=errorTips">
+                <param name="quality" value="high">
+                <param name="allowScriptAccess" value="always">
+                <param name="allowNetworking" value="all">
+                <param name="wmode" value="transparent">
+                <param name="allowFullScreen" value="true">
+                <embed id="AudioPlayer3" name="AudioPlayer3" src="https://www.kugou.com/yy/static/swf/AudioPlayer3.swf" width="100%" height="100%" allowscriptaccess="always" allowNetworking="all" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="useNewAPI=true&type=mp3&playstart=playStart&playcomplete=playOver&playopen=playOpen&JSPositioningPlay=JSPositioningPlay&flashinit=flashloaded&getSongData=getSongData&consolefun=consolefun&errorTips=errorTips" type="application/x-shockwave-flash" wmode="transparent" allowfullscreen="true">
+            </object>
+        </div>
+
+
+        <audio class="music" id="myAudio" src="">
+            <!-- <p class="myAudiohide">你的浏览器不支持<code>audio</code>标签.</p> -->
+        </audio>
+        <!-- 播放条 -->
+        <div class="audio-module playerbg" id="audioModule">
+            <div class="module-bg"></div>
+            <div class="player-module">
+                <!--  模块左部分：上一首，播放，暂停，下一首  -->
+                <div class="controls-left">
+                    <a class="icon icon-playbar-prev" id="prev"></a>
+                    <a class="icon icon-playbar-play" id="toggle"></a>
+                    <a class="icon icon-playbar-next" id="next"></a>
+                </div>
+                <!-- 专辑封面  -->
+                <div class="bar-albumImg">
+                </div>
+                <!-- 模块中间部分：容器  -->
+                <div class="controls-bar">
+                    <!-- 模块中间部分：上半部分：歌曲信息 -->
+                    <div class="song-info">
+                        <!-- 歌曲名 -->
+                        <div class="like-song">
+                            <div class="controls-songName" title="">
+                                <span class="songName" id="songName">酷狗音乐</span>
+                            </div>
+                            <pre class="songName" id="songNameTemp">酷狗音乐</pre>
+                        </div>
+                        <!-- 时长 -->
+                        <div class="coding-duration">
+                            <span class="duration ie8" id="duration"><i class="change-time"></i> / <i class="all-time"></i></span>
+                        </div>
+                    </div>
+                    <!-- 模块中间部分：下半部分：播放控制条容器 -->
+                    <div class="bar" id="bar">
+                        <!-- 播放进度背景（自适应） -->
+                        <div class="bg" id="progress_bg">
+                            <span class="icon icon-playbar-bgleft" id="bg_left"></span>
+                            <span class="bg-middle barBG" id="bg_middle"></span>
+                            <span class="icon icon-playbar-bgright" id="bg_right"></span>
+                        </div>
+                        <!-- 播放进度条（自适应） -->
+                        <div class="progress-bar" id="progress_bar">
+                            <span class="icon icon-playbar-progressleft" id="progress_left"></span>
+                            <div class="progress-middle" id="progress_middle">
+                                <span class="progress barProgress" id="progress"></span>
+                            </div>
+                        </div>
+                        <!-- 播放定位头（自适应） -->
+                        <div class="drag-playhead" id="drag_playhead">
+                            <span class="icon icon-playbar-playhead" id="playhead"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 模块右部分：容器 -->
+                <div class="controls-right">
+                    <!-- 模块右部分： 音量控制面板 -->
+                    <div class="mode-volume-list">
+                        <!-- 音量开关控制按钮 -->
+                        <div class="volume-icon" id="volume">
+                            <span class="icon icon-playbar-maxvox" id="volume_icon"></span>
+                        </div>
+                        <!-- 音量控制面板 -->
+                        <div class="volume-panel" id="volume_panel">
+                            <div class="volume-control" id="volume_control">
+                                <span class="icon icon-playbar-progressbottom" id="volume_bottom"></span>
+                                <div class="volume-bar" id="volume_bar">
+                                    <span class="volume-progress volumeProgress" id="volume_progress"></span>
+                                </div>
+                                <div class="volume-head" id="volume_head">
+                                    <span class="icon icon-playbar-volumehead" id="volumehead"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="play_tips">已添加到播放列表</div>
+                        <!-- 播放模式 -->
+                        <a class="icon icon-playbar-cycle" id="mode"></a>
+                        <div class="mode-panel" id="mode_panel">
+                            <ul>
+                                <li>
+                                    <a class="loop mode-selected" id="loop" href="javascript:;" hidefocus="true">
+                                        <span class="icon icon-playbar-cycle active" id="loop_icon"></span>
+                                        <span class="loop-name" id="loop_name">列表循环</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="single " id="single" href="javascript:;" hidefocus="true">
+                                        <span class="icon  icon-playbar-singlecycle " id="single_icon"></span>
+                                        <span class="single-name" id="single_name">单曲循环</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="random" id="random" href="javascript:;" hidefocus="true">
+                                        <span class="icon icon-playbar-randomcycle" id="random_icon"></span>
+                                        <span class="random-name" id="random_name">随机播放</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 下载 -->
+                        <a href="javascript:;" class="icon icon-playbar-download" id="pb_download" onclick="_hmt.push(['_trackEvent', 'song2software', 'song2download', 'song2kugou']);" ></a>
+                            <!-- 分享 -->
+                            <a href="javascript:;" onclick="_hmt.push(['_trackEvent', 'songshare', 'shareclick', 'sharekugou']);" class="icon icon-playbar-share" id="pb_share"></a>
+
+                            <a class="icon list" id="list" href="javascript:;" hidefocus="true">
+                                <span class="list-count" id="list_count"></span>
+                            </a>
+                    </div>
+                </div>
+                <div class="mod-playlist" id="mod-playlist" data-hide="true">
+                    <div class="song-box">
+                        <div class="box-header">
+                            <div class="title">播放队列/<span></span></div>
+                            <div class="action-box fr">
+                                <span class="icon list-menu-icon-del clear" title="清空"></span>
+                                <span class="line"></span>
+                                <span class="icon list-menu-icon-close closePlayList" title="关闭播放队列"></span>
+                            </div>
+                        </div>
+                        <div id="musicbox" class="musicbox ">
+                            <div class="songjsAction">
+                                <div class="noSongList">
+                                    <p class="noSongListTip">队列中还没有歌曲</p>
+                                    <p class="addSongLink">去<a target="_blank"  href="https://www.kugou.com/" class="gotoIndex">首页</a>添加歌曲</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showHide-playbar">
+                <span class="showHide-bg"></span>
+                <span class="icon show-playbar-btn" id="showHide_playbar"></span>
+            </div>
+        </div>
+    </div>
+    <div class="macDownload" id="macDownload">
+        <div class="macDownload-left">
+            <div class="macDownload-logo"></div>
+            <p class="macDownload-title">Mac版酷狗音乐已更新</p>
+            <p class="macDownload-txt">就是歌多</p>
+        </div>
+        <div class="macDownload-right">
+            <a class="macClick-up" target="_blank"  href="https://itunes.apple.com/cn/app/%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90-%E5%B0%B1%E6%98%AF%E6%AD%8C%E5%A4%9A/id658741592?l=en&mt=12">详情</a>
+            <a class="macClick-down" target="_blank"  href="https://download.kugou.com/download/kugou_mac">下载</a>
+        </div>
+    </div>
+    <iframe id="apply" style="display:none"></iframe>
+    <script>
+        var flag = 0, //flash  是否加载完毕
+        flashObj;//本地页面的falsh 对象
+       
+    var kgPlay = {
+        // 是否支持audio
+        support_audio: function() {
+            return !!document.createElement('audio').canPlayType;
+        },
+        //获取flash对象
+        getFlashMovieObject: function(movieName) {
+            if (document[movieName]) {
+                return document[movieName];
+            } else if (navigator.appName.indexOf("Microsoft Internet") == -1) {
+                if (document.embeds && document.embeds[movieName]) {
+                    return document.embeds[movieName];
+                }
+            } else if (window[movieName]) {
+                return window[movieName];
+            } else {
+                return document.getElementById(movieName);
+            }
+        },
+        // firefox获取flash
+        getSWF: function(name) {
+            var e = document.getElementById(name);
+            return (navigator.appName.indexOf("Microsoft") != -1) ? e : e.getElementsByTagName("embed")[0];
+        }
+    };
+    //表示flash加载完成，并初始化
+    function flashloaded() {
+        if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
+            flashObj = kgPlay.getSWF("AudioPlayer3");
+        } else {
+            flashObj = kgPlay.getFlashMovieObject("AudioPlayer3");
+        }
+        flag = 1;
+    }
+    </script>
+
+    <script src="https://staticssl.kugou.com/common/js/min/npm/getBaseInfo.min.js"></script>
+    <script src="https://staticssl.kugou.com/collect/common/dist/js/collect-2400.js?v=2"></script>
+    <script data-embed="false" type="text/javascript" src="https://www.kugou.com/yy/static/js/play/lib/play_common.js" ></script>
+    <script type="text/javascript">
+         var apmCollectData = apmCollectData || [];
+        if (kgPlay.support_audio()) {
+            flag = 0;
+            flashloaded = null;
+            // 删除flash
+            $("#fobj").remove();
+            var playbyAudio = document.createElement("script");
+            playbyAudio.charset = "UTF-8";
+            playbyAudio.src = "https://www.kugou.com/yy/static/js/play/playbyAudio.js?now="+new Date().getTime();
+            var byAudio = document.getElementsByTagName("script")[0];
+            byAudio.parentNode.insertBefore(playbyAudio, byAudio);
+        } else {
+        }
+    </script>
+    <script type="text/javascript">
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?aedee6983d4cfc62f509129360d6bb3d";
+            var s = document.getElementsByTagName("head")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script src="https://staticssl.kugou.com/common/js-lib/min/kg-play-stat-report.es5.min.js"></script>
+    <script>
+    var observeDOM = (function() {
+        var MutationObserver =
+        window.MutationObserver || window.WebKitMutationObserver
+        return function(obj, callback) {
+        if (!obj || !obj.nodeType === 1) return // validation
+        if (MutationObserver) {
+            // define a new observer
+            var obs = new MutationObserver(function(mutations, observer) {
+            callback(mutations)
+            })
+            // have the observer observe foo for changes in children
+            obs.observe(obj, { childList: true, subtree: true })
+        } else if (window.addEventListener) {
+            obj.addEventListener('DOMNodeInserted', callback, false)
+            obj.addEventListener('DOMNodeRemoved', callback, false)
+        }
+        }
+    })()
+    window.__playStatReport = new PlayStatReport({ r: '酷狗电脑端官网', a: '', svar1: '歌曲' })
+    observeDOM(document, function() {
+        window.__hash &&
+        playStatReport.injectBaseParams({ hash: window.hash })
+        __playStatReport.startInjectStatReport()
+    })
+    </script>
+        
+    <script>
+        // 曝光埋点需求mtp112863
+        var uaType2 = function () {
+            var fs = 0;
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua && ua.search(/spider/i) > -1) {
+                if (ua.search(/Baiduspider/i) > -1) {
+                    fs = "Baiduspider";
+                } else if (ua.search(/Bytespider/i) > -1) {
+                    fs = "Bytespider";
+                } else {
+                    fs = "Otherspider";
+                }
+            }
+            return fs;
+        }
+        var getQueryString = function(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+            var r = window.location.search.substr(1).match(reg); 
+            if (r != null) return unescape(r[2]); return null; 
+        }
+        window.getBaseInfo(1014, function(bInfo) {
+            var logPar = {
+                a: 28548,
+                b: '曝光',
+                r: 'web播放页',
+                ft: 'pc',
+                userid: bInfo.userid || 0,
+                mid: bInfo.mid,
+                uuid: bInfo.uuid,
+                fo: document.referrer ? document.referrer.substr(0, 200) : '',
+                svar1: window.location.href.substr(0, 200),
+                svar2: location.origin,
+                svar3: navigator.userAgent,
+                svar4: getQueryString('hreffrom') || getQueryString('from'),
+                svar5: uaType2(),
+            }
+            newLogCount(30050, logPar)
+        })
+    </script>
+</body>
+</html>

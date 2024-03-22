@@ -1,5 +1,6 @@
 import os
 import platform
+import re
 from typing import Text
 
 
@@ -41,5 +42,12 @@ def fix_full_path(path: Text, root_of_path=None) -> Text:
     else:
         return None
 
-# if __name__ == '__main__':
-#     print(fix_full_path("./logs\log.log","D:/download"))
+
+def clean_filename(filename):
+    illegal_chars = re.compile(r'[\\/:*?"<>|]')  # 正则表达式匹配不合法字符
+    clean_name = re.sub(illegal_chars, '', filename)  # 替换非法字符为空
+    return clean_name
+
+
+if __name__ == '__main__':
+    print(clean_filename("ok?ok!ok"))
