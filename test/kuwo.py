@@ -79,8 +79,6 @@ class Kuwo:
         if not os.path.exists(self.save_path):
             os.makedirs(self.save_path)
 
-        # abslist = response.json()['abslist']
-
         music_list = []
         files_list = []
 
@@ -111,5 +109,5 @@ class Kuwo:
 
 if __name__ == '__main__':
     kw = Kuwo()
-    kw.crawl_kuwo('邓紫棋')
+    kw.crawl_kuwo('周杰伦')
     # kw.crawl_music(mid=355459295)

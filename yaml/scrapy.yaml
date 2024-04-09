@@ -1,3 +1,136 @@
+- url: "https://video.gzfeice.com/b7554d95vodtranscq1254019786/d0e4b7101397757886434752212/voddrm.token.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9~eyJ0eXBlIjoiRHJtVG9rZW4iLCJhcHBJZCI6MTI1NDAxOTc4NiwiZmlsZUlkIjoiMTM5Nzc1Nzg4NjQzNDc1MjIxMiIsImN1cnJlbnRUaW1lU3RhbXAiOjAsImV4cGlyZVRpbWVTdGFtcCI6MjE0NzQ4MzY0NywicmFuZG9tIjowLCJvdmVybGF5S2V5IjoiIiwib3ZlcmxheUl2IjoiIiwiY2lwaGVyZWRPdmVybGF5S2V5IjoiMDY4Yzg4MzdjYTUzZDRhMDg5YTViYjVkNjA0Njg2YTVjZWY1ZjE3ODg4YTRlMTQyN2Y3ZWFlNmIwY2VlOTJkZWQzNzQ5MzY2ZWYzODRlZDBmNGUxM2Q3MDMzZjY3NmFmODM1MjY4YjllZmQ1OWM4NjNlNWE0ZDYwYzAxZGVhZjViY2E2YWNjZWU1ZTljMzM1Y2JhZGE5NGQwYmY5ZmE0MzI3ZjFkMDczZWM5YjgxYTlmZWE3NDRmODZlODE1MWQyOTVjMTI0YTMxYmFhM2UzZmU3NjFhMDQzNTA0NWEyY2Y2MjkxZmVhMjgyN2Y2ZTExNWZjYmQ2NmViMDNmMWY3YyIsImNpcGhlcmVkT3ZlcmxheUl2IjoiNjFiNWYzOWM1M2ZlNTM4ZDk1Yzc5NGNiMTE3NmYxNWMxNmYyMzdhMjlkYzRhNjI1ZjVmMzYxZGNiMjgxMjY4NjZlNWVkNGZkMTgzOTFhM2ZhNjg0YmEwZjVlYWZmOWQ1OTQxNTIyYTExMmQwOGE2MmJlZDJkZTFjZjU3YzI5YTdjNmUxMjgzMmVhMDA0YTVkZGIxYzUyZjU0NDY0NTM3OTQzYWZlYTgxZjM0ZmEwNDA3MjE2MWE3MWY5MmU4MGRiNmFjODA5Mzk4NDQ2ZThjODA3ODc5MWVkZmRhYWExZjFmMDNmZWY1YmQzZjFjNmI5NjBkMmUwYTc1YzhiNzRjMyIsImtleUlkIjoxLCJzdHJpY3RNb2RlIjowLCJwZXJzaXN0ZW50IjoiIiwicmVudGFsRHVyYXRpb24iOjAsImZvcmNlTDFUcmFja1R5cGVzIjpudWxsfQ~Py-HV2HpYFGShbyfaHWAhoiwgFCr-dgXv08e-6X9oVE.video_1444917_2.m3u8?sign=a8cb07ce96f5b7a79fe3064f0f42b122&t=6600d5f2"
+  headers:
+    Host: video.gzfeice.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+    Accept: '*/*'
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Origin: https://haokeyouxuanedu.edu.gzfeice.com
+    Connection: keep-alive
+    Referer: https://haokeyouxuanedu.edu.gzfeice.com/
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: same-site
+    Pragma: no-cache
+    Cache-Control: no-cache
+  #  params:
+  #    sign: 2257e617737d25c9853daaaee036e2d2
+  #    t: 65e72ced
+  #    us: zcyAdpGQKG
+  save_file: "Python全栈0基础入门分享.mp4"
+  save_path: D:\Download\export_data\d0e4b7101397757886434752212\
+  save_id: d0e4b7101397757886434752212
+  re_expression: "(.*ts.*)"
+  split_chars: "voddrm"
+  encrypt_key: 939ED583C5037F52B25B5313CA1F4468
+  IV: fce466ebfd3233d688ae6a67092e3147
+
+
+- url: "https://1500024016.vod-qcloud.com/6cbdd375vodcq1500024016/ff5501951397757887302648803/playlist.m3u8"
+  headers:
+    Host: 1500024016.vod-qcloud.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+    Accept: '*/*'
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Origin: https://u.shkt.online
+    Connection: keep-alive
+    Referer: https://u.shkt.online/
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: cross-site
+    Pragma: no-cache
+    Cache-Control: no-cache
+  #  params:
+  #    sign: 2257e617737d25c9853daaaee036e2d2
+  #    t: 65e72ced
+  #    us: zcyAdpGQKG
+  save_file: "JS逆向3月20日课堂视频.mp4"
+  save_path: D:\Download\export_data\ff5501951397757887302648803
+  save_id: 'ff5501951397757887302648803'
+  re_expression: "(.*ts.*)"
+  split_chars: "playlist"
+
+
+- url: "https://1500024016.vod-qcloud.com/6cbdd375vodcq1500024016/633daa061397757887256973685/playlist.m3u8"
+  headers:
+    Host: 1500024016.vod-qcloud.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+    Accept: '*/*'
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Origin: https://u.shkt.online
+    Connection: keep-alive
+    Referer: https://u.shkt.online/
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: cross-site
+    Pragma: no-cache
+    Cache-Control: no-cache
+  #  params:
+  #    sign: 2257e617737d25c9853daaaee036e2d2
+  #    t: 65e72ced
+  #    us: zcyAdpGQKG
+  save_file: "JS逆向3月19日课堂视频.mp4"
+  save_path: D:\Download\export_data\6cbdd375vodcq1500024016
+  save_id: '6cbdd375vodcq1500024016'
+  re_expression: "(.*ts.*)"
+  split_chars: "playlist"
+
+- url: "https://1500024016.vod-qcloud.com/6cbdd375vodcq1500024016/531649661397757887375298278/playlist.m3u8"
+  headers:
+    Host: 1500024016.vod-qcloud.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+    Accept: '*/*'
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Origin: https://u.shkt.online
+    Connection: keep-alive
+    Referer: https://u.shkt.online/
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: cross-site
+    Pragma: no-cache
+    Cache-Control: no-cache
+  #  params:
+  #    sign: 2257e617737d25c9853daaaee036e2d2
+  #    t: 65e72ced
+  #    us: zcyAdpGQKG
+  save_file: "JS逆向3月21日课堂视频.mp4"
+  save_path: D:\Download\export_data\1397757887375298278
+  save_id: '1397757887375298278'
+  re_expression: "(.*ts.*)"
+  split_chars: "playlist"
+
+
+
+
+- url: "https://video.gzfeice.com/b7554d95vodtranscq1254019786/d0e4b7101397757886434752212/voddrm.token.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9~eyJ0eXBlIjoiRHJtVG9rZW4iLCJhcHBJZCI6MTI1NDAxOTc4NiwiZmlsZUlkIjoiMTM5Nzc1Nzg4NjQzNDc1MjIxMiIsImN1cnJlbnRUaW1lU3RhbXAiOjAsImV4cGlyZVRpbWVTdGFtcCI6MjE0NzQ4MzY0NywicmFuZG9tIjowLCJvdmVybGF5S2V5IjoiIiwib3ZlcmxheUl2IjoiIiwiY2lwaGVyZWRPdmVybGF5S2V5IjoiMTViY2E4YzM0NTdmZDkxZTY3ODM0ZWE1NjM0MmFkMGRhNzczN2E0MDk1ZDlmMzEzMTVkZTI5YzEwYjkwMzJiYmU4YjZjOGI5ZTk3N2ZmZWRiMjEzMzI5OWYwZGExMjkzNzZjYzhjNGE4MzRiNTU4ODhkMDE4MTQxMmJmZTc2ZTJlMmViZDMwZDQyZjE2YjgwZWNlZjRjOGY0YzRmYjA5YjliNzZjODIxNjM4OTIwZDY3NGIzYTA3MDZmMzhlMzFmMzQ1NDQxOTY0ZTkzYWJkOGEwNzFiYTgyZmEyMzdmNGVmOWMwYTY3NzRjYzIzYTViMzVmZjg0NDJhOGNjZjU4NiIsImNpcGhlcmVkT3ZlcmxheUl2IjoiOGQ3N2E2MmQzZjA0Y2ZiZjNmMmQ0NmIwOTU5Yzc5ZDIzNTY4NDU2ZjEyM2M4MTZmMmU2ODA1Nzk5NTY0ODIxMTRlZGYyYTZiYjEzNzExNjkyODliMTkzZTc4ZmFlZjA4YmJmNjQ2MzQzMWI5ZTM1NDk5MGJlNDEwNWZkYzYwOGQ2ODBiMzVmZTkxNGFkMTVhODViNTMzMTEyZmViMWE2NjYxNjc5OWQyYTQ3NWEwYzViOGNjZTNjZDY1NTEzN2ZlMDQzMmU2MTIyMzAwNDQzNWZhODRkY2JlYjRjM2YxMjg5NzM0YWEwY2I5ODY3OTU5ZjM1ZThiMDE4M2MyYWIyMiIsImtleUlkIjoxLCJzdHJpY3RNb2RlIjowLCJwZXJzaXN0ZW50IjoiIiwicmVudGFsRHVyYXRpb24iOjAsImZvcmNlTDFUcmFja1R5cGVzIjpudWxsfQ~ZamwkZTKaIBH0s3pNt1Xu0vMy1FvZ2YHKu5kiyAp_wo.video_1444917_2.m3u8?sign=23c269a2a06f4568e7f8ce99eea9047e&t=65fdbc5d"
+  headers:
+    #    Host: video.gzfeice.com
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+    Accept: '*/*'
+    Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+    Accept-Encoding: gzip, deflate, br
+    Origin: https://haokeyouxuanedu.edu.gzfeice.com
+    Connection: keep-alive
+    Referer: https://haokeyouxuanedu.edu.gzfeice.com/
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: same-site
+    Pragma: no-cache
+    Cache-Control: no-cache
+  #  params:
+  #    sign: 2257e617737d25c9853daaaee036e2d2
+  #    t: 65e72ced
+  #    us: zcyAdpGQKG
+  save_file: "Python全栈0基础入门分享.mp4"
+  save_path: D:\Download\export_data\d0e4b7101397757886434752212
+  save_id: d0e4b7101397757886434752212
+  re_expression: "(.*ts.*)"
+  split_chars: "voddrm"
+#  encrypt_key: e414dce3e91040d0
+
 - url: "https://encrypt-k-vod.xet.tech/522ff1e0vodcq1252524126/1a43fd02388912589319982503/playlist_eof.m3u8?sign=2257e617737d25c9853daaaee036e2d2&t=65e72ced&us=zcyAdpGQKG"
   headers:
     Host: encrypt-k-vod.xet.tech
@@ -20,7 +153,8 @@
   save_id: 1a43fd02388912589319982503
   re_expression: "(.*ts.*)"
   split_chars: "playlist"
-#  encrypt_key: e414dce3e91040d0
+  encrypt_key: 11aaXm6zThDdX/ZkuMm9SA==
+  IV: fce466ebfd3233d688ae6a67092e3147
 
 - url: https://v-vod-k.xiaoeknow.com/a8307e36f7a64aeeae086cc157bb356b/appi1Q1B9A05586/video/b_u_62cc1688aaa20_xW76uKGF/llq8rlfm017f/drm/main.m3u8
   headers:

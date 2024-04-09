@@ -313,5 +313,5 @@ class ScrapyAudio:
 
 if __name__ == '__main__':
     sa = ScrapyAudio(index=2)
-    # sa.request_netease()
-    sa.request_netease_song([571861425])
+    sa.request_netease()
+    # sa.request_netease_song([571861425])

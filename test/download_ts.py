@@ -47,15 +47,29 @@ class DownloadAndCombineTs:
         session = requests.session()
         resp = RequestUtil().send_request(method="get", url=url, headers=headers, params=params, is_save=True)
 
-        self.log_handler.logger.info(f"response is :{resp}")
+        with open(f'{self.save_path}/m3u.txt', 'w+', encoding='utf-8') as fp:
+            fp.write(resp)
+
+        # self.log_handler.logger.info(f"response is :{resp}")
 
         re_expression = read_yaml("scrapy.yaml", key="re_expression", index=0)
         if re_expression is None:
             re_expression = r'(.*ts.*)'
-        self.log_handler.logger.info(f"正则表达式为{re_expression}")
+        # self.log_handler.logger.info(f"正则表达式为{re_expression}")
         indexs_list = []
         try:
             indexs_list = re.findall(re_expression, resp)
+            # key_url = re.findall('URI="(.+)"', resp)[0]
+            # iv = re.findall('IV=0x(\w+)', resp)[0]
+            # self.log_handler.logger.info(f"加密码url为{key_url},偏移为{iv}")
+            # key=requests.get(key_url, headers=headers).content
+            # key=key.decode()
+            # self.log_handler.logger.info(f"密码为{key}")
+            # key=bytes(key)
+            # self.log_handler.logger.info(f"加密码为{key}")
+            # key=base64.b64decode(key)
+            # self.log_handler.logger.info(f"base64密码为{key}")
+
         except TypeError as e:
             self.log_handler.logger.error("正则匹配错误为{e}")
             return
@@ -69,19 +83,31 @@ class DownloadAndCombineTs:
             url = url.split(split_chars)[0]
         if not url.endswith("/"):
             url += "/"
-        self.log_handler.logger.info(f"URL为{url}")
-        key = read_yaml("scrapy.yaml", key="encrypt_key", index=0)
-        if key:
-            key = key.encode()
-            cryptor = AES.new(key, AES.MODE_CBC, key)
-        self.log_handler.logger.info(f"加密码为{key}")
+        # self.log_handler.logger.info(f"URL为{url}")
 
+        key = b'D7569A5E6EB34E10DD5FF664B8C9BD48'
+        iv = b'fce466ebfd3233d688ae6a67092e3147'
+
+        # if key:
+        #     # key = key.encode()
+        #     # 替换为实际的IV
+        #     iv = 'fce466ebfd3233d688ae6a67092e3147'
+        #     iv =bytes.fromhex(iv)
+        #     # key = b64decode(key)  # 替换为实际的KEY
+        #     # iv = format(int(iv, 16), 'b')
+        #     self.log_handler.logger.info(f"key长度为{len(key)},偏移长度为{len(iv)}")
+        #     self.log_handler.logger.info(f"加密秘钥为{key},偏移为{iv}")
+        #     cryptor = AES.new(key, AES.MODE_CBC, iv)
+
+        cryptor = AES.new(key, AES.MODE_CBC, iv)
         downloaded_number = read_yaml(yaml_path, "downloaded")
 
         self.log_handler.logger.info(f"已下载了{downloaded_number}个文件")
 
         if downloaded_number is None:
             downloaded_number = 0
+
+        # key = None
 
         while downloaded_number < index_number:
             for i in range(downloaded_number, len(indexs_list)):
@@ -147,11 +173,23 @@ class DownloadAndCombineTs:
         self.log_handler.logger.info(f'合成后的当前时间为：{end}')
         self.log_handler.logger.info(f'合成视频完成！用时：{spend_time}')
 
+    def legth(self, value):
+        l = len(value)
+        flag = l % 16
+        if flag != 0:
+            add = 16 - (l % 16)
+            value = value + ('\0' * add).encode('utf-8')
+        return value
+
+
 
 if __name__ == '__main__':
-    # dact = DownloadAndCombineTs()
-    # dact.download()
-    # dact.write_text()
-    # dact.combine_ts()
-    url = b"4gbfsfND3d0SQZkMiavp_1f96VmM0yqtZWe5YbL6mFO7CCI686QPGBB744PzjkSmLyQLn1IJ68aCWKSn2cEv6VFVRmajy_GZu7yZpbaQ1cjRReVA1tagjl4bWojfJXi9rjFOZmNzD1i1u6WmUFi-JAEDpuTF55cb"
-    print(url.decode())
+    dact = DownloadAndCombineTs()
+    dact.download()
+    dact.write_text()
+    dact.combine_ts()
+
+    # hex_str = "fce466ebfd3233d688ae6a67092e3147"  # 示例十六进制字符串
+    # binary_str = bin(int(hex_str, 16))  # 转换为二进制字符串，并去除前面的 '0b'
+    # key = b'D7569A5E6EB34E10DD5FF664B8C9BD48'
+    # print(len(key))
