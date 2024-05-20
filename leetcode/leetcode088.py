@@ -4,7 +4,7 @@
 # @Author  : Lihua
 # @Version : 1.0
 # @Contact : heei3k@hotmail.com
-# @File    : leetcode001.py
+# @File    : leetcode088.py
 # @Software: PyCharm
 
 """

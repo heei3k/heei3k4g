@@ -4,7 +4,7 @@
 # @Author  : Lihua
 # @Version : 1.0
 # @Contact : heei3k@hotmail.com
-# @File    : leetcode003.py
+# @File    : leetcode026.py
 # @Software: PyCharm
 
 """
@@ -29,6 +29,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        if not nums:
+            return 0
+        if len(nums) == 1:
+            return 1
         k = 1
         for i in range(len(nums)):
             for j in range(i + 1, len(nums)):
@@ -41,6 +45,7 @@ class Solution(object):
                 else:
                     nums[k] = nums[j]
                     k += 1
+        nums = nums[:k]
         print(nums)
         return k
 
@@ -59,6 +64,7 @@ class Solution(object):
         return slow
 
 
-nums = [0, 0, 1, 1, 1, 2, 2, 0, 0, 4]
-print(Solution().removeDuplicates(nums))
+nums = [1, 1, 2]
+# print(Solution().removeDuplicates(nums))
 print(Solution().removeDuplicatesOffice(nums))
+print(nums)
