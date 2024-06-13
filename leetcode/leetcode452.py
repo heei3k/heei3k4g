@@ -63,5 +63,5 @@ class Solution(object):
 
 if __name__ == '__main__':
     solution = Solution()
-    points = [[10, 16], [2, 8], [1, 6], [7, 12]]
+    points = [[1, 2], [1, 3], [1, 4], [1, 5]]
     print(solution.findMinArrowShots(points))
