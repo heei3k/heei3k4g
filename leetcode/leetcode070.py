@@ -45,6 +45,8 @@
 
 
 """
+import time
+
 from leetcode.costTime import cost_time
 
 
@@ -72,8 +74,25 @@ class Solution(object):
         fibN = pow((1 + square) / 2, n + 1) - pow((1 - square) / 2, n + 1)
         return round(fibN / square)
 
+    # @cost_time
+    def climbStairs3(self, n, cache={}):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n in cache:
+            return cache[n]
+        if n < 3:
+            return n
+        cache[n] = self.climbStairs3(n - 1, cache) + self.climbStairs3(n - 2, cache)
+        return cache[n]
+
+
 
 if __name__ == '__main__':
     s = Solution()
     print(s.climbStairs(44))
     print(s.climbStairs2(44))
+    t = time.perf_counter()
+    print(s.climbStairs3(44))
+    print(f'func climbStairs3 cost time:{time.perf_counter() - t:.8f} s')
