@@ -48,13 +48,13 @@ class Solution(object):
                 candy[i] = candy[i - 1] + 1
             elif ratings[i - 1] > ratings[i] and candy[i - 1] <= candy[i]:
                 candy[i - 1] = candy[i] + 1
-        print(candy)
+
         for i in reversed(range(1, length)):
             if ratings[i - 1] < ratings[i] and candy[i - 1] >= candy[i]:
                 candy[i] = candy[i - 1] + 1
             elif ratings[i - 1] > ratings[i] and candy[i - 1] <= candy[i]:
                 candy[i - 1] = candy[i] + 1
-        print(candy)
+
         return sum(candy)
 
 

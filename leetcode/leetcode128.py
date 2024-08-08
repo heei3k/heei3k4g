@@ -34,7 +34,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
+        n = len(nums)
+        if n == 0:
+            return 0
         nums = list(set(nums))
         nums.sort()
         print(nums)
