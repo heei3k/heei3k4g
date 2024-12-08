@@ -1,0 +1,9 @@
+{
+  "name": "test_case_1",
+  "status": "passed",
+  "start": 1732113315596,
+  "stop": 1732115576937,
+  "uuid": "2b76b86f-2505-484c-a34d-3e0a5883c682",
+  "testCaseId": "9ae6e0ca140dbba4bd6befe2356736c5",
+  "fullName": "test_leetcode.test_leetcode152.Test_leetcode152#test_case_1"
+}

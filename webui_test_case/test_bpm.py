@@ -10,7 +10,6 @@ import os
 import sys
 import time
 
-import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
@@ -96,5 +95,8 @@ class TestBpm:
 
 
 if __name__ == '__main__':
-    pytest.main()
-
+    # pytest.main()
+    text = 'kpi520'
+    res = eval(text[3:-1])
+    print(text[3:-1])
+    print(res)
